@@ -1,0 +1,148 @@
+Built J1, order = 175560, degree = 266
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 5
+Subgroup index range = [1, infinity]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Strong-flat probe exclusion length = 4
+Maximal subgroup classes = 7
+1: size=660 index=266 struct=PSL(2,11)
+2: size=168 index=1045 struct=(C2 x C2 x C2) : (C7 : C3)
+3: size=120 index=1463 struct=C2 x A5
+4: size=114 index=1540 struct=C19 : C6
+5: size=110 index=1596 struct=C11 : C10
+6: size=60 index=2926 struct=S3 x D10
+7: size=42 index=4180 struct=C7 : C6
+Selected top maximal classes = [ 1 .. 7 ]
+Checking J1 maximal class 1: size=660 struct=PSL(2,11) target_no_weakGP=5
+  subgroup class representatives = 16 enumeration_ms=31
+  checked=1 top_class=1 local_index=1 size=1 struct=1
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  strong-flat obstruction: weak-GP4 in size=660 struct=PSL(2,11) classPattern=
+[ 1, 2, 2, 2 ]
+  completed J1 maximal class 1 checked=16 requested_range=[1, 16] no weak-GP
+5 found.
+Checking J1 maximal class 2: size=
+168 struct=(C2 x C2 x C2) : (C7 : C3) target_no_weakGP=5
+  subgroup class representatives = 12 enumeration_ms=13
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  checked=25 top_class=2 local_index=9 size=21 struct=C7 : C3
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  completed J1 maximal class 2 checked=12 requested_range=[1, 12] no weak-GP
+5 found.
+Checking J1 maximal class 3: size=120 struct=C2 x A5 target_no_weakGP=5
+  subgroup class representatives = 22 enumeration_ms=56
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  checked=50 top_class=3 local_index=22 size=120 struct=C2 x A5
+  strong-flat obstruction: weak-GP4 in size=120 struct=C2 x A5 classPattern=
+[ 1, 2, 2, 3 ]
+  completed J1 maximal class 3 checked=22 requested_range=[1, 22] no weak-GP
+5 found.
+Checking J1 maximal class 4: size=114 struct=C19 : C6 target_no_weakGP=5
+  subgroup class representatives = 8 enumeration_ms=7
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  completed J1 maximal class 4 checked=8 requested_range=[1, 8] no weak-GP
+5 found.
+Checking J1 maximal class 5: size=110 struct=C11 : C10 target_no_weakGP=5
+  subgroup class representatives = 8 enumeration_ms=5
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  completed J1 maximal class 5 checked=8 requested_range=[1, 8] no weak-GP
+5 found.
+Checking J1 maximal class 6: size=60 struct=S3 x D10 target_no_weakGP=5
+  subgroup class representatives = 20 enumeration_ms=12
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  checked=75 top_class=6 local_index=9 size=6 struct=S3
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  strong-flat obstruction: weak-GP4 in size=60 struct=S3 x D10 classPattern=
+[ 1, 2, 4, 5 ]
+  completed J1 maximal class 6 checked=20 requested_range=[1, 20] no weak-GP
+5 found.
+Checking J1 maximal class 7: size=42 struct=C7 : C6 target_no_weakGP=5
+  subgroup class representatives = 8 enumeration_ms=6
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP5.
+  completed J1 maximal class 7 checked=8 requested_range=[1, 8] no weak-GP
+5 found.
+Checked subgroup-class representatives = 94
+SUCCESS: no proper subgroup of J1 has weak-GP
+5; hence every proper subgroup has i <= 4.
+Proper subgroup weak-GP4 witnesses found: 3
+rec(
+  classPattern := [ 1, 2, 2, 2 ],
+  family := [ 1, 12, 14, 17 ],
+  localIndex := 16,
+  maximalCount := 89,
+  signatureCount := 176,
+  size := 660,
+  structure := "PSL(2,11)",
+  topClass := 1 )

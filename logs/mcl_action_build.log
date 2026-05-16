@@ -1,0 +1,20 @@
+Read selected maximal classes from workspaces/mcl_survivors.gaplist: 
+[ 1, 2, 3, 6, 7, 8, 9, 10 ]
+Building reusable action workspace for McL
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built McL, order = 898128000, degree = 275
+Max class 1: 275 conjugates, size 3265920, PSU(4,3)
+Max class 2: 2025 conjugates, size 443520, M22
+Max class 3: 2025 conjugates, size 443520, M22
+Max class 6: 15400 conjugates, size 58320, (C3 x C3 x C3 x C3) : (A6 . C2)
+Max class 7: 22275 conjugates, size 40320, PSL(3,4) : C2
+Max class 8: 22275 conjugates, size 40320, C2 . A8
+Max class 9: 22275 conjugates, size 40320, (C2 x C2 x C2 x C2) : A7
+Max class 10: 22275 conjugates, size 40320, (C2 x C2 x C2 x C2) : A7
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 1, 2, 3, 6, 7, 8, 9, 10 ]
+Total selected maximal subgroups = 108825
+Action degree = 108825 size = 898128000 build_ms = 156001
+Saving workspace to workspaces/mcl_action.ws
+SUCCESS: saved reusable action workspace.

@@ -1,0 +1,38 @@
+Framework member-filter run for J2
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 6
+Top class 1: size=6048 struct=PSU(3,3)
+  subgroup class reps = 36
+  EXCLUDE class 1: no subgroup class representative has weak-GP5.
+Top class 2: size=2160 struct=(C3 . A6) : C2
+  subgroup class reps = 47
+  EXCLUDE class 2: no subgroup class representative has weak-GP5.
+Top class 3: size=1920 struct=((C2 x Q8) : C2) : A5
+  subgroup class reps = 86
+  EXCLUDE class 3: no subgroup class representative has weak-GP5.
+Top class 4: size=1152 struct=((C2 x Q8) : (C2 x C2)) : (C3 x S3)
+  subgroup class reps = 88
+  EXCLUDE class 4: no subgroup class representative has weak-GP5.
+Top class 5: size=720 struct=A5 x A4
+  subgroup class reps = 63
+  KEEP class 5: subgroup index 62 size=240 struct=C2 x C2 x A5 has weak-GP
+5 classPattern=[ 1, 2, 4, 4, 5 ]
+Top class 6: size=600 struct=D10 x A5
+  subgroup class reps = 48
+  KEEP class 6: subgroup index 48 size=600 struct=D10 x A5 has weak-GP
+5 classPattern=[ 1, 2, 3, 3, 4 ]
+Top class 7: size=336 struct=PSL(3,2) : C2
+  subgroup class reps = 23
+  EXCLUDE class 7: no subgroup class representative has weak-GP5.
+Top class 8: size=300 struct=(C5 x C5) : D12
+  subgroup class reps = 30
+  EXCLUDE class 8: no subgroup class representative has weak-GP5.
+Top class 9: size=60 struct=A5
+  subgroup class reps = 9
+  EXCLUDE class 9: no subgroup class representative has weak-GP5.
+SURVIVORS=[ 5, 6 ]
+EXCLUDED=[ 1, 2, 3, 4, 7, 8, 9 ]
+WROTE_SURVIVORS=workspaces/j2_survivors.gaplist
+WROTE_EXCLUDED=workspaces/j2_excluded.gaplist
+SUCCESS: framework member-filter run completed for J2.

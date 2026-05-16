@@ -1,0 +1,21 @@
+Framework cached upper-bound run for McL
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 7
+Prebuilt selected maximal classes = [ 1, 2, 3, 6, 7, 8, 9, 10 ]
+Total prebuilt maximal subgroups = 108825
+Action degree = 108825 size = 898128000
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+FixedPrefixes count = 4
+Using fixed prefix: [ 276, 64845 ] classes=[ 2, 9 ]
+Using fixed prefix: [ 276, 64858 ] classes=[ 2, 9 ]
+Using fixed prefix: [ 276, 86551 ] classes=[ 2, 10 ]
+Using fixed prefix: [ 276, 86553 ] classes=[ 2, 10 ]
+RESULT=partial_success
+NODES=151
+NODES_BY_DEPTH=[ 0, 4, 38, 94, 15, 0, 0 ]
+BRANCH_STATS=[ 0, 0, 38, 94, 15, 0, 0 ]
+SUCCESS: framework cached no weak-GP
+7 run completed for McL with status partial_success.

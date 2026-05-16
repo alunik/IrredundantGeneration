@@ -1,0 +1,99 @@
+{
+  "group": "J1",
+  "target_no_weak_gp": 5,
+  "expected_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "classes": [
+    {
+      "class": 1,
+      "subgroup_count": 16,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 16,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "class": 2,
+      "subgroup_count": 12,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 12,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "class": 3,
+      "subgroup_count": 22,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 22,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 8,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 8,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 8,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 8,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 20,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 20,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 8,
+      "logs": [
+        {
+          "path": "logs/j1_i_upper.log",
+          "start": 1,
+          "stop": 8,
+          "target": 5
+        }
+      ]
+    }
+  ]
+}

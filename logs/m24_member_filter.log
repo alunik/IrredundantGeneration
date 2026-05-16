@@ -1,0 +1,44 @@
+Framework member-filter run for M24
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 8
+Top class 1: size=10200960 struct=M23
+  EXCLUDE class 1: known i-upper=6 rules out weak-GP
+7
+  in every subgroup of this representative group=M23 dependency=regenerate M23 \
+certificates from data/computation_specs.json.
+Top class 2: size=887040 struct=M22 : C2
+  subgroup class reps = 490
+  KEEP class 2: subgroup index 490 size=887040 struct=M22 : C2 has weak-GP
+7 classPattern=[ 1, 2, 2, 3, 3, 3, 3 ]
+Top class 3: size=322560 struct=(C2 x C2 x C2 x C2) : A8
+  subgroup class reps = 1766
+  KEEP class 3: subgroup index 1766 size=
+322560 struct=(C2 x C2 x C2 x C2) : A8 has weak-GP7 classPattern=
+[ 1, 3, 3, 3, 4, 4, 4 ]
+Top class 4: size=190080 struct=M12 : C2
+  subgroup class reps = 213
+  EXCLUDE class 4: no subgroup class representative has weak-GP7.
+Top class 5: size=
+138240 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+  subgroup class reps = 2261
+  EXCLUDE class 5: no subgroup class representative has weak-GP7.
+Top class 6: size=120960 struct=PSL(3,4) : S3
+  subgroup class reps = 226
+  EXCLUDE class 6: no subgroup class representative has weak-GP7.
+Top class 7: size=64512 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+  subgroup class reps = 2156
+  KEEP class 7: subgroup index 2156 size=
+64512 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3) has weak-GP
+7 classPattern=[ 1, 2, 3, 4, 4, 5, 5 ]
+Top class 8: size=6072 struct=PSL(2,23)
+  subgroup class reps = 23
+  EXCLUDE class 8: no subgroup class representative has weak-GP7.
+Top class 9: size=168 struct=PSL(3,2)
+  subgroup class reps = 15
+  EXCLUDE class 9: no subgroup class representative has weak-GP7.
+SURVIVORS=[ 2, 3, 7 ]
+EXCLUDED=[ 1, 4, 5, 6, 8, 9 ]
+WROTE_SURVIVORS=workspaces/m24_survivors.gaplist
+WROTE_EXCLUDED=workspaces/m24_excluded.gaplist
+SUCCESS: framework member-filter run completed for M24.

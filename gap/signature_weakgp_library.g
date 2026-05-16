@@ -161,7 +161,7 @@ SIG_WeakGPFamily := function(K, target, opts)
     local maxReps, allMax, classOf, firstOfClass, elts, signaturesByElement,
           idx, c, classList, H, x, eligiblePositions, signatures, sigUniverse,
           sigContains, sidx, sigB, allSigB, permAction, firstClass, first,
-          initialState, initialStab, result, p, d, stats, pos;
+          initialState, initialStab, result, p, d, stats, pos, posH;
 
     opts := SIG_NormalizeOptions(opts);
 
@@ -192,6 +192,10 @@ SIG_WeakGPFamily := function(K, target, opts)
     for c in [1..Length(maxReps)] do
         classList := AsList(ConjugacyClassSubgroups(K, maxReps[c]));
         for H in classList do
+            posH := Position(allMax, H);
+            if posH <> fail then
+                continue;
+            fi;
             idx := idx + 1;
             Add(allMax, H);
             Add(classOf, c);
@@ -233,7 +237,10 @@ SIG_WeakGPFamily := function(K, target, opts)
     allSigB := BlistList(sigUniverse, sigUniverse);
     permAction := Action(K, allMax, function(M, g) return M^g; end);
 
-    for firstClass in [1..Length(firstOfClass)] do
+    for firstClass in [1..Length(maxReps)] do
+        if not IsBound(firstOfClass[firstClass]) then
+            continue;
+        fi;
         first := firstOfClass[firstClass];
         stats := rec(
             nodes := 0,

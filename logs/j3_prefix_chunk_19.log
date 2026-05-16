@@ -1,0 +1,21 @@
+Framework cached upper-bound run for J3
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 5
+Prebuilt selected maximal classes = [ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Total prebuilt maximal subgroups = 171838
+Action degree = 171838 size = 50232960
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+FixedPrefixes count = 4
+Using fixed prefix: [ 52975, 130190 ] classes=[ 6, 9 ]
+Using fixed prefix: [ 76231, 76236 ] classes=[ 7, 7 ]
+Using fixed prefix: [ 76231, 76336 ] classes=[ 7, 7 ]
+Using fixed prefix: [ 76231, 81176 ] classes=[ 7, 7 ]
+RESULT=partial_success
+NODES=20
+NODES_BY_DEPTH=[ 0, 4, 14, 2, 0 ]
+BRANCH_STATS=[ 0, 0, 14, 2, 0 ]
+SUCCESS: framework cached no weak-GP
+5 run completed for J3 with status partial_success.

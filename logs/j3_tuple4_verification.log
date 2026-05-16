@@ -1,0 +1,10 @@
+Built J3 from certificate generators, order = 50232960
+Tuple length = 4
+orders = [ 2, 2, 2, 2 ]
+Generated order = 50232960
+Expected generated order = 50232960
+Omitting 1: generated order = 8160 structure = PSL(2,16) : C2
+Omitting 2: generated order = 8160 structure = PSL(2,16) : C2
+Omitting 3: generated order = 8160 structure = PSL(2,16) : C2
+Omitting 4: generated order = 8160 structure = PSL(2,16) : C2
+SUCCESS: irredundant generating tuple for J3.

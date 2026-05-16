@@ -1,0 +1,60 @@
+Framework member-filter run for McL
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 7
+Top class 1: size=3265920 struct=PSU(4,3)
+  subgroup class reps = 381
+  KEEP class 1: subgroup index 302 size=
+324 struct=C3 x ((C3 x C3 x C3) : (C2 x C2)) has weak-GP6 classPattern=
+[ 1, 4, 5, 5, 6, 7 ]
+Top class 2: size=443520 struct=M22
+  subgroup class reps = 156
+  KEEP class 2: subgroup index 156 size=443520 struct=M22 has weak-GP
+6 classPattern=[ 1, 1, 2, 2, 2, 2 ]
+Top class 3: size=443520 struct=M22
+  subgroup class reps = 156
+  KEEP class 3: subgroup index 156 size=443520 struct=M22 has weak-GP
+6 classPattern=[ 1, 1, 2, 2, 2, 2 ]
+Top class 4: size=126000 struct=PSU(3,5)
+  subgroup class reps = 80
+  EXCLUDE class 4: no subgroup class representative has weak-GP6.
+Top class 5: size=
+58320 struct=(((C3 x C3) : C3) : (C3 x C3)) : (C2 . S5 = SL(2,5) . C2)
+  subgroup class reps = 160
+  EXCLUDE class 5: no subgroup class representative has weak-GP6.
+Top class 6: size=58320 struct=(C3 x C3 x C3 x C3) : (A6 . C2)
+  subgroup class reps = 236
+  KEEP class 6: subgroup index 196 size=
+324 struct=C3 x ((C3 x C3 x C3) : (C2 x C2)) has weak-GP6 classPattern=
+[ 1, 4, 5, 6, 7, 7 ]
+Top class 7: size=40320 struct=PSL(3,4) : C2
+  subgroup class reps = 152
+  KEEP class 7: subgroup index 152 size=40320 struct=PSL(3,4) : C2 has weak-GP
+6 classPattern=[ 1, 2, 3, 4, 4, 5 ]
+Top class 8: size=40320 struct=C2 . A8
+  subgroup class reps = 168
+  KEEP class 8: subgroup index 168 size=40320 struct=C2 . A8 has weak-GP
+6 classPattern=[ 1, 4, 4, 5, 6, 6 ]
+Top class 9: size=40320 struct=(C2 x C2 x C2 x C2) : A7
+  subgroup class reps = 189
+  KEEP class 9: subgroup index 189 size=
+40320 struct=(C2 x C2 x C2 x C2) : A7 has weak-GP6 classPattern=
+[ 1, 2, 5, 5, 6, 6 ]
+Top class 10: size=40320 struct=(C2 x C2 x C2 x C2) : A7
+  subgroup class reps = 189
+  KEEP class 10: subgroup index 189 size=
+40320 struct=(C2 x C2 x C2 x C2) : A7 has weak-GP6 classPattern=
+[ 1, 2, 3, 3, 4, 4 ]
+Top class 11: size=7920 struct=M11
+  EXCLUDE class 11: known i-upper=5 rules out weak-GP
+6
+  in every subgroup of this representative group=M11 dependency=Brooks/GAP cert\
+ificate.
+Top class 12: size=3000 struct=((C5 x C5) : C5) : (C3 : C8)
+  subgroup class reps = 30
+  EXCLUDE class 12: no subgroup class representative has weak-GP6.
+SURVIVORS=[ 1, 2, 3, 6, 7, 8, 9, 10 ]
+EXCLUDED=[ 4, 5, 11, 12 ]
+WROTE_SURVIVORS=workspaces/mcl_survivors.gaplist
+WROTE_EXCLUDED=workspaces/mcl_excluded.gaplist
+SUCCESS: framework member-filter run completed for McL.

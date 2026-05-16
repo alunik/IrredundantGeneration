@@ -1,0 +1,21 @@
+Framework cached upper-bound run for M23
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 7
+Prebuilt selected maximal classes = [ 1, 2, 3, 4, 6 ]
+Total prebuilt maximal subgroups = 2806
+Action degree = 2806 size = 10200960
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=1 first_index=1
+Branch minimum_selected_rank=2 class=2 first_index=24
+Branch minimum_selected_rank=3 class=3 first_index=277
+Branch minimum_selected_rank=4 class=4 first_index=530
+Branch minimum_selected_rank=5 class=6 first_index=1036
+RESULT=success
+NODES=3683
+NODES_BY_DEPTH=[ 5, 39, 301, 1079, 1037, 1222, 0 ]
+BRANCH_STATS=[ 0, 39, 301, 1079, 1037, 1222, 0 ]
+SUCCESS: framework cached no weak-GP
+7 run completed for M23 with status success.

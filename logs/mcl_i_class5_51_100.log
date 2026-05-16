@@ -1,0 +1,85 @@
+Built McL, order = 898128000, degree = 275
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 7
+Subgroup index range = [51, 100]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Maximal subgroup classes = 12
+1: size=3265920 index=275 struct=PSU(4,3)
+2: size=443520 index=2025 struct=M22
+3: size=443520 index=2025 struct=M22
+4: size=126000 index=7128 struct=PSU(3,5)
+5: size=58320 index=
+15400 struct=(((C3 x C3) : C3) : (C3 x C3)) : (C2 . S5 = SL(2,5) . C2)
+6: size=58320 index=15400 struct=(C3 x C3 x C3 x C3) : (A6 . C2)
+7: size=40320 index=22275 struct=PSL(3,4) : C2
+8: size=40320 index=22275 struct=C2 . A8
+9: size=40320 index=22275 struct=(C2 x C2 x C2 x C2) : A7
+10: size=40320 index=22275 struct=(C2 x C2 x C2 x C2) : A7
+11: size=7920 index=113400 struct=M11
+12: size=3000 index=299376 struct=((C5 x C5) : C5) : (C3 : C8)
+Selected top maximal classes = [ 5 ]
+Checking McL maximal class 5: size=
+58320
+  struct=(((C3 x C3) : C3) : (C3 x C3)) : (C2 . S5 = SL(2,5) . C2) target_no_w\
+eakGP=7
+  subgroup class representatives = 160 enumeration_ms=2812
+  checked=1 top_class=5 local_index=51 size=27 struct=C3 x C3 x C3
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+  checked=25 top_class=5 local_index=75 size=48 struct=C2 . S4 = SL(2,3) . C2
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+  checked=50 top_class=5 local_index=100 size=108 struct=(C3 x C3 x C3) : C4
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP7.
+  completed McL maximal class 5 checked=50 requested_range=[51, 
+100] no weak-GP7 found.
+Checked subgroup-class representatives = 50
+SUCCESS: no proper subgroup of McL has weak-GP
+7; hence every proper subgroup has i <= 6.

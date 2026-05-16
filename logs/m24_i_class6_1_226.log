@@ -1,0 +1,232 @@
+Built M24, order = 244823040, degree = 24
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 8
+Subgroup index range = [1, 226]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Selected top maximal classes = [ 6 ]
+Checking M24 maximal class 6: size=
+120960 struct=PSL(3,4) : S3 target_no_weakGP=8
+  subgroup class representatives = 226 enumeration_ms=1513
+  checked=1 top_class=6 local_index=1 size=1 struct=1
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=25 top_class=6 local_index=25 size=8 struct=C4 x C2
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=50 top_class=6 local_index=50 size=14 struct=C14
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=75 top_class=6 local_index=75 size=20 struct=C5 : C4
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=100 top_class=6 local_index=100 size=32 struct=(C8 : C2) : C2
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=125 top_class=6 local_index=125 size=48 struct=(C4 x C4) : C3
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=150 top_class=6 local_index=150 size=96 struct=(C2 x C2) : S4
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=175 top_class=6 local_index=175 size=168 struct=PSL(3,2)
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=200 top_class=6 local_index=200 size=360 struct=A5 : S3
+    shortcut: known_no_weak_gp group=PSL(3,4) no_weak_gp=
+7 dependency=regenerate PSL(3,4) certificate excludes weak-GP8.
+    completed local_subgroup_index=224 elapsed_ms=4217
+  checked=225 top_class=6 local_index=225 size=60480 struct=PSL(3,4) : C3
+    completed local_subgroup_index=225 elapsed_ms=2818
+    completed local_subgroup_index=226 elapsed_ms=11297
+  completed M24 maximal class 6 checked=226 requested_range=[1, 
+226] no weak-GP8 found.
+Checked subgroup-class representatives = 226
+SUCCESS: no proper subgroup of M24 has weak-GP
+8; hence every proper subgroup has i <= 7.

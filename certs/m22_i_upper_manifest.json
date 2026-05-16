@@ -1,0 +1,112 @@
+{
+  "group": "M22",
+  "target_no_weak_gp": 6,
+  "expected_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "classes": [
+    {
+      "class": 1,
+      "subgroup_count": 95,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 95,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 2,
+      "subgroup_count": 139,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 139,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 3,
+      "subgroup_count": 40,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 40,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 40,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 40,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 129,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 129,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 95,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 95,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 25,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 25,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 8,
+      "subgroup_count": 16,
+      "logs": [
+        {
+          "path": "logs/m22_i_upper.log",
+          "start": 1,
+          "stop": 16,
+          "target": 6
+        }
+      ]
+    }
+  ]
+}

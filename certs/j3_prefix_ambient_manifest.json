@@ -1,0 +1,29 @@
+{
+  "group": "J3",
+  "target_no_weak_gp": 5,
+  "member_filter": {
+    "path": "logs/j3_member_filter.log",
+    "survivors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "excluded": [
+      5
+    ]
+  },
+  "prefix_cover": {
+    "listings": [
+      "logs/j3_depth2_listing.log"
+    ],
+    "search_globs": [
+      "logs/j3_prefix_chunk_*.log"
+    ],
+    "expected_action_degree": 171838
+  }
+}

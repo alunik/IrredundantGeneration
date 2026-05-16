@@ -1,0 +1,69 @@
+Built McL, order = 898128000, degree = 275
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 7
+Subgroup index range = [1, infinity]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Maximal subgroup classes = 12
+1: size=3265920 index=275 struct=PSU(4,3)
+2: size=443520 index=2025 struct=M22
+3: size=443520 index=2025 struct=M22
+4: size=126000 index=7128 struct=PSU(3,5)
+5: size=58320 index=
+15400 struct=(((C3 x C3) : C3) : (C3 x C3)) : (C2 . S5 = SL(2,5) . C2)
+6: size=58320 index=15400 struct=(C3 x C3 x C3 x C3) : (A6 . C2)
+7: size=40320 index=22275 struct=PSL(3,4) : C2
+8: size=40320 index=22275 struct=C2 . A8
+9: size=40320 index=22275 struct=(C2 x C2 x C2 x C2) : A7
+10: size=40320 index=22275 struct=(C2 x C2 x C2 x C2) : A7
+11: size=7920 index=113400 struct=M11
+12: size=3000 index=299376 struct=((C5 x C5) : C5) : (C3 : C8)
+Selected top maximal classes = [ 1 .. 12 ]
+Checking McL maximal class 1: size=3265920 struct=PSU(4,3) target_no_weakGP=7
+    shortcut: known_no_weak_gp group=U4(3) no_weak_gp=
+7 dependency=regenerate U4(3) certificate excludes weak-GP7.
+  shortcut: top maximal class 1 has certified no weak-GP7 in all subgroups.
+Checking McL maximal class 2: size=443520 struct=M22 target_no_weakGP=7
+    shortcut: known_i_upper group=M22 i_upper=
+6
+  dependency=regenerate M22 certificates from data/computation_specs.json exclu\
+des weak-GP7.
+  shortcut: top maximal class 2 has certified no weak-GP7 in all subgroups.
+Checking McL maximal class 3: size=443520 struct=M22 target_no_weakGP=7
+    shortcut: known_i_upper group=M22 i_upper=
+6
+  dependency=regenerate M22 certificates from data/computation_specs.json exclu\
+des weak-GP7.
+  shortcut: top maximal class 3 has certified no weak-GP7 in all subgroups.
+Checking McL maximal class 4: size=126000 struct=PSU(3,5) target_no_weakGP=7
+  subgroup class representatives = 80 enumeration_ms=582
+Checking McL maximal class 5: size=
+58320
+  struct=(((C3 x C3) : C3) : (C3 x C3)) : (C2 . S5 = SL(2,5) . C2) target_no_w\
+eakGP=7
+  subgroup class representatives = 160 enumeration_ms=3795
+Checking McL maximal class 6: size=
+58320 struct=(C3 x C3 x C3 x C3) : (A6 . C2) target_no_weakGP=7
+  subgroup class representatives = 236 enumeration_ms=4097
+Checking McL maximal class 7: size=
+40320 struct=PSL(3,4) : C2 target_no_weakGP=7
+  subgroup class representatives = 152 enumeration_ms=1362
+Checking McL maximal class 8: size=40320 struct=C2 . A8 target_no_weakGP=7
+  subgroup class representatives = 168 enumeration_ms=3131
+Checking McL maximal class 9: size=
+40320 struct=(C2 x C2 x C2 x C2) : A7 target_no_weakGP=7
+  subgroup class representatives = 189 enumeration_ms=2234
+Checking McL maximal class 10: size=
+40320 struct=(C2 x C2 x C2 x C2) : A7 target_no_weakGP=7
+  subgroup class representatives = 189 enumeration_ms=2143
+Checking McL maximal class 11: size=7920 struct=M11 target_no_weakGP=7
+    shortcut: known_i_upper group=M11 i_upper=
+5 dependency=Brooks/GAP certificate excludes weak-GP7.
+  shortcut: top maximal class 11 has certified no weak-GP7 in all subgroups.
+Checking McL maximal class 12: size=
+3000 struct=((C5 x C5) : C5) : (C3 : C8) target_no_weakGP=7
+  subgroup class representatives = 30 enumeration_ms=116
+Checked subgroup-class representatives = 0
+SUCCESS: no proper subgroup of McL has weak-GP
+7; hence every proper subgroup has i <= 6.

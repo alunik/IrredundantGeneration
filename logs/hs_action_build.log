@@ -1,0 +1,12 @@
+Read selected maximal classes from workspaces/hs_survivors.gaplist: [ 5 ]
+Building reusable action workspace for HS
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built HS, order = 44352000, degree = 100
+Max class 5: 1100 conjugates, size 40320, S8
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 5 ]
+Total selected maximal subgroups = 1100
+Action degree = 1100 size = 44352000 build_ms = 761
+Saving workspace to workspaces/hs_action.ws
+SUCCESS: saved reusable action workspace.

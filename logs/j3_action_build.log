@@ -1,0 +1,22 @@
+Read selected maximal classes from workspaces/j3_survivors.gaplist: 
+[ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Building reusable action workspace for J3
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built J3, order = 50232960, degree = 6156
+Max class 1: 6156 conjugates, size 8160, PSL(2,16) : C2
+Max class 2: 14688 conjugates, size 3420, PSL(2,19)
+Max class 3: 14688 conjugates, size 3420, PSL(2,19)
+Max class 4: 17442 conjugates, size 2880, (C2 x C2 x C2 x C2) : GL(2,4)
+Max class 6: 23256 conjugates, size 2160, C3 : (A6 : C2)
+Max class 7: 25840 conjugates, size 
+1944, ((C3 x C3) . ((C3 x C3) : C3) = (C3 x C3 x C3) . (C3 x C3)) : C8
+Max class 8: 26163 conjugates, size 1920, ((C2 x Q8) : C2) : A5
+Max class 9: 43605 conjugates, size 
+1152, (((C4 x C2) : C2) : (C2 x C2)) : (C3 x S3)
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Total selected maximal subgroups = 171838
+Action degree = 171838 size = 50232960 build_ms = 1543759
+Saving workspace to workspaces/j3_action.ws
+SUCCESS: saved reusable action workspace.

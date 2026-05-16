@@ -1,0 +1,184 @@
+{
+  "group": "M24",
+  "target_no_weak_gp": 8,
+  "expected_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "classes": [
+    {
+      "class": 1,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M23",
+        "i_upper": 6,
+        "source_log": "logs/m24_i_counts.log"
+      }
+    },
+    {
+      "class": 2,
+      "subgroup_count": 490,
+      "logs": [
+        {
+          "path": "logs/m24_i_class2_1_490.log",
+          "start": 1,
+          "stop": 490,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 3,
+      "subgroup_count": 1766,
+      "logs": [
+        {
+          "path": "logs/m24_i_class3_1_500.log",
+          "start": 1,
+          "stop": 500,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class3_501_1000.log",
+          "start": 501,
+          "stop": 1000,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class3_1001_1500.log",
+          "start": 1001,
+          "stop": 1500,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class3_1501_1766.log",
+          "start": 1501,
+          "stop": 1766,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 213,
+      "logs": [
+        {
+          "path": "logs/m24_i_class4_1_213.log",
+          "start": 1,
+          "stop": 213,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 2261,
+      "logs": [
+        {
+          "path": "logs/m24_i_class5_1_500.log",
+          "start": 1,
+          "stop": 500,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class5_501_1000.log",
+          "start": 501,
+          "stop": 1000,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class5_1001_1500.log",
+          "start": 1001,
+          "stop": 1500,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class5_1501_2000.log",
+          "start": 1501,
+          "stop": 2000,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class5_2001_2261.log",
+          "start": 2001,
+          "stop": 2261,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 226,
+      "logs": [
+        {
+          "path": "logs/m24_i_class6_1_226.log",
+          "start": 1,
+          "stop": 226,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 2156,
+      "logs": [
+        {
+          "path": "logs/m24_i_class7_1_500.log",
+          "start": 1,
+          "stop": 500,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class7_501_1000.log",
+          "start": 501,
+          "stop": 1000,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class7_1001_1500.log",
+          "start": 1001,
+          "stop": 1500,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class7_1501_2000.log",
+          "start": 1501,
+          "stop": 2000,
+          "target": 8
+        },
+        {
+          "path": "logs/m24_i_class7_2001_2156.log",
+          "start": 2001,
+          "stop": 2156,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 8,
+      "subgroup_count": 23,
+      "logs": [
+        {
+          "path": "logs/m24_i_class8_1_23.log",
+          "start": 1,
+          "stop": 23,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 9,
+      "shortcut": {
+        "type": "order_bound",
+        "proof": "Size(K) < 2^target",
+        "source_log": "logs/m24_i_counts.log"
+      }
+    }
+  ]
+}

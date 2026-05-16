@@ -1,0 +1,57 @@
+Framework cached upper-bound run for McL
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 7
+Prebuilt selected maximal classes = [ 1, 2, 3, 6, 7, 8, 9, 10 ]
+Total prebuilt maximal subgroups = 108825
+Action degree = 108825 size = 898128000
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=1 first_index=1
+Next orbit representatives for firstRank=1: 
+[ 2, 3, 276, 277, 811, 2301, 2302, 2464, 4326, 4328, 4438, 4490, 19726, 
+  19728, 20371, 20482, 42001, 42009, 64276, 64278, 64281, 65917, 86551, 
+  86553, 86557, 89694 ]
+Next classes: [ 1, 1, 2, 2, 2, 3, 3, 3, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 
+  9, 9, 10, 10, 10, 10 ]
+Branch minimum_selected_rank=2 class=2 first_index=276
+Next orbit representatives for firstRank=2: 
+[ 277, 281, 1001, 2301, 2303, 2306, 2693, 4326, 4327, 4329, 4438, 4669, 
+  19726, 19731, 19738, 19888, 20686, 42001, 42061, 64276, 64291, 64316, 
+  64845, 64858, 86551, 86553, 86635, 87181, 87601 ]
+Next classes: [ 2, 2, 2, 3, 3, 3, 3, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 
+  9, 9, 9, 9, 10, 10, 10, 10, 10 ]
+Branch minimum_selected_rank=3 class=3 first_index=2301
+Next orbit representatives for firstRank=3: [ 2302, 2315, 2732, 4326, 4329, 
+  4351, 4663, 4664, 19726, 19727, 19728, 19894, 20210, 42003, 42054, 64280, 
+  64283, 64286, 66482, 66745, 86551, 86554, 86555, 87664, 87665 ]
+Next classes: [ 3, 3, 3, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9, 
+  10, 10, 10, 10, 10 ]
+Branch minimum_selected_rank=4 class=6 first_index=4326
+Next orbit representatives for firstRank=4: [ 4327, 4329, 4682, 13234, 19806, 
+  19889, 19897, 20268, 42011, 64323, 64394, 64410, 65945, 86551, 87734, 
+  87756, 89195 ]
+Next classes: [ 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9, 9, 10, 10, 10, 10 ]
+Branch minimum_selected_rank=5 class=7 first_index=19726
+Next orbit representatives for firstRank=5: 
+[ 19727, 19728, 20054, 20114, 38085, 42024, 42800, 64339, 64356, 64412, 
+  64885, 67789, 86552, 86570, 86639, 86754, 87162 ]
+Next classes: [ 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10 ]
+Branch minimum_selected_rank=6 class=8 first_index=42001
+Next orbit representatives for firstRank=6: 
+[ 42156, 64323, 66933, 86596, 97928 ]
+Next classes: [ 8, 9, 9, 10, 10 ]
+Branch minimum_selected_rank=7 class=9 first_index=64276
+Next orbit representatives for firstRank=7: 
+[ 64277, 64410, 65923, 67058, 86593, 86779, 87120, 87122, 87163, 87444 ]
+Next classes: [ 9, 9, 9, 9, 10, 10, 10, 10, 10, 10 ]
+Branch minimum_selected_rank=8 class=10 first_index=86551
+Next orbit representatives for firstRank=8: [ 86552, 86675, 88705, 92752 ]
+Next classes: [ 10, 10, 10, 10 ]
+RESULT=listed
+NODES=0
+NODES_BY_DEPTH=[ 0, 0, 0, 0, 0, 0, 0 ]
+BRANCH_STATS=[ 0, 0, 0, 0, 0, 0, 0 ]
+SUCCESS: framework listed next orbit representatives for McL. This is a splitt\
+ing aid, not an upper-bound certificate by itself.

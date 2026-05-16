@@ -1,0 +1,110 @@
+Built M24, order = 244823040, degree = 24
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 8
+Subgroup index range = [1501, 1766]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Selected top maximal classes = [ 3 ]
+Checking M24 maximal class 3: size=
+322560 struct=(C2 x C2 x C2 x C2) : A8 target_no_weakGP=8
+  subgroup class representatives = 1766 enumeration_ms=12335
+  checked=1 top_class=3 local_index=1501 size=
+192 struct=(((C4 x C2) : C2) : (C2 x C2)) : C3
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  checked=25 top_class=3 local_index=1525 size=192 struct=(C2 x C2 x C2) : S4
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    completed local_subgroup_index=1541 elapsed_ms=5673
+    completed local_subgroup_index=1542 elapsed_ms=3650
+    completed local_subgroup_index=1545 elapsed_ms=1894
+  checked=50 top_class=3 local_index=1550 size=
+256 struct=(C2 x C2) : ((C4 x C2) : D8)
+  checked=75 top_class=3 local_index=1575 size=
+256 struct=(C4 x C2 x C2) : (C2 x D8)
+  checked=100 top_class=3 local_index=1600 size=
+336 struct=C2 x ((C2 x C2 x C2) : (C7 : C3))
+    completed local_subgroup_index=1615 elapsed_ms=1132
+  checked=125 top_class=3 local_index=1625 size=
+384 struct=C2 x ((C2 x C2 x C2) : S4)
+    completed local_subgroup_index=1647 elapsed_ms=44226
+  checked=150 top_class=3 local_index=1650 size=
+384 struct=(C2 x C2 x C2 x C2) : D24
+    completed local_subgroup_index=1665 elapsed_ms=1621
+    completed local_subgroup_index=1666 elapsed_ms=1131
+    completed local_subgroup_index=1667 elapsed_ms=2154
+  checked=175 top_class=3 local_index=1675 size=
+512 struct=(C2 x ((C2 x C2 x C2) : C4)) : D8
+    completed local_subgroup_index=1688 elapsed_ms=6243
+    completed local_subgroup_index=1689 elapsed_ms=6753
+    completed local_subgroup_index=1690 elapsed_ms=7247
+    completed local_subgroup_index=1696 elapsed_ms=8100
+  checked=200 top_class=3 local_index=1700 size=
+768 struct=(C2 x C2) : ((C2 x C2 x C2) : S4)
+    completed local_subgroup_index=1707 elapsed_ms=45692
+  checked=225 top_class=3 local_index=1725 size=
+1536 struct=(C2 x C2 x C2) : ((C2 x C2 x C2) : S4)
+    completed local_subgroup_index=1727 elapsed_ms=2338
+    completed local_subgroup_index=1731 elapsed_ms=2367
+    completed local_subgroup_index=1732 elapsed_ms=1084
+    completed local_subgroup_index=1740 elapsed_ms=6095
+    completed local_subgroup_index=1747 elapsed_ms=45571
+  checked=250 top_class=3 local_index=1750 size=
+2880 struct=(C2 x C2 x C2 x C2) : GL(2,4)
+    completed local_subgroup_index=1761 elapsed_ms=1127
+    completed local_subgroup_index=1762 elapsed_ms=1099
+    completed local_subgroup_index=1766 elapsed_ms=17817
+  completed M24 maximal class 3 checked=266 requested_range=[1501, 
+1766] no weak-GP8 found.
+Checked subgroup-class representatives = 266
+SUCCESS: no proper subgroup of M24 has weak-GP
+8; hence every proper subgroup has i <= 7.

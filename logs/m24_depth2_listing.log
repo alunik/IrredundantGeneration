@@ -1,0 +1,27 @@
+Framework cached upper-bound run for M24
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 8
+Prebuilt selected maximal classes = [ 2, 3, 7 ]
+Total prebuilt maximal subgroups = 4830
+Action degree = 4830 size = 244823040
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=2 first_index=1
+Next orbit representatives for firstRank=1: [ 2, 6, 277, 279, 293, 1036, 1038 
+ ]
+Next classes: [ 2, 2, 3, 3, 3, 7, 7 ]
+Branch minimum_selected_rank=2 class=3 first_index=277
+Next orbit representatives for firstRank=2: [ 278, 295, 601, 1036, 1100, 2317 
+ ]
+Next classes: [ 3, 3, 3, 7, 7, 7 ]
+Branch minimum_selected_rank=3 class=7 first_index=1036
+Next orbit representatives for firstRank=3: [ 1042, 1058, 1088 ]
+Next classes: [ 7, 7, 7 ]
+RESULT=listed
+NODES=0
+NODES_BY_DEPTH=[ 0, 0, 0, 0, 0, 0, 0, 0 ]
+BRANCH_STATS=[ 0, 0, 0, 0, 0, 0, 0, 0 ]
+SUCCESS: framework listed next orbit representatives for M24. This is a splitt\
+ing aid, not an upper-bound certificate by itself.

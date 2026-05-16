@@ -1,0 +1,33 @@
+Framework member-filter run for J1
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 5
+Top class 1: size=660 struct=PSL(2,11)
+  subgroup class reps = 16
+  KEEP class 1: subgroup index 16 size=660 struct=PSL(2,11) has weak-GP
+4 classPattern=[ 1, 2, 2, 2 ]
+Top class 2: size=168 struct=(C2 x C2 x C2) : (C7 : C3)
+  subgroup class reps = 12
+  EXCLUDE class 2: no subgroup class representative has weak-GP4.
+Top class 3: size=120 struct=C2 x A5
+  subgroup class reps = 22
+  KEEP class 3: subgroup index 22 size=120 struct=C2 x A5 has weak-GP
+4 classPattern=[ 1, 2, 4, 4 ]
+Top class 4: size=114 struct=C19 : C6
+  subgroup class reps = 8
+  EXCLUDE class 4: no subgroup class representative has weak-GP4.
+Top class 5: size=110 struct=C11 : C10
+  subgroup class reps = 8
+  EXCLUDE class 5: no subgroup class representative has weak-GP4.
+Top class 6: size=60 struct=S3 x D10
+  subgroup class reps = 20
+  KEEP class 6: subgroup index 20 size=60 struct=S3 x D10 has weak-GP
+4 classPattern=[ 1, 2, 4, 5 ]
+Top class 7: size=42 struct=C7 : C6
+  subgroup class reps = 8
+  EXCLUDE class 7: no subgroup class representative has weak-GP4.
+SURVIVORS=[ 1, 3, 6 ]
+EXCLUDED=[ 2, 4, 5, 7 ]
+WROTE_SURVIVORS=workspaces/j1_survivors.gaplist
+WROTE_EXCLUDED=workspaces/j1_excluded.gaplist
+SUCCESS: framework member-filter run completed for J1.

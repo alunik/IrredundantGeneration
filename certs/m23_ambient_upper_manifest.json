@@ -1,0 +1,14 @@
+{
+  "group": "M23",
+  "target_no_weak_gp": 7,
+  "member_filter": {
+    "path": "logs/m23_member_filter.log",
+    "survivors": [1, 2, 3, 4, 6],
+    "excluded": [5, 7]
+  },
+  "ambient_search": {
+    "path": "logs/m23_ambient_upper.log",
+    "selected_classes": [1, 2, 3, 4, 6],
+    "result": "success"
+  }
+}

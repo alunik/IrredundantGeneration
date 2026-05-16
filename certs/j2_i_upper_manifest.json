@@ -1,0 +1,121 @@
+{
+  "group": "J2",
+  "target_no_weak_gp": 6,
+  "expected_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "classes": [
+    {
+      "class": 1,
+      "subgroup_count": 36,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 36,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 2,
+      "subgroup_count": 47,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 47,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 3,
+      "subgroup_count": 86,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 86,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 88,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 88,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 63,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 63,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 48,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 48,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 23,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 23,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 8,
+      "subgroup_count": 30,
+      "logs": [
+        {
+          "path": "logs/j2_i_upper.log",
+          "start": 1,
+          "stop": 30,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "class": 9,
+      "shortcut": {
+        "type": "order_bound",
+        "proof": "Size(K) < 2^target",
+        "source_log": "logs/j2_i_upper.log"
+      }
+    }
+  ]
+}

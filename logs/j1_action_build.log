@@ -1,0 +1,15 @@
+Read selected maximal classes from workspaces/j1_survivors.gaplist: 
+[ 1, 3, 6 ]
+Building reusable action workspace for J1
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built J1, order = 175560, degree = 266
+Max class 1: 266 conjugates, size 660, PSL(2,11)
+Max class 3: 1463 conjugates, size 120, C2 x A5
+Max class 6: 2926 conjugates, size 60, S3 x D10
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 1, 3, 6 ]
+Total selected maximal subgroups = 4655
+Action degree = 4655 size = 175560 build_ms = 1506
+Saving workspace to workspaces/j1_action.ws
+SUCCESS: saved reusable action workspace.

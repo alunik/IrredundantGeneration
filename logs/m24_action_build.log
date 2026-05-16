@@ -1,0 +1,16 @@
+Read selected maximal classes from workspaces/m24_survivors.gaplist: 
+[ 2, 3, 7 ]
+Building reusable action workspace for M24
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built M24, order = 244823040, degree = 24
+Max class 2: 276 conjugates, size 887040, M22 : C2
+Max class 3: 759 conjugates, size 322560, (C2 x C2 x C2 x C2) : A8
+Max class 7: 3795 conjugates, size 
+64512, (C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 2, 3, 7 ]
+Total selected maximal subgroups = 4830
+Action degree = 4830 size = 244823040 build_ms = 3317
+Saving workspace to workspaces/m24_action.ws
+SUCCESS: saved reusable action workspace.

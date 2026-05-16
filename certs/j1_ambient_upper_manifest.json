@@ -1,0 +1,14 @@
+{
+  "group": "J1",
+  "target_no_weak_gp": 5,
+  "member_filter": {
+    "path": "logs/j1_member_filter.log",
+    "survivors": [1, 3, 6],
+    "excluded": [2, 4, 5, 7]
+  },
+  "ambient_search": {
+    "path": "logs/j1_ambient_upper.log",
+    "selected_classes": [1, 3, 6],
+    "result": "success"
+  }
+}

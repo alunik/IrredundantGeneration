@@ -1,0 +1,50 @@
+Built M24, order = 244823040, degree = 24
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 8
+Subgroup index range = [2001, 2156]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Selected top maximal classes = [ 7 ]
+Checking M24 maximal class 7: size=
+64512 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3) target_no_weakGP=
+8
+  subgroup class representatives = 2156 enumeration_ms=10363
+  checked=1 top_class=7 local_index=2001 size=336 struct=C2 x PSL(3,2)
+  checked=25 top_class=7 local_index=2025 size=384 struct=(C4 x C2 x C2) : S4
+    completed local_subgroup_index=2028 elapsed_ms=29864
+  checked=50 top_class=7 local_index=2050 size=
+384 struct=(C2 x C2) : ((C2 x C2) : S4)
+    completed local_subgroup_index=2053 elapsed_ms=1758
+    completed local_subgroup_index=2059 elapsed_ms=1658
+    completed local_subgroup_index=2073 elapsed_ms=4620
+  checked=75 top_class=7 local_index=2075 size=
+768 struct=((C2 x C2 x C2) : ((C2 x C2 x C2 x C2) : C2)) : C3
+    completed local_subgroup_index=2076 elapsed_ms=4484
+    completed local_subgroup_index=2077 elapsed_ms=5280
+    completed local_subgroup_index=2081 elapsed_ms=4510
+  checked=100 top_class=7 local_index=2100 size=
+1024 struct=(C4 x C2 x C2) : ((C4 x C2) : D8)
+    completed local_subgroup_index=2120 elapsed_ms=1882
+  checked=125 top_class=7 local_index=2125 size=
+1536 struct=(C2 x C2 x C2 x C2) : ((C2 x C2) : S4)
+    completed local_subgroup_index=2132 elapsed_ms=3996
+  checked=150 top_class=7 local_index=2150 size=
+8064 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (S3 x (C7 : C3))
+  completed M24 maximal class 7 checked=156 requested_range=[2001, 
+2156] no weak-GP8 found.
+Checked subgroup-class representatives = 156
+SUCCESS: no proper subgroup of M24 has weak-GP
+8; hence every proper subgroup has i <= 7.

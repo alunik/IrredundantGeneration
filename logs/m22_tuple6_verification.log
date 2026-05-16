@@ -1,0 +1,12 @@
+Built M22 from certificate generators, order = 443520
+Tuple length = 6
+orders = [ 2, 3, 2, 3, 2, 3 ]
+Generated order = 443520
+Expected generated order = 443520
+Omitting 1: generated order = 20160 structure = PSL(3,4)
+Omitting 2: generated order = 20160 structure = PSL(3,4)
+Omitting 3: generated order = 5760 structure = (C2 x C2 x C2 x C2) : A6
+Omitting 4: generated order = 20160 structure = PSL(3,4)
+Omitting 5: generated order = 5760 structure = (C2 x C2 x C2 x C2) : A6
+Omitting 6: generated order = 5760 structure = (C2 x C2 x C2 x C2) : A6
+SUCCESS: irredundant generating tuple for M22.

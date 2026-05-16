@@ -74,7 +74,9 @@ def main() -> int:
     )
     if f"RESULT={search_info.get('result', 'success')}" not in search_text:
         raise SystemExit(f"{search_path}: missing expected result")
-    if f"SUCCESS: framework no weak-GP{target}" not in search_text:
+    normalized_search = re.sub(r"\s+", " ", search_text)
+    success_pattern = rf"SUCCESS: framework (?:cached )?no weak-GP\s*{target}\b"
+    if re.search(success_pattern, normalized_search) is None:
         raise SystemExit(f"{search_path}: missing ambient upper-bound success marker")
 
     selected = parse_selected_classes(search_text)
@@ -91,4 +93,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

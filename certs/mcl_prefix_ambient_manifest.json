@@ -1,0 +1,32 @@
+{
+  "group": "McL",
+  "target_no_weak_gp": 7,
+  "member_filter": {
+    "path": "logs/mcl_member_filter.log",
+    "survivors": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "excluded": [
+      4,
+      5,
+      11,
+      12
+    ]
+  },
+  "prefix_cover": {
+    "listings": [
+      "logs/mcl_depth2_listing.log"
+    ],
+    "search_globs": [
+      "logs/mcl_prefix_chunk_*.log"
+    ],
+    "expected_action_degree": 108825
+  }
+}

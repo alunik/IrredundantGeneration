@@ -1,0 +1,18 @@
+Framework cached upper-bound run for J2
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 6
+Prebuilt selected maximal classes = [ 5, 6 ]
+Total prebuilt maximal subgroups = 1848
+Action degree = 1848 size = 604800
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=5 first_index=1
+Branch minimum_selected_rank=2 class=6 first_index=841
+RESULT=success
+NODES=13
+NODES_BY_DEPTH=[ 2, 4, 5, 2, 0, 0 ]
+BRANCH_STATS=[ 0, 4, 5, 2, 0, 0 ]
+SUCCESS: framework cached no weak-GP
+6 run completed for J2 with status success.

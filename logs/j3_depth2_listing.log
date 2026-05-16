@@ -1,0 +1,54 @@
+Framework cached upper-bound run for J3
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 5
+Prebuilt selected maximal classes = [ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Total prebuilt maximal subgroups = 171838
+Action degree = 171838 size = 50232960
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=1 first_index=1
+Next orbit representatives for firstRank=1: 
+[ 2, 13, 22, 275, 6166, 20847, 35542, 35592, 36058, 52976, 52978, 52980, 
+  53022, 53308, 102071, 102211, 102216, 102236, 128273, 128943, 129298 ]
+Next classes: [ 1, 1, 1, 1, 2, 3, 4, 4, 4, 6, 6, 6, 6, 6, 8, 8, 8, 8, 9, 9, 9 
+ ]
+Branch minimum_selected_rank=2 class=2 first_index=6157
+Next orbit representatives for firstRank=2: 
+[ 6333, 20845, 20853, 20859, 21263, 21341, 35545, 35589, 36384, 53036, 76322, 
+  102218, 128235, 128550 ]
+Next classes: [ 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 7, 8, 9, 9 ]
+Branch minimum_selected_rank=3 class=3 first_index=20845
+Next orbit representatives for firstRank=3: 
+[ 20958, 35632, 35651, 36183, 53098, 76362, 102236, 128636, 128637 ]
+Next classes: [ 3, 4, 4, 4, 6, 7, 8, 9, 9 ]
+Branch minimum_selected_rank=4 class=4 first_index=35533
+Next orbit representatives for firstRank=4: 
+[ 35534, 35617, 38013, 38572, 52958, 52986, 53006, 53199, 53654, 76387, 
+  102231, 102264, 103196, 103201, 128279, 128351, 128701, 129341, 129652, 
+  144188 ]
+Next classes: [ 4, 4, 4, 4, 4, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9 ]
+Branch minimum_selected_rank=5 class=6 first_index=52975
+Next orbit representatives for firstRank=5: 
+[ 52988, 53640, 53773, 76250, 82266, 102168, 102285, 102300, 102316, 128250, 
+  129978, 130160, 130190 ]
+Next classes: [ 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9 ]
+Branch minimum_selected_rank=6 class=7 first_index=76231
+Next orbit representatives for firstRank=6: 
+[ 76236, 76336, 81176, 102232, 128242, 128641, 129476 ]
+Next classes: [ 7, 7, 7, 8, 9, 9, 9 ]
+Branch minimum_selected_rank=7 class=8 first_index=102071
+Next orbit representatives for firstRank=7: [ 102072, 102574, 102913, 128434, 
+  129165, 129233, 129298 ]
+Next classes: [ 8, 8, 8, 9, 9, 9, 9 ]
+Branch minimum_selected_rank=8 class=9 first_index=128234
+Next orbit representatives for firstRank=8: [ 128253, 128635, 128668, 132689, 
+  132708, 140322 ]
+Next classes: [ 9, 9, 9, 9, 9, 9 ]
+RESULT=listed
+NODES=0
+NODES_BY_DEPTH=[ 0, 0, 0, 0, 0 ]
+BRANCH_STATS=[ 0, 0, 0, 0, 0 ]
+SUCCESS: framework listed next orbit representatives for J3. This is a splitti\
+ng aid, not an upper-bound certificate by itself.

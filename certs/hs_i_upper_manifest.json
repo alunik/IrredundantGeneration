@@ -1,0 +1,419 @@
+{
+  "group": "HS",
+  "target_no_weak_gp": 8,
+  "expected_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "classes": [
+    {
+      "class": 1,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M22",
+        "i_upper": 6,
+        "source_log": "logs/hs_i_counts.log"
+      }
+    },
+    {
+      "class": 2,
+      "subgroup_count": 148,
+      "logs": [
+        {
+          "path": "logs/hs_i_class2_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class2_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class2_101_148.log",
+          "start": 101,
+          "stop": 148,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 3,
+      "subgroup_count": 148,
+      "logs": [
+        {
+          "path": "logs/hs_i_class3_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class3_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class3_101_148.log",
+          "start": 101,
+          "stop": 148,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 151,
+      "logs": [
+        {
+          "path": "logs/hs_i_class4_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class4_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class4_101_150.log",
+          "start": 101,
+          "stop": 150,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class4_151_151.log",
+          "start": 151,
+          "stop": 151,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 296,
+      "logs": [
+        {
+          "path": "logs/hs_i_class5_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class5_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class5_101_150.log",
+          "start": 101,
+          "stop": 150,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class5_151_200.log",
+          "start": 151,
+          "stop": 200,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class5_201_250.log",
+          "start": 201,
+          "stop": 250,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class5_251_296.log",
+          "start": 251,
+          "stop": 296,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 455,
+      "logs": [
+        {
+          "path": "logs/hs_i_class6_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_101_150.log",
+          "start": 101,
+          "stop": 150,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_151_200.log",
+          "start": 151,
+          "stop": 200,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_201_250.log",
+          "start": 201,
+          "stop": 250,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_251_300.log",
+          "start": 251,
+          "stop": 300,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_301_350.log",
+          "start": 301,
+          "stop": 350,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_351_400.log",
+          "start": 351,
+          "stop": 400,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_401_450.log",
+          "start": 401,
+          "stop": 450,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class6_451_455.log",
+          "start": 451,
+          "stop": 455,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 422,
+      "logs": [
+        {
+          "path": "logs/hs_i_class7_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_101_150.log",
+          "start": 101,
+          "stop": 150,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_151_200.log",
+          "start": 151,
+          "stop": 200,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_201_250.log",
+          "start": 201,
+          "stop": 250,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_251_300.log",
+          "start": 251,
+          "stop": 300,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_301_350.log",
+          "start": 301,
+          "stop": 350,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_351_400.log",
+          "start": 351,
+          "stop": 400,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class7_401_422.log",
+          "start": 401,
+          "stop": 422,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 8,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M11",
+        "i_upper": 5,
+        "source_log": "logs/hs_i_counts.log"
+      }
+    },
+    {
+      "class": 9,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M11",
+        "i_upper": 5,
+        "source_log": "logs/hs_i_counts.log"
+      }
+    },
+    {
+      "class": 10,
+      "subgroup_count": 533,
+      "logs": [
+        {
+          "path": "logs/hs_i_class10_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_101_150.log",
+          "start": 101,
+          "stop": 150,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_151_200.log",
+          "start": 151,
+          "stop": 200,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_201_250.log",
+          "start": 201,
+          "stop": 250,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_251_300.log",
+          "start": 251,
+          "stop": 300,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_301_350.log",
+          "start": 301,
+          "stop": 350,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_351_400.log",
+          "start": 351,
+          "stop": 400,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_401_450.log",
+          "start": 401,
+          "stop": 450,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_451_500.log",
+          "start": 451,
+          "stop": 500,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class10_501_533.log",
+          "start": 501,
+          "stop": 533,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 11,
+      "subgroup_count": 244,
+      "logs": [
+        {
+          "path": "logs/hs_i_class11_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class11_51_100.log",
+          "start": 51,
+          "stop": 100,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class11_101_150.log",
+          "start": 101,
+          "stop": 150,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class11_151_200.log",
+          "start": 151,
+          "stop": 200,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class11_201_244.log",
+          "start": 201,
+          "stop": 244,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "class": 12,
+      "subgroup_count": 72,
+      "logs": [
+        {
+          "path": "logs/hs_i_class12_1_50.log",
+          "start": 1,
+          "stop": 50,
+          "target": 8
+        },
+        {
+          "path": "logs/hs_i_class12_51_72.log",
+          "start": 51,
+          "stop": 72,
+          "target": 8
+        }
+      ]
+    }
+  ]
+}

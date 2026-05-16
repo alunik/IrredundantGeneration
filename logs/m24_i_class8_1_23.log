@@ -1,0 +1,50 @@
+Built M24, order = 244823040, degree = 24
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 8
+Subgroup index range = [1, 23]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Selected top maximal classes = [ 8 ]
+Checking M24 maximal class 8: size=6072 struct=PSL(2,23) target_no_weakGP=8
+  subgroup class representatives = 23 enumeration_ms=71
+  checked=1 top_class=8 local_index=1 size=1 struct=1
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP8.
+  completed M24 maximal class 8 checked=23 requested_range=[1, 23] no weak-GP
+8 found.
+Checked subgroup-class representatives = 23
+SUCCESS: no proper subgroup of M24 has weak-GP
+8; hence every proper subgroup has i <= 7.

@@ -1,0 +1,12 @@
+Built M23 from certificate generators, order = 10200960
+Tuple length = 6
+orders = [ 2, 2, 3, 3, 2, 3 ]
+Generated order = 10200960
+Expected generated order = 10200960
+Omitting 1: generated order = 443520 structure = M22
+Omitting 2: generated order = 443520 structure = M22
+Omitting 3: generated order = 443520 structure = M22
+Omitting 4: generated order = 443520 structure = M22
+Omitting 5: generated order = 443520 structure = M22
+Omitting 6: generated order = 40320 structure = (C2 x C2 x C2 x C2) : A7
+SUCCESS: irredundant generating tuple for M23.

@@ -1,0 +1,33 @@
+Framework member-filter run for M22
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 7
+Top class 1: size=20160 struct=PSL(3,4)
+  subgroup class reps = 95
+  EXCLUDE class 1: no subgroup class representative has weak-GP6.
+Top class 2: size=5760 struct=(C2 x C2 x C2 x C2) : A6
+  subgroup class reps = 139
+  EXCLUDE class 2: no subgroup class representative has weak-GP6.
+Top class 3: size=2520 struct=A7
+  subgroup class reps = 40
+  EXCLUDE class 3: no subgroup class representative has weak-GP6.
+Top class 4: size=2520 struct=A7
+  subgroup class reps = 40
+  EXCLUDE class 4: no subgroup class representative has weak-GP6.
+Top class 5: size=1920 struct=(C2 x C2 x C2 x C2) : S5
+  subgroup class reps = 129
+  EXCLUDE class 5: no subgroup class representative has weak-GP6.
+Top class 6: size=1344 struct=(C2 x C2 x C2) : PSL(3,2)
+  subgroup class reps = 95
+  EXCLUDE class 6: no subgroup class representative has weak-GP6.
+Top class 7: size=720 struct=A6 . C2
+  subgroup class reps = 25
+  EXCLUDE class 7: no subgroup class representative has weak-GP6.
+Top class 8: size=660 struct=PSL(2,11)
+  subgroup class reps = 16
+  EXCLUDE class 8: no subgroup class representative has weak-GP6.
+SURVIVORS=[  ]
+EXCLUDED=[ 1, 2, 3, 4, 5, 6, 7, 8 ]
+WROTE_SURVIVORS=workspaces/m22_survivors.gaplist
+WROTE_EXCLUDED=workspaces/m22_excluded.gaplist
+SUCCESS: framework member-filter run completed for M22.

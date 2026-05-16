@@ -1,0 +1,39 @@
+Framework member-filter run for M23
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 7
+Top class 1: size=443520 struct=M22
+  subgroup class reps = 156
+  KEEP class 1: subgroup index 156 size=443520 struct=M22 has weak-GP
+6 classPattern=[ 1, 1, 2, 2, 2, 2 ]
+Top class 2: size=40320 struct=PSL(3,4) : C2
+  subgroup class reps = 152
+  KEEP class 2: subgroup index 152 size=40320 struct=PSL(3,4) : C2 has weak-GP
+6 classPattern=[ 1, 2, 3, 4, 4, 5 ]
+Top class 3: size=40320 struct=(C2 x C2 x C2 x C2) : A7
+  subgroup class reps = 189
+  KEEP class 3: subgroup index 189 size=
+40320 struct=(C2 x C2 x C2 x C2) : A7 has weak-GP6 classPattern=
+[ 1, 2, 5, 5, 6, 6 ]
+Top class 4: size=20160 struct=A8
+  subgroup class reps = 137
+  KEEP class 4: subgroup index 137 size=20160 struct=A8 has weak-GP
+6 classPattern=[ 1, 1, 3, 3, 3, 3 ]
+Top class 5: size=7920 struct=M11
+  EXCLUDE class 5: known i-upper=5 rules out weak-GP
+6
+  in every subgroup of this representative group=M11 dependency=Brooks/GAP cert\
+ificate.
+Top class 6: size=5760 struct=(C2 x C2 x C2 x C2) : (A5 : S3)
+  subgroup class reps = 199
+  KEEP class 6: subgroup index 199 size=
+5760 struct=(C2 x C2 x C2 x C2) : (A5 : S3) has weak-GP6 classPattern=
+[ 1, 1, 2, 4, 4, 5 ]
+Top class 7: size=253 struct=C23 : C11
+  subgroup class reps = 4
+  EXCLUDE class 7: no subgroup class representative has weak-GP6.
+SURVIVORS=[ 1, 2, 3, 4, 6 ]
+EXCLUDED=[ 5, 7 ]
+WROTE_SURVIVORS=workspaces/m23_survivors.gaplist
+WROTE_EXCLUDED=workspaces/m23_excluded.gaplist
+SUCCESS: framework member-filter run completed for M23.

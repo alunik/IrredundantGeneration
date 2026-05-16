@@ -48,3 +48,27 @@ python3 python/emit_gap_commands.py --group J2 --section i_upper
 For prefix-split computations, the same saved action workspace is loaded in
 each chunk.  The chunk jobs set `FixedPrefix` or `FixedPrefixes`; the Python
 validators check that the resulting logs cover the advertised prefix tree.
+When the prefix logs are complete, record the member-filter output, listing
+log, and chunk-log glob in a `*_prefix_ambient_manifest.json` file and run:
+
+```bash
+python3 python/validate_prefix_ambient_manifest.py \
+  --manifest certs/j3_prefix_ambient_manifest.json
+```
+
+Once proper-subgroup logs are present, build and validate an `i_upper`
+manifest with the generic helper:
+
+```bash
+python3 python/make_i_upper_manifest.py \
+  --group J2 \
+  --target 6 \
+  --log logs/j2_i_upper.log \
+  --output certs/j2_i_upper_manifest.json
+python3 python/validate_i_upper_manifest.py \
+  --manifest certs/j2_i_upper_manifest.json
+```
+
+For ranged cluster logs, replace `--log` by one or more `--log-glob`
+arguments.  The manifest records the subgroup-index ranges and any top-class
+shortcuts emitted by the GAP runner.

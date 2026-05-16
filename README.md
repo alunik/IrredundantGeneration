@@ -4,8 +4,10 @@ This repository contains the group-agnostic code used to compute upper bounds
 for \(m(G)\), weak/private-witness \(\operatorname{MaxDim}(G)\), and \(i(G)\)
 by searching for weak general-position families of maximal subgroups.
 
-Certificate artifacts are intentionally not included in this cleanup pass.
-They will be regenerated once the framework layout is stable.
+The `certs/` and `logs/` directories contain the certificate artifacts
+generated from the same generic runners.  Heavy prefix-split runs have compact
+prefix files and validation logs rather than saved GAP workspaces; workspaces
+are intentionally ignored because they are large and can be rebuilt.
 
 Here \(\operatorname{MaxDim}(G)\) means the weak, or private-witness, maximal
 subgroup dimension: a family \(M_1,\ldots,M_k\) of maximal subgroups is counted
@@ -20,7 +22,8 @@ for every \(i\).
 ## Contents
 
 - `gap/`: reusable GAP modules and generic runners.
-- `python/`: command emitters, tuple verifiers, and certificate validators.
+- `python/`: command emitters, tuple verifiers, manifest builders, and
+  certificate validators.
 - `data/computation_specs.json`: group-specific settings for the generic code.
 - `docs/`: notes on running and auditing the framework.
 - `scripts/check_code.sh`: lightweight code/spec validation.
@@ -56,8 +59,8 @@ bash scripts/check_code.sh
 
 This checks Python syntax, validates `data/computation_specs.json`, emits a
 sample command from the specs, and verifies that the GAP framework modules
-load. It does not claim to validate mathematical certificates; those artifacts
-are to be regenerated.
+load.  Certificate validation is done with the manifest and prefix-cover
+validators in `python/`.
 
 ## Commands From Specs
 
