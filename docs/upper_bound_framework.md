@@ -21,6 +21,27 @@ This is the ambient MaxDim/m upper-bound search.  A successful
 the selected maximal classes.  With all possible classes selected, this proves
 `MaxDim(G) <= r-1`, hence `m(G) <= r-1`.
 
+The public certificate workflow builds `data` once and saves it as a GAP
+workspace.  Create the workspace directory first, then run:
+
+```gap
+WorkspaceRoot := ".";;
+TargetGroupName := "J1";;
+ActionWorkspacePath := "workspaces/j1_all_action.ws";;
+Read("gap/30_build_action_workspace.g");;
+```
+
+All ambient upper-bound runs, including the small groups, then load that
+workspace and call the cached runner:
+
+```bash
+gap -q -L workspaces/j1_all_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/47_run_framework_cached_upper_bound.g");'
+```
+
+This is the same code path used by the prefix-split computations; the only
+difference is that a split chunk additionally sets `FixedPrefix` or
+`FixedPrefixes`.
+
 If an action has already been built for a larger list of classes, the same
 action data can be restricted without recomputing the conjugation action:
 
@@ -130,13 +151,12 @@ data := UB_BuildActionData(G, filter.survivors, opts);;
 result := UB_NoWeakGP(data, target, opts);;
 ```
 
-Equivalently, use `gap/45_run_framework_filtered_upper_bound.g`, which performs
-the filter and ambient search in one run.  For split cluster runs, write the
-survivor list from `gap/44_run_framework_member_filter.g` using
-`SurvivorOutputPath`, then use that machine-produced list as the selected or
-active classes for the action build/map/chunk jobs.  The class numbers are
-therefore local labels attached to the GAP maximal-subgroup list used in that
-run, not hand-maintained mathematical identifiers.
+For certificate runs, write the survivor list from
+`gap/44_run_framework_member_filter.g` using `SurvivorOutputPath`, then use
+that machine-produced list as the selected classes for
+`gap/30_build_action_workspace.g`.  The class numbers are therefore local
+labels attached to the GAP maximal-subgroup list used in that run, not
+hand-maintained mathematical identifiers.
 
 The current lower-bound and status database is in
 `data/sporadic_bounds.json`.  The database is deliberately not used by the

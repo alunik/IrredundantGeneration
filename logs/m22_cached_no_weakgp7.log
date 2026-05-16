@@ -1,0 +1,42 @@
+Building reusable action workspace for M22
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built M22, order = 443520, degree = 22
+Max class 1: 22 conjugates, size 20160, PSL(3,4)
+Max class 2: 77 conjugates, size 5760, (C2 x C2 x C2 x C2) : A6
+Max class 3: 176 conjugates, size 2520, A7
+Max class 4: 176 conjugates, size 2520, A7
+Max class 5: 231 conjugates, size 1920, (C2 x C2 x C2 x C2) : S5
+Max class 6: 330 conjugates, size 1344, (C2 x C2 x C2) : PSL(3,2)
+Max class 7: 616 conjugates, size 720, A6 . C2
+Max class 8: 672 conjugates, size 660, PSL(2,11)
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 1 .. 8 ]
+Total selected maximal subgroups = 2300
+Action degree = 2300 size = 443520 build_ms = 536
+Saving workspace to workspaces/m22_all_action.ws
+SUCCESS: saved reusable action workspace.
+Framework cached upper-bound run for M22
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 7
+Prebuilt selected maximal classes = [ 1 .. 8 ]
+Total prebuilt maximal subgroups = 2300
+Action degree = 2300 size = 443520
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=1 first_index=1
+Branch minimum_selected_rank=2 class=2 first_index=23
+Branch minimum_selected_rank=3 class=3 first_index=100
+Branch minimum_selected_rank=4 class=4 first_index=276
+Branch minimum_selected_rank=5 class=5 first_index=452
+Branch minimum_selected_rank=6 class=6 first_index=683
+Branch minimum_selected_rank=7 class=7 first_index=1013
+Branch minimum_selected_rank=8 class=8 first_index=1629
+RESULT=success
+NODES=267
+NODES_BY_DEPTH=[ 8, 33, 107, 119, 0, 0, 0 ]
+BRANCH_STATS=[ 0, 33, 107, 119, 0, 0, 0 ]
+SUCCESS: framework cached no weak-GP
+7 run completed for M22 with status success.

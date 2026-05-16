@@ -3,9 +3,7 @@
   "purpose": "Record the group-specific settings used with the group-agnostic runners.",
   "generic_gap_entrypoints": {
     "tuple_verifier": "gap/42_verify_irredundant_tuple_from_images.g",
-    "ambient_upper": "gap/43_run_framework_upper_bound.g",
     "member_filter": "gap/44_run_framework_member_filter.g",
-    "filtered_ambient_upper": "gap/45_run_framework_filtered_upper_bound.g",
     "proper_subgroup_upper": "gap/46_run_framework_proper_subgroup_upper.g",
     "cached_or_prefix_upper": "gap/47_run_framework_cached_upper_bound.g",
     "action_builder": "gap/30_build_action_workspace.g"
@@ -21,9 +19,15 @@
     "J1": {
       "tuple_certificates": ["certs/j1_tuple4.json"],
       "m_upper": {
-        "runner": "ambient_upper",
+        "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/j1_all_action.ws",
+          "selected_classes": "all",
+          "build_once_reuse": true
+        },
         "settings": { "TargetGroupName": "J1", "TargetLength": 5, "SelectedClasses": "all", "prefix": false, "member_filter": false },
-        "logs": ["logs/j1_weakgp5_probe.log"]
+        "logs": ["logs/j1_cached_no_weakgp5.log"]
       },
       "i_upper": {
         "runner": "proper_subgroup_upper",
@@ -34,9 +38,15 @@
     "J2": {
       "tuple_certificates": ["certs/j2_tuple5.json"],
       "m_upper": {
-        "runner": "ambient_upper",
+        "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/j2_all_action.ws",
+          "selected_classes": "all",
+          "build_once_reuse": true
+        },
         "settings": { "TargetGroupName": "J2", "TargetLength": 6, "SelectedClasses": "all", "prefix": false, "member_filter": false },
-        "logs": ["logs/j2_weakgp6_probe.log"]
+        "logs": ["logs/j2_cached_no_weakgp6.log"]
       },
       "i_upper": {
         "runner": "proper_subgroup_upper",
@@ -48,6 +58,12 @@
       "tuple_certificates": ["certs/j3_tuple4.json", "certs/j3_i5_irredundant_tuple.json"],
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/j3_active_action.ws",
+          "selected_classes": [1, 2, 3, 4, 6, 7, 8, 9],
+          "build_once_reuse": true
+        },
         "settings": {
           "TargetGroupName": "J3",
           "TargetLength": 5,
@@ -72,9 +88,15 @@
     "M22": {
       "tuple_certificates": ["certs/m22_tuple6.json"],
       "m_upper": {
-        "runner": "ambient_upper",
+        "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/m22_all_action.ws",
+          "selected_classes": "all",
+          "build_once_reuse": true
+        },
         "settings": { "TargetGroupName": "M22", "TargetLength": 7, "SelectedClasses": "all", "prefix": false, "member_filter": false },
-        "logs": ["logs/m22_no_gp7_signature_orbits.log"]
+        "logs": ["logs/m22_cached_no_weakgp7.log"]
       },
       "i_upper": {
         "runner": "proper_subgroup_upper",
@@ -85,7 +107,13 @@
     "M23": {
       "tuple_certificates": ["certs/m23_tuple6.json"],
       "m_upper": {
-        "runner": "ambient_upper",
+        "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/m23_all_action.ws",
+          "selected_classes": "all",
+          "build_once_reuse": true
+        },
         "settings": { "TargetGroupName": "M23", "TargetLength": 7, "SelectedClasses": "all", "prefix": false, "member_filter": false },
         "logs": ["logs/m23_no_gp7_signature_branch1.log", "logs/m23_no_gp7_signature_branches2_7.log"]
       },
@@ -99,6 +127,12 @@
       "tuple_certificates": ["certs/m24_tuple7.json", "certs/agl42_tuple7.json"],
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/m24_classes_2_3_5_7_action.ws",
+          "selected_classes": [2, 3, 5, 7],
+          "build_once_reuse": true
+        },
         "settings": {
           "TargetGroupName": "M24",
           "TargetLength": 8,
@@ -118,8 +152,14 @@
     "HS": {
       "tuple_certificates": ["certs/hs_tuple7.json"],
       "m_upper": {
-        "runner": "filtered_ambient_upper",
-        "settings": { "TargetGroupName": "HS", "TargetLength": 8, "member_filter": true, "survivors": [5], "prefix": false },
+        "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/hs_class_5_action.ws",
+          "selected_classes": [5],
+          "build_once_reuse": true
+        },
+        "settings": { "TargetGroupName": "HS", "TargetLength": 8, "SelectedClasses": [5], "member_filter": true, "survivors": [5], "prefix": false },
         "manifest": "certs/hs_ambient_upper_manifest.json",
         "logs": ["logs/hs_member_i7_filter_current.log", "logs/hs_current_no_gp8_class5.log"]
       },
@@ -133,6 +173,12 @@
       "tuple_certificates": ["certs/mcl_tuple6.json"],
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "action": {
+          "builder": "action_builder",
+          "workspace": "workspaces/mcl_survivor_action.ws",
+          "selected_classes": [1, 2, 3, 6, 7, 8, 9, 10],
+          "build_once_reuse": true
+        },
         "settings": {
           "TargetGroupName": "McL",
           "TargetLength": 7,

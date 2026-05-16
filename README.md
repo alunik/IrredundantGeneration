@@ -41,8 +41,11 @@ for every \(i\).
 The file `data/certificate_runs.json` is the computation manifest. It records
 the per-group settings used with the generic GAP runners: target lengths,
 selected classes, member-filter choices, prefix splitting, and the logs or
-manifests that certify completion. Historical case-specific GAP scripts are
-kept under `gap/legacy/` only for provenance.
+manifests that certify completion. Every ambient upper-bound computation in
+the manifest is expressed as: build the conjugation-action workspace once with
+`gap/30_build_action_workspace.g`, then load it with
+`gap/47_run_framework_cached_upper_bound.g`. Historical case-specific GAP
+scripts are kept under `gap/legacy/` only for provenance.
 
 This is intentionally not a full research scratch directory. It excludes
 Magma cross-checks, cluster submit wrappers, benchmark/profiling experiments,
@@ -83,6 +86,8 @@ flat but not strongly flat.
 The main individual commands are:
 
 ```bash
+python3 python/emit_gap_commands.py --all --section m_upper
+
 python3 python/verify_tuple_json.py certs/j3_i5_irredundant_tuple.json
 
 python3 python/validate_prefix_certificate.py \

@@ -41,6 +41,11 @@ echo "== Recursive and manifest certificates =="
 python3 python/validate_certificate_runs.py \
   --manifest data/certificate_runs.json
 
+python3 python/emit_gap_commands.py \
+  --manifest data/certificate_runs.json \
+  --group J1 \
+  --section m_upper >/tmp/irredgen_gap_commands.check
+
 python3 python/validate_weakgp_cover.py \
   --group M24 \
   --target 8 \

@@ -1,0 +1,40 @@
+Building reusable action workspace for J1
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built J1, order = 175560, degree = 266
+Max class 1: 266 conjugates, size 660, PSL(2,11)
+Max class 2: 1045 conjugates, size 168, (C2 x C2 x C2) : (C7 : C3)
+Max class 3: 1463 conjugates, size 120, C2 x A5
+Max class 4: 1540 conjugates, size 114, C19 : C6
+Max class 5: 1596 conjugates, size 110, C11 : C10
+Max class 6: 2926 conjugates, size 60, S3 x D10
+Max class 7: 4180 conjugates, size 42, C7 : C6
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [ 1 .. 7 ]
+Total selected maximal subgroups = 13016
+Action degree = 13016 size = 175560 build_ms = 4148
+Saving workspace to workspaces/j1_all_action.ws
+SUCCESS: saved reusable action workspace.
+Framework cached upper-bound run for J1
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 5
+Prebuilt selected maximal classes = [ 1 .. 7 ]
+Total prebuilt maximal subgroups = 13016
+Action degree = 13016 size = 175560
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+Branch minimum_selected_rank=1 class=1 first_index=1
+Branch minimum_selected_rank=2 class=2 first_index=267
+Branch minimum_selected_rank=3 class=3 first_index=1312
+Branch minimum_selected_rank=4 class=4 first_index=2775
+Branch minimum_selected_rank=5 class=5 first_index=4315
+Branch minimum_selected_rank=6 class=6 first_index=5911
+Branch minimum_selected_rank=7 class=7 first_index=8837
+RESULT=success
+NODES=34
+NODES_BY_DEPTH=[ 7, 10, 11, 6, 0 ]
+BRANCH_STATS=[ 0, 10, 11, 6, 0 ]
+SUCCESS: framework cached no weak-GP
+5 run completed for J1 with status success.
