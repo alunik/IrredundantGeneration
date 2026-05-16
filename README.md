@@ -6,16 +6,16 @@ and \(i(G)\) for selected sporadic simple groups.
 
 The computed values are:
 
-| group | \(m(G)\) | \(\operatorname{MaxDim}(G)\) | \(i(G)\) |
-| --- | ---: | ---: | ---: |
-| \(J_1\) | 4 | 4 | 4 |
-| \(J_2\) | 5 | 5 | 5 |
-| \(J_3\) | 4 | 4 | 5 |
-| \(M_{22}\) | 6 | 6 | 6 |
-| \(M_{23}\) | 6 | 6 | 6 |
-| \(M_{24}\) | 7 | 7 | 7 |
-| \(HS\) | 7 | 7 | 7 |
-| \(McL\) | 6 | 6 | 6 |
+| group | \(m(G)\) | \(\operatorname{MaxDim}(G)\) | \(i(G)\) | flat? | strongly flat? |
+| --- | ---: | ---: | ---: | --- | --- |
+| \(J_1\) | 4 | 4 | 4 | yes | no |
+| \(J_2\) | 5 | 5 | 5 | yes | no |
+| \(J_3\) | 4 | 4 | 5 | no | no |
+| \(M_{22}\) | 6 | 6 | 6 | yes | yes |
+| \(M_{23}\) | 6 | 6 | 6 | yes | no |
+| \(M_{24}\) | 7 | 7 | 7 | yes | no |
+| \(HS\) | 7 | 7 | 7 | yes | no |
+| \(McL\) | 6 | 6 | 6 | yes | no |
 
 Here \(\operatorname{MaxDim}(G)\) means the weak, or private-witness, maximal
 subgroup dimension: a family \(M_1,\ldots,M_k\) of maximal subgroups is counted
@@ -68,6 +68,11 @@ information used for the `i(G)` bounds and for strong flatness. It distinguishes
 exact values from certified upper bounds and equality witnesses; it should not
 be read as a claim that exact `m`, `MaxDim`, and `i` triples were computed for
 every maximal subgroup class.
+
+The certificate `certs/agl42_tuple7.json` verifies an irredundant generating
+7-tuple in \(AGL(4,2)\cong 2^4:A_8\), the maximal subgroup shape occurring in
+\(M_{24}\). This settles the remaining strong-flatness case: \(M_{24}\) is
+flat but not strongly flat.
 
 The main individual commands are:
 

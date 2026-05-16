@@ -8,7 +8,7 @@
     "J3": "no",
     "M22": "yes",
     "M23": "no",
-    "M24": "not_decided_by_release_certificates",
+    "M24": "no",
     "HS": "no",
     "McL": "no"
   },
@@ -55,6 +55,7 @@
       "order": 244823040,
       "m": { "lower": 7, "upper": 7, "witness": "certs/m24_tuple7.json" },
       "i": { "lower": 7, "upper": 7 },
+      "strong_flatness_witness": "certs/agl42_tuple7.json",
       "upper": {
         "m_no_weak_gp": 8,
         "member_filter_survivors": [2, 3, 5, 7],

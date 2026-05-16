@@ -13,24 +13,24 @@ class proves that all those subgroups have `i <= r`.
 
 ## Ambient values
 
-| group | `m(G)` | `MaxDim(G)` | `i(G)` | flat? |
-| --- | ---: | ---: | ---: | --- |
-| `J1` | 4 | 4 | 4 | yes |
-| `J2` | 5 | 5 | 5 | yes |
-| `J3` | 4 | 4 | 5 | no |
-| `M22` | 6 | 6 | 6 | yes |
-| `M23` | 6 | 6 | 6 | yes |
-| `M24` | 7 | 7 | 7 | yes |
-| `HS` | 7 | 7 | 7 | yes |
-| `McL` | 6 | 6 | 6 | yes |
+| group | `m(G)` | `MaxDim(G)` | `i(G)` | flat? | strongly flat? |
+| --- | ---: | ---: | ---: | --- | --- |
+| `J1` | 4 | 4 | 4 | yes | no |
+| `J2` | 5 | 5 | 5 | yes | no |
+| `J3` | 4 | 4 | 5 | no | no |
+| `M22` | 6 | 6 | 6 | yes | yes |
+| `M23` | 6 | 6 | 6 | yes | no |
+| `M24` | 7 | 7 | 7 | yes | no |
+| `HS` | 7 | 7 | 7 | yes | no |
+| `McL` | 6 | 6 | 6 | yes | no |
 
 The rows `M11` and `M12`, used in the paper but not recomputed here, are taken
 from Brooks for `m` and `i`, and from Liu--Dennis for `MaxDim`:
 
-| group | `m(G)` | `MaxDim(G)` | `i(G)` |
-| --- | ---: | ---: | ---: |
-| `M11` | 5 | 5 | 5 |
-| `M12` | 6 | 6 | 6 |
+| group | `m(G)` | `MaxDim(G)` | `i(G)` | flat? | strongly flat? |
+| --- | ---: | ---: | ---: | --- | --- |
+| `M11` | 5 | 5 | 5 | yes | yes |
+| `M12` | 6 | 6 | 6 | yes | yes |
 
 ## Strong flatness summary
 
@@ -47,7 +47,7 @@ Here "strongly flat" means that every proper subgroup `H < G` satisfies
 | `M23` | `M22 < M23` and `i(M22)=6`. | no |
 | `HS` | `logs/hs_member_i7_filter_current.log` finds a weak-GP7 witness in the maximal subgroup `S8`. | no |
 | `J3` | `certs/j3_i5_irredundant_tuple.json` gives an irredundant set of length 5 in a proper subgroup `2^4:GL(2,4)`. | no |
-| `M24` | The release certificates prove all proper subgroups have `i <= 7`; they do not certify whether some proper subgroup has `i=7`. | not decided here |
+| `M24` | `certs/agl42_tuple7.json` verifies an irredundant generating 7-tuple in `AGL(4,2) = 2^4:A8`, the maximal subgroup shape in class 3. | no |
 | `McL` | `logs/mcl_member_i6_filter.log` and `logs/u43_member_i6_filter.log` find weak-GP6 witnesses below `U4(3) < McL`. | no |
 
 ## Maximal subgroup class status
@@ -158,14 +158,15 @@ Sources: `certs/m24_i_upper_manifest.json`,
 
 The release certificates prove that every proper subgroup has `i <= 7`, which
 is enough for `i(M24)=7` because the explicit generating tuple has length 7.
-They do not, by themselves, decide whether a proper subgroup has `i=7`; hence
-strong flatness for `M24` is not asserted here.
+The certificate `certs/agl42_tuple7.json` verifies an irredundant generating
+7-tuple in `AGL(4,2) = 2^4:A8`, so a proper subgroup of `M24` has `i >= 7`.
+Thus `M24` is flat but not strongly flat.
 
 | class | structure | subgroup status |
 | ---: | --- | --- |
 | 1 | `M23` | exact `i=6` from the `M23` computation |
 | 2 | `M22 : C2` | no subgroup weak-GP8 |
-| 3 | `(C2 x C2 x C2 x C2) : A8` | no subgroup weak-GP8 |
+| 3 | `(C2 x C2 x C2 x C2) : A8` | exact witness: `AGL(4,2)` has an irredundant generating 7-tuple; no subgroup weak-GP8 |
 | 4 | `M12 : C2` | no subgroup weak-GP8, and no subgroup weak-GP7 in the ambient-exclusion run |
 | 5 | `2^6 : ((C3 . A6) : C2)` | no subgroup weak-GP8 |
 | 6 | `PSL(3,4) : S3` | no subgroup weak-GP8, and no subgroup weak-GP7 in the ambient-exclusion run |

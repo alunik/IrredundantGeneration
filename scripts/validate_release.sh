@@ -13,6 +13,7 @@ for cert in \
   certs/m22_tuple6.json \
   certs/m23_tuple6.json \
   certs/m24_tuple7.json \
+  certs/agl42_tuple7.json \
   certs/hs_tuple7.json \
   certs/mcl_tuple6.json
 do
