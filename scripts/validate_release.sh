@@ -38,6 +38,9 @@ python3 python/validate_prefix_certificate.py \
   --chunk-size 4
 
 echo "== Recursive and manifest certificates =="
+python3 python/validate_certificate_runs.py \
+  --manifest data/certificate_runs.json
+
 python3 python/validate_weakgp_cover.py \
   --group M24 \
   --target 8 \

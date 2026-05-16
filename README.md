@@ -29,7 +29,7 @@ for every \(i\).
 
 ## Contents
 
-- `gap/`: GAP framework code and final group-specific verifiers.
+- `gap/`: group-agnostic GAP framework code and manifest-driven runners.
 - `python/`: deterministic tuple verifiers and log/manifest validators.
 - `certs/`: tuple certificates, prefix files, and JSON manifests.
 - `logs/`: final successful proof logs needed by the manifests.
@@ -37,6 +37,12 @@ for every \(i\).
 - `docs/`: short framework notes.
 - `tables/`: human-readable tables of the ambient values, maximal-subgroup
   status, and strong-flatness evidence.
+
+The file `data/certificate_runs.json` is the computation manifest. It records
+the per-group settings used with the generic GAP runners: target lengths,
+selected classes, member-filter choices, prefix splitting, and the logs or
+manifests that certify completion. Historical case-specific GAP scripts are
+kept under `gap/legacy/` only for provenance.
 
 This is intentionally not a full research scratch directory. It excludes
 Magma cross-checks, cluster submit wrappers, benchmark/profiling experiments,
@@ -131,3 +137,5 @@ parameter-consistent cover of the prefix tree.
 For \(i(G)\), the code applies the same weak-GP exclusion one level down:
 subgroup-class representatives below maximal subgroups are checked, with
 manifested shortcuts where a previously established value applies.
+
+See `docs/running_computations.md` for the current group-agnostic entry points.

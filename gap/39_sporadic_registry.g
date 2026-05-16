@@ -1,4 +1,8 @@
 
+if not IsBoundGlobal("AtlasGroup") then
+    LoadPackage("atlasrep");
+fi;
+
 SP_Bounds := rec(
     J1 := rec(m_lower := 4, m_upper := 4, i_lower := 4, i_upper := 4,
               m_no_weak_gp := 5),
@@ -109,6 +113,44 @@ SP_KnownIUpperBoundSubgroup := function(K)
     fi;
     if n = 898128000 and desc = "McL" then
         return rec(group := "McL", i_upper := 6, proof := "logs/mcl_i_upper_manifest.md");
+    fi;
+
+    return fail;
+end;
+
+SP_KnownNoWeakGPSubgroup := function(K, target)
+    local known, n, desc;
+
+    if Size(K) < 2^target then
+        return rec(reason := "order_bound", proof := "Size(K) < 2^target");
+    fi;
+
+    known := SP_KnownIUpperBoundSubgroup(K);
+    if known <> fail and known.i_upper < target then
+        return rec(reason := "known_i_upper",
+                   group := known.group,
+                   i_upper := known.i_upper,
+                   proof := known.proof);
+    fi;
+
+    n := Size(K);
+    desc := StructureDescription(K);
+
+    # These are data shortcuts, not algorithmic branches: they point to
+    # independent certificate files in this repository.  The generic
+    # proper-subgroup runner consumes them uniformly.
+    if target > 6 and desc = "PSL(3,4)" then
+        return rec(reason := "known_no_weak_gp",
+                   group := "PSL(3,4)",
+                   no_weak_gp := 7,
+                   proof := "logs/m24_nonexception_class6_target7_create.log");
+    fi;
+
+    if target > 6 and n = 3265920 and desc = "PSU(4,3)" then
+        return rec(reason := "known_no_weak_gp",
+                   group := "U4(3)",
+                   no_weak_gp := 7,
+                   proof := "logs/u43_proper_i_upper_target7.log");
     fi;
 
     return fail;

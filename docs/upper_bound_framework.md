@@ -115,11 +115,11 @@ data := UB_BuildActionData(G, fail, opts);;
 result := UB_NoWeakGP(data, 5, opts);;
 ```
 
-For a registered project group, the group-specific part can live outside the
-algorithm.  The registry supplies the target length and group constructor, but
-it does not supply filtered survivor classes to the upper-bound algorithm.
-Filtering should be computed from the `MaximalSubgroupClassReps(G)` list in the
-current GAP session:
+For a registered project group, the group-specific part lives outside the
+algorithm.  The registry supplies the target length and group constructor, and
+`data/certificate_runs.json` records which settings were used for the final
+certificates.  Filtering should be computed from the
+`MaximalSubgroupClassReps(G)` list in the current GAP session:
 
 ```gap
 name := "McL";;
