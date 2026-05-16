@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "purpose": "Record group-specific settings for the group-agnostic computation framework. Certificate artifacts are intentionally not recorded here; they will be regenerated from these specs.",
+  "schema_version": 3,
+  "purpose": "Record group-specific targets for the group-agnostic computation framework. Ambient upper bounds always compute the member-class filter dynamically before building the conjugation action.",
   "generic_gap_entrypoints": {
     "tuple_verifier": "gap/verify_irredundant_tuple_from_images.g",
     "member_filter": "gap/run_member_filter.g",
@@ -21,18 +21,22 @@
     "J1": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/j1_survivors.gaplist",
+          "excluded_path": "workspaces/j1_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/j1_all_action.ws",
-          "selected_classes": "all",
+          "workspace": "workspaces/j1_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/j1_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "J1",
           "TargetLength": 5,
-          "SelectedClasses": "all",
-          "prefix": false,
-          "member_filter": false
+          "prefix": false
         }
       },
       "i_upper": {
@@ -48,18 +52,22 @@
     "J2": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/j2_survivors.gaplist",
+          "excluded_path": "workspaces/j2_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/j2_all_action.ws",
-          "selected_classes": "all",
+          "workspace": "workspaces/j2_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/j2_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "J2",
           "TargetLength": 6,
-          "SelectedClasses": "all",
-          "prefix": false,
-          "member_filter": false
+          "prefix": false
         }
       },
       "i_upper": {
@@ -75,16 +83,21 @@
     "J3": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/j3_survivors.gaplist",
+          "excluded_path": "workspaces/j3_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/j3_active_action.ws",
-          "selected_classes": [1, 2, 3, 4, 6, 7, 8, 9],
+          "workspace": "workspaces/j3_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/j3_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "J3",
           "TargetLength": 5,
-          "SelectedClasses": [1, 2, 3, 4, 6, 7, 8, 9],
           "prefix": true,
           "chunk_size": 4
         }
@@ -101,18 +114,22 @@
     "M22": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/m22_survivors.gaplist",
+          "excluded_path": "workspaces/m22_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/m22_all_action.ws",
-          "selected_classes": "all",
+          "workspace": "workspaces/m22_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/m22_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "M22",
           "TargetLength": 7,
-          "SelectedClasses": "all",
-          "prefix": false,
-          "member_filter": false
+          "prefix": false
         }
       },
       "i_upper": {
@@ -127,18 +144,22 @@
     "M23": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/m23_survivors.gaplist",
+          "excluded_path": "workspaces/m23_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/m23_all_action.ws",
-          "selected_classes": "all",
+          "workspace": "workspaces/m23_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/m23_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "M23",
           "TargetLength": 7,
-          "SelectedClasses": "all",
-          "prefix": false,
-          "member_filter": false
+          "prefix": false
         }
       },
       "i_upper": {
@@ -153,17 +174,21 @@
     "M24": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/m24_survivors.gaplist",
+          "excluded_path": "workspaces/m24_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/m24_classes_2_3_5_7_action.ws",
-          "selected_classes": [2, 3, 5, 7],
+          "workspace": "workspaces/m24_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/m24_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "M24",
           "TargetLength": 8,
-          "SelectedClasses": [2, 3, 5, 7],
-          "member_filter_excluded_classes": [1, 4, 6, 8, 9],
           "prefix": true
         }
       },
@@ -180,18 +205,21 @@
     "HS": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/hs_survivors.gaplist",
+          "excluded_path": "workspaces/hs_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/hs_class_5_action.ws",
-          "selected_classes": [5],
+          "workspace": "workspaces/hs_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/hs_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "HS",
           "TargetLength": 8,
-          "SelectedClasses": [5],
-          "member_filter": true,
-          "survivors": [5],
           "prefix": false
         }
       },
@@ -208,17 +236,21 @@
     "McL": {
       "m_upper": {
         "runner": "cached_or_prefix_upper",
+        "filter": {
+          "runner": "member_filter",
+          "survivors_path": "workspaces/mcl_survivors.gaplist",
+          "excluded_path": "workspaces/mcl_excluded.gaplist"
+        },
         "action": {
           "builder": "action_builder",
-          "workspace": "workspaces/mcl_survivor_action.ws",
-          "selected_classes": [1, 2, 3, 6, 7, 8, 9, 10],
+          "workspace": "workspaces/mcl_action.ws",
+          "selected_classes": "from_member_filter",
+          "selected_classes_path": "workspaces/mcl_survivors.gaplist",
           "build_once_reuse": true
         },
         "settings": {
           "TargetGroupName": "McL",
           "TargetLength": 7,
-          "SelectedClasses": [1, 2, 3, 6, 7, 8, 9, 10],
-          "member_filter_excluded_classes": [4, 5, 11, 12],
           "prefix": true,
           "chunk_size": 4
         }

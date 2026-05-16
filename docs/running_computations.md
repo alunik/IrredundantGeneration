@@ -10,14 +10,16 @@ group-agnostic GAP entry points:
 - `gap/run_cached_upper_bound.g`
 
 The file `data/computation_specs.json` records the per-group settings: target
-lengths, selected maximal classes, member-filter choices, prefix splitting,
-and workspace paths.  A new group should require a new spec entry, not a new
-GAP algorithm.
+lengths, filter output paths, prefix splitting, and workspace paths.  It does
+not record hand-selected survivor classes.  A new group should require a new
+spec entry, not a new GAP algorithm.
 
-Ambient upper-bound runs always use the same cached-action workflow:
+Ambient upper-bound runs always use the same dynamic-filter plus cached-action
+workflow:
 
-1. Optionally run the member filter to obtain the surviving maximal classes.
-2. Build the conjugation action once with `gap/build_action_workspace.g`.
+1. Run the member filter to obtain the surviving maximal classes.
+2. Build the conjugation action once from the generated survivor file with
+   `gap/build_action_workspace.g`.
 3. Reuse that saved workspace with `gap/run_cached_upper_bound.g`.
 4. For large cases, split the search by fixed prefixes and validate the cover.
 
@@ -31,8 +33,9 @@ For example, the ambient \(J_1\) run has the form:
 
 ```bash
 mkdir -p workspaces
-gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";ActionWorkspacePath:="workspaces/j1_all_action.ws";Read("gap/build_action_workspace.g");'
-gap -q -L workspaces/j1_all_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
+gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;SurvivorOutputPath:="workspaces/j1_survivors.gaplist";ExcludedOutputPath:="workspaces/j1_excluded.gaplist";Read("gap/run_member_filter.g");'
+gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";ActionWorkspacePath:="workspaces/j1_action.ws";SelectedClassesInputPath:="workspaces/j1_survivors.gaplist";Read("gap/build_action_workspace.g");'
+gap -q -L workspaces/j1_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
 ```
 
 The proper-subgroup upper bounds used for \(i(G)\) are also called through one

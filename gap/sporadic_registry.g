@@ -9,21 +9,17 @@ SP_Bounds := rec(
     J2 := rec(m_lower := 5, m_upper := 5, i_lower := 5, i_upper := 5,
               m_no_weak_gp := 6),
     J3 := rec(m_lower := 4, m_upper := 4, i_lower := 5, i_upper := 5,
-              m_no_weak_gp := 5,
-              member_filter_survivors := [1, 2, 3, 4, 6, 7, 8, 9]),
+              m_no_weak_gp := 5),
     M22 := rec(m_lower := 6, m_upper := 6, i_lower := 6, i_upper := 6,
                m_no_weak_gp := 7),
     M23 := rec(m_lower := 6, m_upper := 6, i_lower := 6, i_upper := 6,
                m_no_weak_gp := 7),
     M24 := rec(m_lower := 7, m_upper := 7, i_lower := 7, i_upper := 7,
-               m_no_weak_gp := 8,
-               member_filter_survivors := [2, 3, 5, 7]),
+               m_no_weak_gp := 8),
     HS := rec(m_lower := 7, m_upper := 7, i_lower := 7, i_upper := 7,
-              m_no_weak_gp := 8,
-              member_filter_survivors := [5]),
+              m_no_weak_gp := 8),
     McL := rec(m_lower := 6, m_upper := 6, i_lower := 6, i_upper := 6,
-               m_no_weak_gp := 7,
-               member_filter_survivors := [1, 2, 3, 6, 7, 8, 9, 10])
+               m_no_weak_gp := 7)
 );
 
 SP_BuildGroup := function(name)
@@ -56,19 +52,6 @@ end;
 
 SP_MUpperTarget := function(name)
     return SP_Record(name).m_no_weak_gp;
-end;
-
-SP_RecordedMemberFilterSurvivors := function(name)
-    local info;
-    info := SP_Record(name);
-    if IsBound(info.member_filter_survivors) then
-        return info.member_filter_survivors;
-    fi;
-    return fail;
-end;
-
-SP_SelectedClassesForMUpper := function(name)
-    return SP_RecordedMemberFilterSurvivors(name);
 end;
 
 SP_KnownIUpperBoundSubgroup := function(K)

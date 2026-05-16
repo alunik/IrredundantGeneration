@@ -21,21 +21,20 @@ This is the ambient MaxDim/m upper-bound search.  A successful
 the selected maximal classes.  With all possible classes selected, this proves
 `MaxDim(G) <= r-1`, hence `m(G) <= r-1`.
 
-The public certificate workflow builds `data` once and saves it as a GAP
+The public certificate workflow first computes the member-class filter, then
+builds `data` from the machine-generated survivor list and saves it as a GAP
 workspace.  Create the workspace directory first, then run:
 
-```gap
-WorkspaceRoot := ".";;
-TargetGroupName := "J1";;
-ActionWorkspacePath := "workspaces/j1_all_action.ws";;
-Read("gap/build_action_workspace.g");;
+```bash
+gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;SurvivorOutputPath:="workspaces/j1_survivors.gaplist";ExcludedOutputPath:="workspaces/j1_excluded.gaplist";Read("gap/run_member_filter.g");'
+gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";ActionWorkspacePath:="workspaces/j1_action.ws";SelectedClassesInputPath:="workspaces/j1_survivors.gaplist";Read("gap/build_action_workspace.g");'
 ```
 
 All ambient upper-bound runs, including the small groups, then load that
 workspace and call the cached runner:
 
 ```bash
-gap -q -L workspaces/j1_all_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
+gap -q -L workspaces/j1_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
 ```
 
 This is the same code path used by the prefix-split computations; the only
@@ -139,7 +138,7 @@ result := UB_NoWeakGP(data, 5, opts);;
 For a registered project group, the group-specific part lives outside the
 algorithm.  The registry supplies the target length and group constructor, and
 `data/computation_specs.json` records the settings used to regenerate
-certificates.  Filtering should be computed from the
+certificates.  Filtering is computed from the
 `MaximalSubgroupClassReps(G)` list in the current GAP session:
 
 ```gap
@@ -154,9 +153,11 @@ result := UB_NoWeakGP(data, target, opts);;
 For certificate runs, write the survivor list from
 `gap/run_member_filter.g` using `SurvivorOutputPath`, then use
 that machine-produced list as the selected classes for
-`gap/build_action_workspace.g`.  The class numbers are therefore local
-labels attached to the GAP maximal-subgroup list used in that run, not
-hand-maintained mathematical identifiers.
+`gap/build_action_workspace.g` via `SelectedClassesInputPath`.  The class
+numbers are therefore local labels attached to the GAP maximal-subgroup list
+used in that run, not hand-maintained mathematical identifiers.  In
+particular, `data/computation_specs.json` stores the survivor-file path, not
+the survivor list.
 
 This repository currently tracks computation specs and framework code.  The
 tuple, prefix, and log certificates should be regenerated after the code

@@ -15,17 +15,35 @@ def require_path(root: Path, path: str, *, label: str) -> None:
         raise SystemExit(f"{label} does not exist: {path}")
 
 
-def validate_class_selection(value: object, *, label: str) -> None:
-    if value == "all":
-        return
-    if isinstance(value, list) and all(isinstance(x, int) and x > 0 for x in value):
-        if len(set(value)) != len(value):
-            raise SystemExit(f"{label} contains duplicate classes: {value!r}")
-        return
-    raise SystemExit(f"{label} must be 'all' or a list of positive integers")
+def validate_output_path(value: object, *, label: str) -> str:
+    if not isinstance(value, str) or not value:
+        raise SystemExit(f"{label} must be a nonempty string")
+    path = Path(value)
+    if path.is_absolute() or ".." in path.parts:
+        raise SystemExit(f"{label} must be a relative safe path")
+    if not (value.startswith("workspaces/") or value.startswith("cache/")):
+        raise SystemExit(f"{label} should live under workspaces/ or cache/")
+    return value
 
 
 def validate_action(entrypoints: dict[str, object], group: str, section: dict[str, object]) -> None:
+    filter_spec = section.get("filter")
+    if not isinstance(filter_spec, dict):
+        raise SystemExit(f"{group}.m_upper: missing dynamic filter block")
+    if filter_spec.get("runner") != "member_filter":
+        raise SystemExit(f"{group}.m_upper.filter: runner must be 'member_filter'")
+    if "member_filter" not in entrypoints:
+        raise SystemExit("specs are missing generic member_filter entrypoint")
+
+    survivor_path = validate_output_path(
+        filter_spec.get("survivors_path"),
+        label=f"{group}.m_upper.filter.survivors_path",
+    )
+    validate_output_path(
+        filter_spec.get("excluded_path"),
+        label=f"{group}.m_upper.filter.excluded_path",
+    )
+
     action = section.get("action")
     if not isinstance(action, dict):
         raise SystemExit(f"{group}.m_upper: missing cached action block")
@@ -34,30 +52,27 @@ def validate_action(entrypoints: dict[str, object], group: str, section: dict[st
     if "action_builder" not in entrypoints:
         raise SystemExit("specs are missing generic action_builder entrypoint")
 
-    workspace = action.get("workspace")
-    if not isinstance(workspace, str) or not workspace:
-        raise SystemExit(f"{group}.m_upper.action: workspace must be a nonempty string")
-    if Path(workspace).is_absolute() or ".." in Path(workspace).parts:
-        raise SystemExit(f"{group}.m_upper.action: workspace must be a relative safe path")
-    if not (workspace.startswith("workspaces/") or workspace.startswith("cache/")):
-        raise SystemExit(
-            f"{group}.m_upper.action: workspace should live under workspaces/ or cache/"
-        )
+    validate_output_path(action.get("workspace"), label=f"{group}.m_upper.action.workspace")
     if action.get("build_once_reuse") is not True:
         raise SystemExit(f"{group}.m_upper.action: build_once_reuse must be true")
 
-    selected = action.get("selected_classes")
-    validate_class_selection(selected, label=f"{group}.m_upper.action.selected_classes")
+    if action.get("selected_classes") != "from_member_filter":
+        raise SystemExit(
+            f"{group}.m_upper.action: selected_classes must be 'from_member_filter'"
+        )
+    if action.get("selected_classes_path") != survivor_path:
+        raise SystemExit(
+            f"{group}.m_upper.action: selected_classes_path must match "
+            "filter.survivors_path"
+        )
 
     settings = section["settings"]
-    setting_classes = settings.get("SelectedClasses", "all")
-    if "survivors" in settings:
-        setting_classes = settings["survivors"]
-    if selected != setting_classes:
-        raise SystemExit(
-            f"{group}.m_upper: action selected_classes {selected!r} "
-            f"do not match search classes {setting_classes!r}"
-        )
+    forbidden = ("SelectedClasses", "survivors", "member_filter_excluded_classes")
+    for key in forbidden:
+        if key in settings:
+            raise SystemExit(
+                f"{group}.m_upper.settings: {key} hard-codes filter output"
+            )
 
 
 def main() -> int:

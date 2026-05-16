@@ -17,6 +17,15 @@ if not IsBound(SelectedClasses) then
     SelectedClasses := fail;
 fi;
 
+if IsBound(SelectedClassesInputPath) then
+    if SelectedClasses <> fail then
+        Error("Set either SelectedClasses or SelectedClassesInputPath, not both.");
+    fi;
+    SelectedClasses := ReadGapValueFile(SelectedClassesInputPath);
+    Print("Read selected maximal classes from ", SelectedClassesInputPath,
+          ": ", SelectedClasses, "\n");
+fi;
+
 if not IsBound(WitnessSupportThreshold) then
     WitnessSupportThreshold := 5000;
 fi;

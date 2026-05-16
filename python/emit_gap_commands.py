@@ -37,19 +37,32 @@ def gap_command(assignments: list[tuple[str, Any]], read_path: str, *, load: str
     return " ".join(shlex.quote(part) for part in parts)
 
 
+def mkdir_commands(*paths: str) -> list[str]:
+    parents = sorted({str(Path(path).parent) for path in paths if str(Path(path).parent) != "."})
+    return [f"mkdir -p {shlex.quote(parent)}" for parent in parents]
+
+
 def m_upper_commands(group: str, specs: dict[str, Any]) -> list[str]:
     entrypoints = specs["generic_gap_entrypoints"]
     section = specs["groups"][group]["m_upper"]
     settings = section["settings"]
+    filter_spec = section["filter"]
     action = section["action"]
+
+    filter_assignments: list[tuple[str, Any]] = [
+        ("WorkspaceRoot", "."),
+        ("TargetGroupName", group),
+        ("TargetLength", settings["TargetLength"]),
+        ("SurvivorOutputPath", filter_spec["survivors_path"]),
+        ("ExcludedOutputPath", filter_spec["excluded_path"]),
+    ]
 
     build_assignments: list[tuple[str, Any]] = [
         ("WorkspaceRoot", "."),
         ("TargetGroupName", group),
         ("ActionWorkspacePath", action["workspace"]),
+        ("SelectedClassesInputPath", action["selected_classes_path"]),
     ]
-    if action["selected_classes"] != "all":
-        build_assignments.append(("SelectedClasses", action["selected_classes"]))
 
     run_assignments: list[tuple[str, Any]] = [
         ("WorkspaceRoot", "."),
@@ -57,9 +70,14 @@ def m_upper_commands(group: str, specs: dict[str, Any]) -> list[str]:
         ("TargetLength", settings["TargetLength"]),
     ]
 
-    commands = [
-        f"mkdir -p {shlex.quote(str(Path(action['workspace']).parent))}",
-        "# build the reusable conjugation-action workspace",
+    commands = mkdir_commands(
+        filter_spec["survivors_path"],
+        filter_spec["excluded_path"],
+        action["workspace"],
+    ) + [
+        "# compute the member-class filter dynamically",
+        gap_command(filter_assignments, entrypoints["member_filter"]),
+        "# build the reusable conjugation-action workspace from the survivor list",
         gap_command(build_assignments, entrypoints["action_builder"]),
         "# run the ambient weak-GP exclusion using the saved action",
     ]

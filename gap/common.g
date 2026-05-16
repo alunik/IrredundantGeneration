@@ -14,3 +14,26 @@ SubtupleWithout := function(T, i)
     fi;
     return Concatenation(T{[1..i-1]}, T{[i+1..Length(T)]});
 end;
+
+ReadGapValueFile := function(path)
+    local input, line, text, value;
+
+    input := InputTextFile(path);
+    if input = fail then
+        Error("Could not open ", path);
+    fi;
+
+    text := "";
+    line := ReadLine(input);
+    while line <> fail do
+        text := Concatenation(text, line);
+        line := ReadLine(input);
+    od;
+    CloseStream(input);
+
+    value := EvalString(text);
+    if value = fail then
+        Error("Could not parse GAP value from ", path);
+    fi;
+    return value;
+end;

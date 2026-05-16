@@ -27,11 +27,15 @@ for every \(i\).
 
 The public ambient upper-bound workflow is uniform:
 
-1. Build the conjugation action once with `gap/build_action_workspace.g`.
-2. Reuse that saved workspace with `gap/run_cached_upper_bound.g`.
-3. For large cases, split by fixed prefixes and validate the cover.
+1. Compute the member-class filter with `gap/run_member_filter.g`.
+2. Build the conjugation action once from the generated survivor list with
+   `gap/build_action_workspace.g`.
+3. Reuse that saved workspace with `gap/run_cached_upper_bound.g`.
+4. For large cases, split by fixed prefixes and validate the cover.
 
-The group-specific part is the spec file, not new GAP code.
+The group-specific part is the spec file, not new GAP code.  The spec records
+where the filter should write its survivor list, but it does not record the
+survivors themselves.
 
 ## Requirements
 
@@ -73,8 +77,9 @@ For example, the \(J_1\) ambient run has the form:
 
 ```bash
 mkdir -p workspaces
-gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";ActionWorkspacePath:="workspaces/j1_all_action.ws";Read("gap/build_action_workspace.g");'
-gap -q -L workspaces/j1_all_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
+gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;SurvivorOutputPath:="workspaces/j1_survivors.gaplist";ExcludedOutputPath:="workspaces/j1_excluded.gaplist";Read("gap/run_member_filter.g");'
+gap -q -c 'WorkspaceRoot:=".";TargetGroupName:="J1";ActionWorkspacePath:="workspaces/j1_action.ws";SelectedClassesInputPath:="workspaces/j1_survivors.gaplist";Read("gap/build_action_workspace.g");'
+gap -q -L workspaces/j1_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
 ```
 
 ## Architecture
