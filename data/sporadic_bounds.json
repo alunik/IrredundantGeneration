@@ -1,4 +1,17 @@
 {
+  "tables": {
+    "maximal_subgroup_status": "tables/maximal_subgroup_status.md"
+  },
+  "strong_flatness": {
+    "J1": "no",
+    "J2": "no",
+    "J3": "no",
+    "M22": "yes",
+    "M23": "no",
+    "M24": "not_decided_by_release_certificates",
+    "HS": "no",
+    "McL": "no"
+  },
   "groups": {
     "J1": {
       "order": 175560,

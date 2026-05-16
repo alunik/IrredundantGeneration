@@ -35,6 +35,8 @@ for every \(i\).
 - `logs/`: final successful proof logs needed by the manifests.
 - `data/`: machine-readable summary of the final bounds.
 - `docs/`: short framework notes.
+- `tables/`: human-readable tables of the ambient values, maximal-subgroup
+  status, and strong-flatness evidence.
 
 This is intentionally not a full research scratch directory. It excludes
 Magma cross-checks, cluster submit wrappers, benchmark/profiling experiments,
@@ -60,6 +62,12 @@ bash scripts/validate_release.sh
 This checks all tuple certificates and validates the split/manifest layer for
 the large upper-bound computations. Some tuple checks call GAP and may take a
 little time.
+
+The table `tables/maximal_subgroup_status.md` records the subgroup-level
+information used for the `i(G)` bounds and for strong flatness. It distinguishes
+exact values from certified upper bounds and equality witnesses; it should not
+be read as a claim that exact `m`, `MaxDim`, and `i` triples were computed for
+every maximal subgroup class.
 
 The main individual commands are:
 

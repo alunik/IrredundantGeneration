@@ -27,6 +27,9 @@ python3 python/validate_prefix_certificate.py \
   --chunk-log-template 'logs/j3_active_v2_prefix_chunk_{task}_create.log' \
   --chunk-size 4
 
+grep -q "SUCCESS: no proper subgroup of J3 has weak-GP" \
+  logs/j3_proper_i_upper_target6.log
+
 python3 python/validate_prefix_certificate.py \
   --map-log logs/mcl_survivor_depth2_map_cert_create.log \
   --prefix-file certs/mcl_survivor_prefixes_oldmap_lean.txt \
