@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit GAP command templates from the computation manifest."""
+"""Emit GAP command templates from the computation specs."""
 
 from __future__ import annotations
 
@@ -37,9 +37,9 @@ def gap_command(assignments: list[tuple[str, Any]], read_path: str, *, load: str
     return " ".join(shlex.quote(part) for part in parts)
 
 
-def m_upper_commands(group: str, manifest: dict[str, Any]) -> list[str]:
-    entrypoints = manifest["generic_gap_entrypoints"]
-    section = manifest["groups"][group]["m_upper"]
+def m_upper_commands(group: str, specs: dict[str, Any]) -> list[str]:
+    entrypoints = specs["generic_gap_entrypoints"]
+    section = specs["groups"][group]["m_upper"]
     settings = section["settings"]
     action = section["action"]
 
@@ -66,8 +66,7 @@ def m_upper_commands(group: str, manifest: dict[str, Any]) -> list[str]:
 
     if settings.get("prefix") is True:
         commands.append(
-            "# prefix runs use FixedPrefix or FixedPrefixes from the manifest "
-            "prefix file/cover"
+            "# prefix runs use FixedPrefix or FixedPrefixes from a generated prefix list"
         )
         commands.append(
             gap_command(
@@ -77,7 +76,7 @@ def m_upper_commands(group: str, manifest: dict[str, Any]) -> list[str]:
             )
         )
         commands.append(
-            "# example chunk template; replace the list by a prefix from the prefix file"
+            "# example chunk template; replace the list by a generated prefix"
         )
         commands.append(
             gap_command(
@@ -98,9 +97,9 @@ def m_upper_commands(group: str, manifest: dict[str, Any]) -> list[str]:
     return commands
 
 
-def proper_upper_command(group: str, manifest: dict[str, Any]) -> str:
-    entrypoints = manifest["generic_gap_entrypoints"]
-    section = manifest["groups"][group]["i_upper"]
+def proper_upper_command(group: str, specs: dict[str, Any]) -> str:
+    entrypoints = specs["generic_gap_entrypoints"]
+    section = specs["groups"][group]["i_upper"]
     settings = section["settings"]
     assignments = [
         ("WorkspaceRoot", "."),
@@ -116,27 +115,27 @@ def proper_upper_command(group: str, manifest: dict[str, Any]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--manifest", type=Path, default=Path("data/certificate_runs.json"))
+    parser.add_argument("--specs", type=Path, default=Path("data/computation_specs.json"))
     parser.add_argument("--group", action="append")
     parser.add_argument("--all", action="store_true")
     parser.add_argument("--section", choices=["m_upper", "i_upper"], default="m_upper")
     args = parser.parse_args()
 
-    manifest = json.loads(args.manifest.read_text())
-    groups = sorted(manifest["groups"])
+    specs = json.loads(args.specs.read_text())
+    groups = sorted(specs["groups"])
     if args.group:
         groups = args.group
     if not args.group and not args.all:
         raise SystemExit("use --group GROUP or --all")
 
     for group in groups:
-        if group not in manifest["groups"]:
+        if group not in specs["groups"]:
             raise SystemExit(f"unknown group: {group}")
         print(f"## {group} {args.section}")
         if args.section == "m_upper":
-            print("\n".join(m_upper_commands(group, manifest)))
+            print("\n".join(m_upper_commands(group, specs)))
         else:
-            print(proper_upper_command(group, manifest))
+            print(proper_upper_command(group, specs))
         print()
 
     return 0

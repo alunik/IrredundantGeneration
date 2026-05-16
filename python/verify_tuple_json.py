@@ -24,9 +24,9 @@ def validate_image_list(xs: list[int], degree: int) -> None:
 
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
-    cert_path = root / "certs" / "m22_tuple6.json"
-    if len(sys.argv) > 1:
-        cert_path = Path(sys.argv[1]).resolve()
+    if len(sys.argv) != 2:
+        raise SystemExit("usage: verify_tuple_json.py PATH_TO_TUPLE_CERTIFICATE")
+    cert_path = Path(sys.argv[1]).resolve()
 
     cert = json.loads(cert_path.read_text())
     group_name = cert["group"]["name"]
@@ -51,7 +51,7 @@ ExpectedGeneratedOrder := {expected_generated_order};;
 RequireGenerating := {"true" if require_generating else "false"};;
 GeneratorImages := {gap_generators};;
 TupleImages := {gap_list};;
-Read(Concatenation(WorkspaceRoot, "/gap/42_verify_irredundant_tuple_from_images.g"));
+Read(Concatenation(WorkspaceRoot, "/gap/verify_irredundant_tuple_from_images.g"));
 '''
 
     with tempfile.NamedTemporaryFile("w", suffix=".g", delete=False) as handle:

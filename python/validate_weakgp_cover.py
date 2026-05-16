@@ -7,9 +7,8 @@ Example:
       --group M24 \
       --target 8 \
       --selected-classes 2,3,5,7 \
-      --listing logs/m24_classes2357_depth2_listing_current.log \
-      --listing logs/m24_classes2357_branch1_prefixes_1036_1038_listing_current.log \
-      --search-glob 'logs/m24_current_no_gp8_prefix_*.log'
+      --listing path/to/depth2_listing.log \
+      --search-glob 'path/to/prefix_chunk_*.log'
 
 The validator reads GAP listing logs as a prefix tree.  A prefix is covered if
 either an ordinary GAP search log completed for that exact fixed prefix, or a

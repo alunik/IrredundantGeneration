@@ -5,8 +5,8 @@ once:
 
 ```gap
 WorkspaceRoot := ".";;
-Read("gap/39_sporadic_registry.g");;
-Read("gap/41_upper_bound_library.g");;
+Read("gap/sporadic_registry.g");;
+Read("gap/upper_bound_library.g");;
 ```
 
 The library defines two main algorithms.
@@ -28,14 +28,14 @@ workspace.  Create the workspace directory first, then run:
 WorkspaceRoot := ".";;
 TargetGroupName := "J1";;
 ActionWorkspacePath := "workspaces/j1_all_action.ws";;
-Read("gap/30_build_action_workspace.g");;
+Read("gap/build_action_workspace.g");;
 ```
 
 All ambient upper-bound runs, including the small groups, then load that
 workspace and call the cached runner:
 
 ```bash
-gap -q -L workspaces/j1_all_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/47_run_framework_cached_upper_bound.g");'
+gap -q -L workspaces/j1_all_action.ws -c 'WorkspaceRoot:=".";TargetGroupName:="J1";TargetLength:=5;Read("gap/run_cached_upper_bound.g");'
 ```
 
 This is the same code path used by the prefix-split computations; the only
@@ -128,7 +128,7 @@ For example, a small smoke test:
 
 ```gap
 WorkspaceRoot := ".";;
-Read("gap/41_upper_bound_library.g");;
+Read("gap/upper_bound_library.g");;
 G := AtlasGroup("J1");;
 opts := UB_DefaultOptions();;
 opts.node_limit := 200000;;
@@ -138,7 +138,7 @@ result := UB_NoWeakGP(data, 5, opts);;
 
 For a registered project group, the group-specific part lives outside the
 algorithm.  The registry supplies the target length and group constructor, and
-`data/certificate_runs.json` records which settings were used for the final
+`data/computation_specs.json` records the settings used to regenerate
 certificates.  Filtering should be computed from the
 `MaximalSubgroupClassReps(G)` list in the current GAP session:
 
@@ -152,13 +152,12 @@ result := UB_NoWeakGP(data, target, opts);;
 ```
 
 For certificate runs, write the survivor list from
-`gap/44_run_framework_member_filter.g` using `SurvivorOutputPath`, then use
+`gap/run_member_filter.g` using `SurvivorOutputPath`, then use
 that machine-produced list as the selected classes for
-`gap/30_build_action_workspace.g`.  The class numbers are therefore local
+`gap/build_action_workspace.g`.  The class numbers are therefore local
 labels attached to the GAP maximal-subgroup list used in that run, not
 hand-maintained mathematical identifiers.
 
-The current lower-bound and status database is in
-`data/sporadic_bounds.json`.  The database is deliberately not used by the
-core algorithms; it records witness files, current bounds, and class-filter
-outputs for the target groups in this project.
+This repository currently tracks computation specs and framework code.  The
+tuple, prefix, and log certificates should be regenerated after the code
+layout is finalized.
