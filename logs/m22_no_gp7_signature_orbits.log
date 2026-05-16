@@ -1,0 +1,51 @@
+Built M22, order = 443520
+GAP version = 4.15.1
+Target weak-GP length = 7
+Enumerating elements...
+Element count = 443520
+Building maximal subgroup conjugates and element overgroup signatures...
+Max class 1: 22 conjugates, size 20160, PSL(3,4)
+Max class 2: 77 conjugates, size 5760, (C2 x C2 x C2 x C2) : A6
+Max class 3: 176 conjugates, size 2520, A7
+Max class 4: 176 conjugates, size 2520, A7
+Max class 5: 231 conjugates, size 1920, (C2 x C2 x C2 x C2) : S5
+Max class 6: 330 conjugates, size 1344, (C2 x C2 x C2) : PSL(3,2)
+Max class 7: 616 conjugates, size 720, A6 . C2
+Max class 8: 672 conjugates, size 660, PSL(2,11)
+Total maximal subgroups = 2300
+Eligible private-witness elements = 180719
+Distinct overgroup signatures = 68761
+Building conjugation action on maximal subgroups...
+Action degree = 2300 size = 443520 build_ms = 615
+Branch minimum_class=1 first_index=1
+Completed branch minimum_class=1 nodes=28419 nodes_by_depth=
+[ 1, 15, 435, 19050, 8842, 76, 0 ] orbit_reps_by_next_depth=
+[ 0, 15, 435, 19050, 8842, 76, 0 ]
+Branch minimum_class=2 first_index=23
+Completed branch minimum_class=2 nodes=29395 nodes_by_depth=
+[ 1, 18, 964, 26819, 1593, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 18, 964, 26819, 1593, 0, 0 ]
+Branch minimum_class=3 first_index=100
+Completed branch minimum_class=3 nodes=16628 nodes_by_depth=
+[ 1, 17, 1588, 14549, 473, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 17, 1588, 14549, 473, 0, 0 ]
+Branch minimum_class=4 first_index=276
+Completed branch minimum_class=4 nodes=10285 nodes_by_depth=
+[ 1, 14, 1332, 8785, 153, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 14, 1332, 8785, 153, 0, 0 ]
+Branch minimum_class=5 first_index=452
+Completed branch minimum_class=5 nodes=8440 nodes_by_depth=
+[ 1, 15, 1474, 6950, 0, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 15, 1474, 6950, 0, 0, 0 ]
+Branch minimum_class=6 first_index=683
+Completed branch minimum_class=6 nodes=2416 nodes_by_depth=
+[ 1, 12, 1490, 913, 0, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 12, 1490, 913, 0, 0, 0 ]
+Branch minimum_class=7 first_index=1013
+Completed branch minimum_class=7 nodes=1930 nodes_by_depth=
+[ 1, 8, 1689, 232, 0, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 8, 1689, 232, 0, 0, 0 ]
+Branch minimum_class=8 first_index=1629
+Completed branch minimum_class=8 nodes=739 nodes_by_depth=
+[ 1, 5, 671, 62, 0, 0, 0 ] orbit_reps_by_next_depth=[ 0, 5, 671, 62, 0, 0, 0 ]
+SUCCESS: no weak-GP7 family of maximal subgroups exists in M22.

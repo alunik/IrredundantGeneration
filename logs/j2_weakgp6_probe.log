@@ -1,0 +1,113 @@
+Built J2, order = 604800, degree = 100
+GAP version = 4.15.1
+Mode = exist, target length = 6
+Enumerating elements...
+Element count = 604800 runtime_ms=375
+Building maximal subgroup conjugates and element overgroup signatures...
+Max class 1: 100 conjugates, size 6048, PSU(3,3)
+  cumulative maximals=100 elapsed_ms=691
+Max class 2: 280 conjugates, size 2160, (C3 . A6) : C2
+  cumulative maximals=380 elapsed_ms=1685
+Max class 3: 315 conjugates, size 1920, ((C2 x Q8) : C2) : A5
+  cumulative maximals=695 elapsed_ms=2585
+Max class 4: 525 conjugates, size 
+1152, (((((C2 x C2 x C2 x C2) : C2) : C2) : C3) : C2) : C3
+  cumulative maximals=1220 elapsed_ms=3630
+Max class 5: 840 conjugates, size 720, A5 x A4
+  cumulative maximals=2060 elapsed_ms=4558
+Max class 6: 1008 conjugates, size 600, A5 x D10
+  cumulative maximals=3068 elapsed_ms=5606
+Max class 7: 1800 conjugates, size 336, PSL(3,2) : C2
+  cumulative maximals=4868 elapsed_ms=6575
+Max class 8: 2016 conjugates, size 300, (C5 x C5) : D12
+  cumulative maximals=6884 elapsed_ms=7929
+Max class 9: 10080 conjugates, size 60, A5
+  cumulative maximals=16964 elapsed_ms=9756
+Total maximal subgroups = 16964
+Eligible private-witness elements = 316799
+Distinct overgroup signatures = 106141
+Eligible signature length histogram = 
+[ [ 6, 110880 ], [ 7, 50400 ], [ 8, 75600 ], [ 19, 24192 ], [ 22, 25200 ], 
+  [ 34, 4032 ], [ 36, 6300 ], [ 47, 16800 ], [ 134, 560 ], [ 196, 2520 ], 
+  [ 388, 315 ] ]
+Building signature incidence blists...
+Signature blists runtime_ms=680
+Building conjugation action on maximal subgroups...
+Action degree = 16964 size = 604800 build_ms = 2911
+Branch minimum_class=1 first_index=1
+progress nodes=5000 depth=3 classes=[ 1, 4, 8 ] possible_sizes=[ 3, 3, 48 ]
+progress nodes=10000 depth=4 classes=[ 1, 2, 8, 8 ] possible_sizes=
+[ 1, 1, 1, 1 ]
+progress nodes=15000 depth=4 classes=[ 1, 1, 4, 4 ] possible_sizes=
+[ 1, 1, 1, 1 ]
+Completed branch minimum_class=1 nodes=18241 nodes_by_depth=
+[ 1, 21, 6308, 11869, 42, 0 ] orbit_reps_by_next_depth=
+[ 0, 21, 6308, 11869, 42, 0 ]
+Branch minimum_class=2 first_index=101
+progress nodes=5000 depth=3 classes=[ 2, 8, 8 ] possible_sizes=[ 1, 3, 3 ]
+progress nodes=10000 depth=3 classes=[ 2, 7, 7 ] possible_sizes=[ 1, 3, 3 ]
+progress nodes=15000 depth=4 classes=[ 2, 5, 8, 8 ] possible_sizes=
+[ 1, 1, 1, 1 ]
+progress nodes=20000 depth=3 classes=[ 2, 4, 9 ] possible_sizes=[ 1, 1, 4 ]
+progress nodes=25000 depth=4 classes=[ 2, 3, 4, 6 ] possible_sizes=
+[ 2, 2, 2, 1 ]
+progress nodes=30000 depth=3 classes=[ 2, 2, 7 ] possible_sizes=[ 2, 10, 12 ]
+progress nodes=35000 depth=4 classes=[ 2, 2, 4, 8 ] possible_sizes=
+[ 1, 1, 1, 1 ]
+progress nodes=40000 depth=4 classes=[ 2, 2, 2, 2 ] possible_sizes=
+[ 3, 1, 1, 3 ]
+Completed branch minimum_class=2 nodes=40050 nodes_by_depth=
+[ 1, 37, 21640, 18329, 43, 0 ] orbit_reps_by_next_depth=
+[ 0, 37, 21640, 18329, 43, 0 ]
+Branch minimum_class=3 first_index=381
+progress nodes=5000 depth=3 classes=[ 3, 7, 7 ] possible_sizes=[ 1, 1, 6 ]
+progress nodes=10000 depth=3 classes=[ 3, 6, 7 ] possible_sizes=[ 3, 1, 6 ]
+progress nodes=15000 depth=3 classes=[ 3, 5, 6 ] possible_sizes=[ 1, 15, 3 ]
+progress nodes=20000 depth=3 classes=[ 3, 3, 5 ] possible_sizes=[ 3, 3, 31 ]
+Completed branch minimum_class=3 nodes=23408 nodes_by_depth=
+[ 1, 37, 19530, 3826, 14, 0 ] orbit_reps_by_next_depth=
+[ 0, 37, 19530, 3826, 14, 0 ]
+Branch minimum_class=4 first_index=696
+progress nodes=5000 depth=3 classes=[ 4, 7, 8 ] possible_sizes=[ 4, 1, 4 ]
+progress nodes=10000 depth=3 classes=[ 4, 6, 8 ] possible_sizes=[ 1, 1, 3 ]
+progress nodes=15000 depth=3 classes=[ 4, 5, 8 ] possible_sizes=[ 1, 1, 7 ]
+progress nodes=20000 depth=3 classes=[ 4, 4, 5 ] possible_sizes=[ 10, 1, 7 ]
+Completed branch minimum_class=4 nodes=22745 nodes_by_depth=
+[ 1, 39, 21155, 1550, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 39, 21155, 1550, 0, 0 ]
+Branch minimum_class=5 first_index=1221
+progress nodes=5000 depth=3 classes=[ 5, 8, 8 ] possible_sizes=[ 1, 1, 1 ]
+progress nodes=10000 depth=3 classes=[ 5, 7, 8 ] possible_sizes=[ 1, 1, 1 ]
+progress nodes=15000 depth=3 classes=[ 5, 7, 8 ] possible_sizes=[ 1, 1, 1 ]
+progress nodes=20000 depth=3 classes=[ 5, 6, 9 ] possible_sizes=[ 1, 1, 1 ]
+progress nodes=25000 depth=3 classes=[ 5, 5, 6 ] possible_sizes=[ 1, 1, 3 ]
+progress nodes=30000 depth=3 classes=[ 5, 5, 8 ] possible_sizes=[ 1, 1, 1 ]
+Completed branch minimum_class=5 nodes=31743 nodes_by_depth=
+[ 1, 50, 31181, 511, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 50, 31181, 511, 0, 0 ]
+Branch minimum_class=6 first_index=2061
+progress nodes=5000 depth=3 classes=[ 6, 8, 8 ] possible_sizes=[ 1, 3, 1 ]
+progress nodes=10000 depth=3 classes=[ 6, 7, 7 ] possible_sizes=[ 1, 1, 3 ]
+progress nodes=15000 depth=3 classes=[ 6, 7, 9 ] possible_sizes=[ 1, 1, 1 ]
+progress nodes=20000 depth=3 classes=[ 6, 7, 7 ] possible_sizes=[ 1, 1, 1 ]
+progress nodes=25000 depth=3 classes=[ 6, 6, 8 ] possible_sizes=[ 3, 1, 4 ]
+progress nodes=30000 depth=3 classes=[ 6, 6, 7 ] possible_sizes=[ 1, 1, 1 ]
+Completed branch minimum_class=6 nodes=32888 nodes_by_depth=
+[ 1, 54, 32194, 639, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 54, 32194, 639, 0, 0 ]
+Branch minimum_class=7 first_index=3069
+progress nodes=5000 depth=3 classes=[ 7, 8, 8 ] possible_sizes=[ 4, 1, 1 ]
+progress nodes=10000 depth=3 classes=[ 7, 8, 8 ] possible_sizes=[ 3, 1, 1 ]
+progress nodes=15000 depth=3 classes=[ 7, 7, 7 ] possible_sizes=[ 1, 3, 3 ]
+progress nodes=20000 depth=3 classes=[ 7, 7, 7 ] possible_sizes=[ 3, 6, 1 ]
+Completed branch minimum_class=7 nodes=24967 nodes_by_depth=
+[ 1, 70, 24387, 509, 0, 0 ] orbit_reps_by_next_depth=
+[ 0, 70, 24387, 509, 0, 0 ]
+Branch minimum_class=8 first_index=4869
+progress nodes=5000 depth=3 classes=[ 8, 8, 8 ] possible_sizes=[ 1, 3, 1 ]
+Completed branch minimum_class=8 nodes=8021 nodes_by_depth=
+[ 1, 61, 7845, 114, 0, 0 ] orbit_reps_by_next_depth=[ 0, 61, 7845, 114, 0, 0 ]
+Branch minimum_class=9 first_index=6885
+Completed branch minimum_class=9 nodes=1365 nodes_by_depth=
+[ 1, 190, 1174, 0, 0, 0 ] orbit_reps_by_next_depth=[ 0, 190, 1174, 0, 0, 0 ]
+SUCCESS: no weak-GP6 family exists in J2 for branches [ 1 .. 9 ].

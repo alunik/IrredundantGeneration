@@ -1,0 +1,24 @@
+Using active selected classes inside prebuilt workspace: 
+[ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Framework cached upper-bound run for J3
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 5
+Prebuilt selected maximal classes = [ 1 .. 9 ]
+Active maximal classes = [ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Total prebuilt maximal subgroups = 192358
+Action degree = 192358 size = 50232960
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+FixedPrefixes count = 4
+Using fixed prefix: [ 1, 2 ] classes=[ 1, 1 ]
+Using fixed prefix: [ 1, 13 ] classes=[ 1, 1 ]
+Using fixed prefix: [ 1, 22 ] classes=[ 1, 1 ]
+Using fixed prefix: [ 1, 275 ] classes=[ 1, 1 ]
+RESULT=partial_success
+NODES=772
+NODES_BY_DEPTH=[ 0, 4, 140, 628, 0 ]
+BRANCH_STATS=[ 0, 0, 140, 628, 0 ]
+SUCCESS: framework cached no weak-GP
+5 run completed for J3 with status partial_success.

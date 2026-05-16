@@ -1,0 +1,11 @@
+Built McL from certificate generators, order = 898128000
+Tuple length = 6
+orders = [ 2, 2, 2, 3, 2, 2 ]
+Full generated order = 898128000
+Omitting 1: generated order = 3265920 structure = PSU(4,3)
+Omitting 2: generated order = 3265920 structure = PSU(4,3)
+Omitting 3: generated order = 3265920 structure = PSU(4,3)
+Omitting 4: generated order = 3265920 structure = PSU(4,3)
+Omitting 5: generated order = 5760 structure = (C2 x C2 x C2 x C2) : A6
+Omitting 6: generated order = 20160 structure = PSL(3,4)
+SUCCESS: irredundant generating tuple for McL.

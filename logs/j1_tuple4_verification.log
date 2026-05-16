@@ -1,0 +1,9 @@
+Built J1 from certificate generators, order = 175560
+Tuple length = 4
+orders = [ 2, 2, 2, 2 ]
+Full generated order = 175560
+Omitting 1: generated order = 60 structure = A5
+Omitting 2: generated order = 20 structure = D20
+Omitting 3: generated order = 20 structure = D20
+Omitting 4: generated order = 120 structure = C2 x A5
+SUCCESS: irredundant generating tuple for J1.

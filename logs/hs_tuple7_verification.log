@@ -1,0 +1,12 @@
+Built HS from certificate generators, order = 44352000
+Tuple length = 7
+orders = [ 3, 3, 3, 2, 2, 2, 2 ]
+Full generated order = 44352000
+Omitting 1: generated order = 443520 structure = M22
+Omitting 2: generated order = 443520 structure = M22
+Omitting 3: generated order = 443520 structure = M22
+Omitting 4: generated order = 443520 structure = M22
+Omitting 5: generated order = 443520 structure = M22
+Omitting 6: generated order = 443520 structure = M22
+Omitting 7: generated order = 443520 structure = M22
+SUCCESS: irredundant generating tuple for HS.

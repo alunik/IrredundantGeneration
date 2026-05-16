@@ -1,0 +1,70 @@
+Built M23, order = 10200960
+GAP version = 4.15.1
+Maximal subgroup classes = 7
+1: size=443520 index=23 struct=M22
+2: size=40320 index=253 struct=PSL(3,4) : C2
+3: size=40320 index=253 struct=(C2 x C2 x C2 x C2) : A7
+4: size=20160 index=506 struct=A8
+5: size=7920 index=1288 struct=M11
+6: size=5760 index=1771 struct=(C2 x C2 x C2 x C2) : (A5 : S3)
+7: size=253 index=40320 struct=C23 : C11
+#I  You are calculating `Orbits' with a large set of seeds.
+#I  If you gave a domain and not seeds consider `OrbitsDomain' instead.
+M23 orbits on 7-point subsets = 4 sizes=[ 212520, 28336, 4048, 253 ]
+  7-set orbit representative [ 1, 2, 3, 4, 5, 6, 7 ] full_stabilizer_size=
+1 omit_sizes=[ 1, 1, 1, 1, 1, 1, 1 ] weakGP=false
+  7-set orbit representative [ 1, 2, 3, 4, 5, 6, 15 ] full_stabilizer_size=
+1 omit_sizes=[ 1, 1, 1, 1, 16, 1, 1 ] weakGP=false
+  7-set orbit representative [ 1, 2, 3, 4, 5, 8, 11 ] full_stabilizer_size=
+1 omit_sizes=[ 1, 1, 1, 1, 1, 1, 1 ] weakGP=false
+  7-set orbit representative [ 1, 2, 3, 4, 6, 15, 18 ] full_stabilizer_size=
+16 omit_sizes=[ 16, 16, 16, 16, 16, 16, 16 ] weakGP=false
+No seven M22 point stabilizers are in weak general position.
+Checking non-M22 maximal class 2: size=40320 struct=PSL(3,4) : C2
+  subgroup class representatives = 152
+  checked 25 subgroup classes
+  checked 50 subgroup classes
+  checked 75 subgroup classes
+  checked 100 subgroup classes
+  checked 125 subgroup classes
+  checked 150 subgroup classes
+  no subgroup below class 2 has weak-GP7; hence this maximal has i <= 6.
+Checking non-M22 maximal class 3: size=40320 struct=(C2 x C2 x C2 x C2) : A7
+  subgroup class representatives = 189
+  checked 25 subgroup classes
+  checked 50 subgroup classes
+  checked 75 subgroup classes
+  checked 100 subgroup classes
+  checked 125 subgroup classes
+  checked 150 subgroup classes
+  checked 175 subgroup classes
+  no subgroup below class 3 has weak-GP7; hence this maximal has i <= 6.
+Checking non-M22 maximal class 4: size=20160 struct=A8
+  subgroup class representatives = 137
+  checked 25 subgroup classes
+  checked 50 subgroup classes
+  checked 75 subgroup classes
+  checked 100 subgroup classes
+  checked 125 subgroup classes
+  no subgroup below class 4 has weak-GP7; hence this maximal has i <= 6.
+Checking non-M22 maximal class 5: size=7920 struct=M11
+  subgroup class representatives = 39
+  checked 25 subgroup classes
+  no subgroup below class 5 has weak-GP7; hence this maximal has i <= 6.
+Checking non-M22 maximal class 6: size=
+5760 struct=(C2 x C2 x C2 x C2) : (A5 : S3)
+  subgroup class representatives = 199
+  checked 25 subgroup classes
+  checked 50 subgroup classes
+  checked 75 subgroup classes
+  checked 100 subgroup classes
+  checked 125 subgroup classes
+  checked 150 subgroup classes
+  checked 175 subgroup classes
+  no subgroup below class 6 has weak-GP7; hence this maximal has i <= 6.
+Checking non-M22 maximal class 7: size=253 struct=C23 : C11
+  subgroup class representatives = 4
+  no subgroup below class 7 has weak-GP7; hence this maximal has i <= 6.
+SUCCESS: no seven M22 point stabilizers are in weak general position.
+SUCCESS: non-M22 maximal subgroups have i <= 6.
+Combined with the M22 computation, every proper subgroup of M23 has i <= 6.

@@ -1,0 +1,115 @@
+Built U4(3), order = 3265920, degree = 126
+GAP version = 4.15.1
+Member witness length = 6
+MaxDimSearchNodeLimit = 500000
+Top class 1: size=29160 struct=(C3 x C3 x C3 x C3) : A6
+  subgroup class reps = 302
+  checked 25/302
+  checked 50/302
+  checked 75/302
+  checked 100/302
+  checked 125/302
+  checked 150/302
+  checked 175/302
+  checked 200/302
+  checked 225/302
+  checked 250/302
+  KEEP class 1: subgroup index 264 size=
+324 struct=C3 x ((C3 x C3 x C3) : (C2 x C2)) has weak-GP6 classPattern=
+[ 1, 4, 5, 6, 7, 7 ]
+Top class 2: size=25920 struct=O(5,3)
+  subgroup class reps = 116
+  checked 25/116
+  checked 50/116
+  checked 75/116
+  checked 100/116
+  EXCLUDE class 2: no subgroup class representative has weak-GP6.
+Top class 3: size=25920 struct=O(5,3)
+  subgroup class reps = 116
+  checked 25/116
+  checked 50/116
+  checked 75/116
+  checked 100/116
+  EXCLUDE class 3: no subgroup class representative has weak-GP6.
+Top class 4: size=20160 struct=PSL(3,4)
+  subgroup class reps = 95
+  checked 25/95
+  checked 50/95
+  checked 75/95
+  EXCLUDE class 4: no subgroup class representative has weak-GP6.
+Top class 5: size=20160 struct=PSL(3,4)
+  subgroup class reps = 95
+  checked 25/95
+  checked 50/95
+  checked 75/95
+  EXCLUDE class 5: no subgroup class representative has weak-GP6.
+Top class 6: size=
+11664 struct=((C3 x ((C3 x C3) : C3)) : C3) : (C2 . S4 = SL(2,3) . C2)
+  subgroup class reps = 199
+  checked 25/199
+  checked 50/199
+  checked 75/199
+  checked 100/199
+  checked 125/199
+  checked 150/199
+  checked 175/199
+  EXCLUDE class 6: no subgroup class representative has weak-GP6.
+Top class 7: size=6048 struct=PSU(3,3)
+  subgroup class reps = 36
+  checked 25/36
+  EXCLUDE class 7: no subgroup class representative has weak-GP6.
+Top class 8: size=5760 struct=(C2 x C2 x C2 x C2) : A6
+  subgroup class reps = 139
+  checked 25/139
+  checked 50/139
+  checked 75/139
+  checked 100/139
+  checked 125/139
+  EXCLUDE class 8: no subgroup class representative has weak-GP6.
+Top class 9: size=5760 struct=(C2 x C2 x C2 x C2) : A6
+  subgroup class reps = 139
+  checked 25/139
+  checked 50/139
+  checked 75/139
+  checked 100/139
+  checked 125/139
+  EXCLUDE class 9: no subgroup class representative has weak-GP6.
+Top class 10: size=2520 struct=A7
+  subgroup class reps = 40
+  checked 25/40
+  EXCLUDE class 10: no subgroup class representative has weak-GP6.
+Top class 11: size=2520 struct=A7
+  subgroup class reps = 40
+  checked 25/40
+  EXCLUDE class 11: no subgroup class representative has weak-GP6.
+Top class 12: size=2520 struct=A7
+  subgroup class reps = 40
+  checked 25/40
+  EXCLUDE class 12: no subgroup class representative has weak-GP6.
+Top class 13: size=2520 struct=A7
+  subgroup class reps = 40
+  checked 25/40
+  EXCLUDE class 13: no subgroup class representative has weak-GP6.
+Top class 14: size=
+1152
+  struct=(C2 . ((A4 x A4) : C2) = (((C2 x C2 x C2) : (C2 x C2)) : (C3 x C3)) .\
+ C2) : C2
+  subgroup class reps = 163
+  checked 25/163
+  checked 50/163
+  checked 75/163
+  checked 100/163
+  checked 125/163
+  checked 150/163
+  EXCLUDE class 14: no subgroup class representative has weak-GP6.
+Top class 15: size=720 struct=A6 . C2
+  subgroup class reps = 25
+  checked 25/25
+  EXCLUDE class 15: no subgroup class representative has weak-GP6.
+Top class 16: size=720 struct=A6 . C2
+  subgroup class reps = 25
+  checked 25/25
+  EXCLUDE class 16: no subgroup class representative has weak-GP6.
+SURVIVORS=[ 1 ]
+EXCLUDED=[ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
+SUCCESS: member-i filter complete for U4(3).

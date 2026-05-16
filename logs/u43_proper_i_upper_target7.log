@@ -1,0 +1,132 @@
+Built U4(3), order = 3265920, degree = 126
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 7
+Subgroup index range = [1, infinity]
+UseKnownSubgroupShortcuts = true
+Maximal subgroup classes = 16
+1: size=29160 index=112 struct=(C3 x C3 x C3 x C3) : A6
+2: size=25920 index=126 struct=O(5,3)
+3: size=25920 index=126 struct=O(5,3)
+4: size=20160 index=162 struct=PSL(3,4)
+5: size=20160 index=162 struct=PSL(3,4)
+6: size=11664 index=
+280 struct=((C3 x ((C3 x C3) : C3)) : C3) : (C2 . S4 = SL(2,3) . C2)
+7: size=6048 index=540 struct=PSU(3,3)
+8: size=5760 index=567 struct=(C2 x C2 x C2 x C2) : A6
+9: size=5760 index=567 struct=(C2 x C2 x C2 x C2) : A6
+10: size=2520 index=1296 struct=A7
+11: size=2520 index=1296 struct=A7
+12: size=2520 index=1296 struct=A7
+13: size=2520 index=1296 struct=A7
+14: size=1152 index=
+2835
+  struct=(C2 . ((A4 x A4) : C2) = (((C2 x C2 x C2) : (C2 x C2)) : (C3 x C3)) .\
+ C2) : C2
+15: size=720 index=4536 struct=A6 . C2
+16: size=720 index=4536 struct=A6 . C2
+Selected top maximal classes = [ 1 .. 16 ]
+Checking top maximal class 1: size=29160 struct=(C3 x C3 x C3 x C3) : A6
+  subgroup class representatives = 302 enumeration_ms=813
+  checked=1 top_class=1 local_index=1 size=1 struct=1
+  checked=25 top_class=1 local_index=25 size=6 struct=S3
+  checked=50 top_class=1 local_index=50 size=9 struct=C3 x C3
+  checked=75 top_class=1 local_index=75 size=18 struct=(C3 x C3) : C2
+  checked=100 top_class=1 local_index=100 size=27 struct=C3 x C3 x C3
+  checked=125 top_class=1 local_index=125 size=27 struct=(C3 x C3) : C3
+  checked=150 top_class=1 local_index=150 size=36 struct=(C3 x C3) : C4
+  checked=175 top_class=1 local_index=175 size=54 struct=C3 x ((C3 x C3) : C2)
+  checked=200 top_class=1 local_index=200 size=72 struct=(S3 x S3) : C2
+  checked=225 top_class=1 local_index=225 size=
+108 struct=(C3 x C3 x C3) : (C2 x C2)
+  checked=250 top_class=1 local_index=250 size=
+162 struct=(C3 x ((C3 x C3) : C3)) : C2
+  checked=275 top_class=1 local_index=275 size=360 struct=A6
+  checked=300 top_class=1 local_index=300 size=
+4860 struct=(C3 x C3 x C3 x C3) : A5
+Checking top maximal class 2: size=25920 struct=O(5,3)
+  subgroup class representatives = 116 enumeration_ms=184
+  checked=325 top_class=2 local_index=23 size=8 struct=C2 x C2 x C2
+  checked=350 top_class=2 local_index=48 size=18 struct=(C3 x C3) : C2
+  checked=375 top_class=2 local_index=73 size=36 struct=S3 x S3
+  checked=400 top_class=2 local_index=98 size=108 struct=C3 x S3 x S3
+Checking top maximal class 3: size=25920 struct=O(5,3)
+  subgroup class representatives = 116 enumeration_ms=107
+  checked=425 top_class=3 local_index=7 size=4 struct=C4
+  checked=450 top_class=3 local_index=32 size=9 struct=C3 x C3
+  checked=475 top_class=3 local_index=57 size=24 struct=C2 x A4
+  checked=500 top_class=3 local_index=82 size=54 struct=((C3 x C3) : C3) : C2
+  checked=525 top_class=3 local_index=107 size=216 struct=(C3 x C3 x C3) : D8
+Checking top maximal class 4: size=20160 struct=PSL(3,4)
+    shortcut: previous M24 class-6 computation excludes weak-GP
+7 in all subgroups of PSL(3,4).
+  shortcut: top maximal class 4 has certified no weak-GP7 in all subgroups.
+Checking top maximal class 5: size=20160 struct=PSL(3,4)
+    shortcut: previous M24 class-6 computation excludes weak-GP
+7 in all subgroups of PSL(3,4).
+  shortcut: top maximal class 5 has certified no weak-GP7 in all subgroups.
+Checking top maximal class 6: size=
+11664 struct=((C3 x ((C3 x C3) : C3)) : C3) : (C2 . S4 = SL(2,3) . C2)
+  subgroup class representatives = 199 enumeration_ms=252
+  checked=550 top_class=6 local_index=16 size=6 struct=S3
+  checked=575 top_class=6 local_index=41 size=12 struct=C3 : C4
+  checked=600 top_class=6 local_index=66 size=27 struct=C9 : C3
+  checked=625 top_class=6 local_index=91 size=27 struct=C3 x C3 x C3
+  checked=650 top_class=6 local_index=116 size=54 struct=C3 x ((C3 x C3) : C2)
+  checked=675 top_class=6 local_index=141 size=81 struct=(C3 x C3 x C3) : C3
+  checked=700 top_class=6 local_index=166 size=
+162 struct=((C3 x C3 x C3) : C3) : C2
+  checked=725 top_class=6 local_index=191 size=
+972 struct=((C3 x ((C3 x C3) : C3)) : C3) : C4
+Checking top maximal class 7: size=6048 struct=PSU(3,3)
+  subgroup class representatives = 36 enumeration_ms=48
+  checked=750 top_class=7 local_index=17 size=12 struct=C12
+Checking top maximal class 8: size=5760 struct=(C2 x C2 x C2 x C2) : A6
+  subgroup class representatives = 139 enumeration_ms=336
+  checked=775 top_class=8 local_index=6 size=4 struct=C2 x C2
+  checked=800 top_class=8 local_index=31 size=8 struct=C8
+  checked=825 top_class=8 local_index=56 size=16 struct=C2 x D8
+  checked=850 top_class=8 local_index=81 size=24 struct=S4
+  checked=875 top_class=8 local_index=106 size=60 struct=A5
+  checked=900 top_class=8 local_index=131 size=288 struct=(A4 x A4) : C2
+Checking top maximal class 9: size=5760 struct=(C2 x C2 x C2 x C2) : A6
+  subgroup class representatives = 139 enumeration_ms=347
+  checked=925 top_class=9 local_index=17 size=5 struct=C5
+  checked=950 top_class=9 local_index=42 size=12 struct=C6 x C2
+  checked=975 top_class=9 local_index=67 size=16 struct=QD16
+  checked=1000 top_class=9 local_index=92 size=32 struct=(C2 x Q8) : C2
+  checked=1025 top_class=9 local_index=117 size=72 struct=(C3 x A4) : C2
+Checking top maximal class 10: size=2520 struct=A7
+  subgroup class representatives = 40 enumeration_ms=23
+  checked=1050 top_class=10 local_index=3 size=3 struct=C3
+  checked=1075 top_class=10 local_index=28 size=24 struct=S4
+Checking top maximal class 11: size=2520 struct=A7
+  subgroup class representatives = 40 enumeration_ms=25
+  checked=1100 top_class=11 local_index=13 size=8 struct=D8
+  checked=1125 top_class=11 local_index=38 size=168 struct=PSL(3,2)
+Checking top maximal class 12: size=2520 struct=A7
+  subgroup class representatives = 40 enumeration_ms=21
+  checked=1150 top_class=12 local_index=23 size=18 struct=(C3 x C3) : C2
+Checking top maximal class 13: size=2520 struct=A7
+  subgroup class representatives = 40 enumeration_ms=20
+  checked=1175 top_class=13 local_index=8 size=5 struct=C5
+  checked=1200 top_class=13 local_index=33 size=60 struct=A5
+Checking top maximal class 14: size=
+1152
+  struct=(C2 . ((A4 x A4) : C2) = (((C2 x C2 x C2) : (C2 x C2)) : (C3 x C3)) .\
+ C2) : C2
+  subgroup class representatives = 163 enumeration_ms=225
+  checked=1225 top_class=14 local_index=18 size=4 struct=C2 x C2
+  checked=1250 top_class=14 local_index=43 size=8 struct=C4 x C2
+  checked=1275 top_class=14 local_index=68 size=16 struct=C8 : C2
+  checked=1300 top_class=14 local_index=93 size=24 struct=S4
+  checked=1325 top_class=14 local_index=118 size=36 struct=C6 x S3
+  checked=1350 top_class=14 local_index=143 size=96 struct=SL(2,3) : C4
+Checking top maximal class 15: size=720 struct=A6 . C2
+  subgroup class representatives = 25 enumeration_ms=35
+  checked=1375 top_class=15 local_index=5 size=4 struct=C4
+Checking top maximal class 16: size=720 struct=A6 . C2
+  subgroup class representatives = 25 enumeration_ms=30
+  checked=1400 top_class=16 local_index=5 size=4 struct=C4
+Checked subgroup-class representatives = 1420
+SUCCESS: no proper subgroup of U4(3) has weak-GP
+7; hence every proper subgroup has i <= 6.

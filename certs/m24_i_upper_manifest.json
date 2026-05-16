@@ -1,0 +1,84 @@
+{
+  "group": "M24",
+  "target_no_weak_gp": 8,
+  "maximal_class_count": 9,
+  "classes": [
+    {
+      "class": 1,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M23",
+        "i_upper": 6,
+        "dependency": [
+          "certs/m23_tuple6.json",
+          "logs/m23_no_gp7_signature_branch1.log",
+          "logs/m23_no_gp7_signature_branches2_7.log",
+          "logs/m23_proper_i_upper.log"
+        ]
+      }
+    },
+    {
+      "class": 2,
+      "subgroup_count": 490,
+      "logs": [
+        { "path": "logs/m24_i_upper_class2_target8_full_direct_create.log", "start": 1, "stop": 490 }
+      ]
+    },
+    {
+      "class": 3,
+      "subgroup_count": 1766,
+      "logs": [
+        { "path": "logs/m24_i_upper_class3_target8_range1_500_current.log", "start": 1, "stop": 500 },
+        { "path": "logs/m24_i_upper_class3_target8_range501_1000_current.log", "start": 501, "stop": 1000 },
+        { "path": "logs/m24_i_upper_class3_target8_range1001_1499_current.log", "start": 1001, "stop": 1499 },
+        { "path": "logs/m24_i_upper_class3_target8_range1500_1766_create.log", "start": 1500, "stop": 1766 }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 213,
+      "logs": [
+        { "path": "logs/m24_nonexception_class4_target7_current_clean.log", "start": 1, "stop": 213, "target": 7 }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 2261,
+      "logs": [
+        { "path": "logs/m24_i_upper_class5_target8_range1_500_current.log", "start": 1, "stop": 500 },
+        { "path": "logs/m24_i_upper_class5_target8_range501_1000_current.log", "start": 501, "stop": 1000 },
+        { "path": "logs/m24_i_upper_class5_target8_range1001_1500_current.log", "start": 1001, "stop": 1500 },
+        { "path": "logs/m24_i_upper_class5_target8_range1501_1999_current.log", "start": 1501, "stop": 1999 },
+        { "path": "logs/m24_i_upper_class5_target8_range2000_2261_create.log", "start": 2000, "stop": 2261 }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 226,
+      "logs": [
+        { "path": "logs/m24_nonexception_class6_target7_create.log", "start": 1, "stop": 226, "target": 7 }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 2156,
+      "logs": [
+        { "path": "logs/m24_i_upper_class7_target8_create.log", "start": 1, "stop": 2156 }
+      ]
+    },
+    {
+      "class": 8,
+      "subgroup_count": 23,
+      "logs": [
+        { "path": "logs/m24_i_upper_classes8_9.log", "start": 1, "stop": 23 }
+      ]
+    },
+    {
+      "class": 9,
+      "subgroup_count": 15,
+      "logs": [
+        { "path": "logs/m24_i_upper_classes8_9.log", "start": 1, "stop": 15 }
+      ]
+    }
+  ]
+}

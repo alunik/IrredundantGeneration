@@ -1,0 +1,49 @@
+{
+  "group": "M24",
+  "target_no_weak_gp": 7,
+  "expected_classes": [1, 4, 6, 8, 9],
+  "classes": [
+    {
+      "class": 1,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M23",
+        "i_upper": 6,
+        "dependency": [
+          "certs/m23_tuple6.json",
+          "logs/m23_no_gp7_signature_branch1.log",
+          "logs/m23_no_gp7_signature_branches2_7.log",
+          "logs/m23_proper_i_upper.log"
+        ]
+      }
+    },
+    {
+      "class": 4,
+      "subgroup_count": 213,
+      "logs": [
+        { "path": "logs/m24_nonexception_class4_target7_current_clean.log", "start": 1, "stop": 213, "target": 7 }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 226,
+      "logs": [
+        { "path": "logs/m24_nonexception_class6_target7_create.log", "start": 1, "stop": 226, "target": 7 }
+      ]
+    },
+    {
+      "class": 8,
+      "subgroup_count": 23,
+      "logs": [
+        { "path": "logs/m24_nonexception_classes8_9_target7.log", "start": 1, "stop": 23, "target": 7 }
+      ]
+    },
+    {
+      "class": 9,
+      "subgroup_count": 15,
+      "logs": [
+        { "path": "logs/m24_nonexception_classes8_9_target7.log", "start": 1, "stop": 15, "target": 7 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+
+█████████████████████████████████
+█████████████████████████████████
+████ ▄▄▄▄▄ █▀▄▀▄█ ▀▀██ ▄▄▄▄▄ ████
+████ █   █ █▀▄▀▀▀▀▀▀▀█ █   █ ████
+████ █▄▄▄█ █▀ █▄█ █▀ █ █▄▄▄█ ████
+████▄▄▄▄▄▄▄█▄▀ ▀▄█ ▀ █▄▄▄▄▄▄▄████
+████▄▄▄ ▄█▄  ██  ▄▄▄▀▄█ █▄█ █████
+████▀▄▀▀█▀▄██▀ ▀▀▄▀▄▀ ███▄█▄ ████
+████▀▄▄▀█▄▄▀█▄█ ▄ ▄██ ▄ ▄▀▄ ▄████
+████ █  ▄█▄▄▄█▄███▄ ▀█▄  ▄█▄ ████
+████▄█▄█▄█▄█ ▄▀▀█ █▀ ▄▄▄ ▀▄██████
+████ ▄▄▄▄▄ █▄█▄▀▄▄▄█ █▄█ ▀▄▄ ████
+████ █   █ █ █▄  ▄▄▄▄  ▄ ▀ █▄████
+████ █▄▄▄█ █  ▀▀▀█▀ ▀ ▀▀▀ ▄█ ████
+████▄▄▄▄▄▄▄█▄▄▄█▄▄▄███▄▄▄▄▄▄▄████
+█████████████████████████████████
+█████████████████████████████████
+
+You may need to authenticate your SSH access by visiting the e-Research Portal:
+
+https://portal.er.kcl.ac.uk/mfa/
+srun: job 33815545 queued and waiting for resources
+srun: job 33815545 has been allocated resources
+Built M24, order = 244823040
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 8
+Selected top maximal classes = [ 7 ]
+Subgroup index range = [1, infinity]
+M24 maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (S3 x PSL(3,2))
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Checking M24 maximal class 7: size=
+64512 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (S3 x PSL(3,2)) target_no_weakGP=
+8
+  subgroup class representatives = 2156 enumeration_ms=20206
+  checking local_subgroup_index=1 checked_in_range=1 size=1 struct=1
+  checking local_subgroup_index=50 checked_in_range=50 size=4 struct=C2 x C2
+  checking local_subgroup_index=100 checked_in_range=100 size=
+8 struct=C2 x C2 x C2
+  checking local_subgroup_index=150 checked_in_range=150 size=8 struct=C4 x C2
+  checking local_subgroup_index=200 checked_in_range=200 size=8 struct=D8
+  checking local_subgroup_index=250 checked_in_range=250 size=12 struct=D12
+  checking local_subgroup_index=300 checked_in_range=300 size=
+16 struct=C2 x C2 x C2 x C2
+  checking local_subgroup_index=350 checked_in_range=350 size=
+16 struct=(C4 x C2) : C2
+  checking local_subgroup_index=400 checked_in_range=400 size=
+16 struct=(C4 x C2) : C2
+  checking local_subgroup_index=450 checked_in_range=450 size=
+16 struct=(C4 x C2) : C2
+  checking local_subgroup_index=500 checked_in_range=500 size=
+16 struct=(C4 x C2) : C2
+  checking local_subgroup_index=550 checked_in_range=550 size=
+16 struct=C4 x C4
+  checking local_subgroup_index=600 checked_in_range=600 size=
+16 struct=C2 x D8
+  checking local_subgroup_index=650 checked_in_range=650 size=
+24 struct=(C6 x C2) : C2
+  checking local_subgroup_index=700 checked_in_range=700 size=
+32 struct=(C2 x C2 x C2) : (C2 x C2)
+  checking local_subgroup_index=750 checked_in_range=750 size=
+32 struct=(C2 x C2 x C2 x C2) : C2
+  checking local_subgroup_index=800 checked_in_range=800 size=
+32 struct=(C2 x C2 x C2) : C4
+  checking local_subgroup_index=850 checked_in_range=850 size=
+32 struct=(C4 x C2 x C2) : C2
+  checking local_subgroup_index=900 checked_in_range=900 size=
+32 struct=(C2 x C2 x C2) : C4
+  checking local_subgroup_index=950 checked_in_range=950 size=
+32 struct=(C4 x C2 x C2) : C2
+  checking local_subgroup_index=1000 checked_in_range=1000 size=
+32 struct=C4 x D8
+  checking local_subgroup_index=1050 checked_in_range=1050 size=
+32 struct=C2 x ((C4 x C2) : C2)
+  checking local_subgroup_index=1100 checked_in_range=1100 size=
+32 struct=(C4 x C2 x C2) : C2
+  checking local_subgroup_index=1150 checked_in_range=1150 size=
+48 struct=(C2 x C2 x C2 x C2) : C3
+  checking local_subgroup_index=1200 checked_in_range=1200 size=
+48 struct=C2 x SL(2,3)
+  checking local_subgroup_index=1250 checked_in_range=1250 size=
+64 struct=(C2 x ((C4 x C2) : C2)) : C2
+  checking local_subgroup_index=1300 checked_in_range=1300 size=
+64 struct=C2 x ((C2 x C2 x C2) : C4)
+  checking local_subgroup_index=1350 checked_in_range=1350 size=
+64 struct=C2 x ((C2 x C2 x C2) : (C2 x C2))
+  checking local_subgroup_index=1400 checked_in_range=1400 size=
+64 struct=((C2 x C2 x C2 x C2) : C2) : C2
+  checking local_subgroup_index=1450 checked_in_range=1450 size=
+64 struct=((C2 x C2 x C2) : C4) : C2
+  checking local_subgroup_index=1500 checked_in_range=1500 size=
+64 struct=((C2 x C2 x C2) : (C2 x C2)) : C2
+  checking local_subgroup_index=1550 checked_in_range=1550 size=
+64 struct=((C2 x C2 x C2) : (C2 x C2)) : C2
+  checking local_subgroup_index=1600 checked_in_range=1600 size=
+96 struct=((C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=1650 checked_in_range=1650 size=
+96 struct=C4 x S4
+  checking local_subgroup_index=1700 checked_in_range=1700 size=
+128 struct=(C2 x ((C2 x C2 x C2) : C4)) : C2
+  checking local_subgroup_index=1750 checked_in_range=1750 size=
+128 struct=(((C2 x C2 x C2 x C2) : C2) : C2) : C2
+  checking local_subgroup_index=1800 checked_in_range=1800 size=
+128 struct=(C2 x ((C2 x C2 x C2) : C4)) : C2
+  checking local_subgroup_index=1850 checked_in_range=1850 size=
+128 struct=(((C2 x C2 x C2) : (C2 x C2)) : C2) : C2
+  checking local_subgroup_index=1900 checked_in_range=1900 size=
+192 struct=(((C2 x C2 x C2 x C2) : C3) : C2) : C2
+  checking local_subgroup_index=1950 checked_in_range=1950 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2000 checked_in_range=2000 size=
+336 struct=C2 x PSL(3,2)
+    completed local_subgroup_index=2009 elapsed_ms=1141
+  checking local_subgroup_index=2050 checked_in_range=2050 size=
+384 struct=((((C4 x C4) : C2) : C2) : C3) : C2
+    completed local_subgroup_index=2075 elapsed_ms=4326
+    completed local_subgroup_index=2096 elapsed_ms=1226
+  checking local_subgroup_index=2100 checked_in_range=2100 size=
+1024 struct=((((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C2) : C2
+    completed local_subgroup_index=2114 elapsed_ms=1018
+  checking local_subgroup_index=2150 checked_in_range=2150 size=
+8064 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x (C7 : C3))) : C2
+    completed local_subgroup_index=2153 elapsed_ms=2048
+    completed local_subgroup_index=2156 elapsed_ms=2449
+  completed M24 maximal class 7 checked=2156 requested_range=[1, 
+2156] no weak-GP8 found.
+SUCCESS: selected M24 maximal classes have no subgroup with weak-GP
+8 in the checked ranges.
+When run for all classes 2..9 with TargetProperUpper=8, this proves every prop\
+er subgroup of M24 has i <= 7, using the previous M23 verification for class 1\
+.
+When run for non-exceptional classes 4,6,7,8,9 with TargetProperUpper=7, this \
+excludes those classes from a hypothetical weak-GP8 family of maximal subgroup\
+s of M24.

@@ -1,0 +1,55 @@
+Built J1, order = 175560, degree = 266
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 5
+Strong-flat probe exclusion length = 4
+Maximal subgroup classes = 7
+1: size=660 index=266 struct=PSL(2,11)
+2: size=168 index=1045 struct=(C2 x C2 x C2) : (C7 : C3)
+3: size=120 index=1463 struct=C2 x A5
+4: size=114 index=1540 struct=C19 : C6
+5: size=110 index=1596 struct=C11 : C10
+6: size=60 index=2926 struct=S3 x D10
+7: size=42 index=4180 struct=C7 : C6
+Checking top maximal class 1: size=660 struct=PSL(2,11)
+  subgroup class representatives = 16 enumeration_ms=35
+  checked=1 top_class=1 local_index=1 size=1 struct=1
+  checked=10 top_class=1 local_index=10 size=11 struct=C11
+  strong-flat obstruction: weak-GP4 in size=660 struct=PSL(2,11) classPattern=
+[ 1, 2, 2, 2 ]
+Checking top maximal class 2: size=168 struct=(C2 x C2 x C2) : (C7 : C3)
+  subgroup class representatives = 12 enumeration_ms=14
+  checked=20 top_class=2 local_index=4 size=4 struct=C2 x C2
+Checking top maximal class 3: size=120 struct=C2 x A5
+  subgroup class representatives = 22 enumeration_ms=60
+  checked=30 top_class=3 local_index=2 size=2 struct=C2
+  checked=40 top_class=3 local_index=12 size=6 struct=S3
+  checked=50 top_class=3 local_index=22 size=120 struct=C2 x A5
+  strong-flat obstruction: weak-GP4 in size=120 struct=C2 x A5 classPattern=
+[ 1, 2, 2, 3 ]
+Checking top maximal class 4: size=114 struct=C19 : C6
+  subgroup class representatives = 8 enumeration_ms=8
+Checking top maximal class 5: size=110 struct=C11 : C10
+  subgroup class representatives = 8 enumeration_ms=6
+  checked=60 top_class=5 local_index=2 size=2 struct=C2
+Checking top maximal class 6: size=60 struct=S3 x D10
+  subgroup class representatives = 20 enumeration_ms=14
+  checked=70 top_class=6 local_index=4 size=2 struct=C2
+  checked=80 top_class=6 local_index=14 size=12 struct=D12
+  strong-flat obstruction: weak-GP4 in size=60 struct=S3 x D10 classPattern=
+[ 1, 2, 4, 5 ]
+Checking top maximal class 7: size=42 struct=C7 : C6
+  subgroup class representatives = 8 enumeration_ms=6
+  checked=90 top_class=7 local_index=4 size=6 struct=C6
+Checked subgroup-class representatives = 94
+SUCCESS: no proper subgroup of J1 has weak-GP
+5; hence every proper subgroup has i <= 4.
+Proper subgroup weak-GP4 witnesses found: 3
+rec(
+  classPattern := [ 1, 2, 2, 2 ],
+  family := [ 1, 12, 15, 22 ],
+  localIndex := 16,
+  maximalCount := 89,
+  signatureCount := 176,
+  size := 660,
+  structure := "PSL(2,11)",
+  topClass := 1 )

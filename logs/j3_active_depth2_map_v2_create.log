@@ -1,0 +1,56 @@
+Using active selected classes inside prebuilt workspace: 
+[ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Built J3, order = 50232960, degree = 6156
+GAP version = 4.15.1
+Target weak-GP length = 5
+UsePrebuiltActionData = true
+UseCanonicalIndexOrder = false
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseOmegaPrune = true
+UseDeadSetCache = true min_depth=3
+Selected maximal classes = [ 1, 2, 3, 4, 6, 7, 8, 9 ]
+Total selected maximal subgroups = 192358
+Using prebuilt conjugation action: degree = 192358 size = 50232960
+Verified selected maximal class representatives are self-normalizing for moved\
+-point filtering.
+Branch minimum_selected_rank=1 class=1 first_index=1
+Next orbit representatives for firstRank=1: 
+[ 2, 13, 22, 275, 6230, 20890, 35539, 35592, 35709, 73497, 73519, 73542, 
+  73604, 74011, 122591, 122664, 122678, 122716, 148787, 150072, 150086 ]
+Next classes: [ 1, 1, 1, 1, 2, 3, 4, 4, 4, 6, 6, 6, 6, 6, 8, 8, 8, 8, 9, 9, 9 
+ ]
+Branch minimum_selected_rank=2 class=2 first_index=6157
+Next orbit representatives for firstRank=2: 
+[ 6269, 20845, 20852, 20915, 21284, 21336, 35539, 35594, 36320, 73545, 96814, 
+  122660, 149047, 149161 ]
+Next classes: [ 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 7, 8, 9, 9 ]
+Branch minimum_selected_rank=3 class=3 first_index=20845
+Next orbit representatives for firstRank=3: 
+[ 21175, 35615, 35689, 37239, 73580, 96804, 122709, 148989, 148999 ]
+Next classes: [ 3, 4, 4, 4, 6, 7, 8, 9, 9 ]
+Branch minimum_selected_rank=4 class=4 first_index=35533
+Next orbit representatives for firstRank=4: 
+[ 35534, 35623, 37926, 41801, 52948, 73499, 73550, 73837, 75795, 96789, 
+  122662, 122724, 123457, 126029, 148791, 148913, 149067, 151493, 152918, 
+  152920 ]
+Next classes: [ 4, 4, 4, 4, 4, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9 ]
+Branch minimum_selected_rank=5 class=6 first_index=73495
+Next orbit representatives for firstRank=5: 
+[ 73496, 74226, 74403, 96763, 98115, 122619, 122734, 122746, 122781, 148921, 
+  149698, 149726, 149731 ]
+Next classes: [ 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9 ]
+Branch minimum_selected_rank=6 class=7 first_index=96751
+Next orbit representatives for firstRank=6: [ 96755, 96794, 101780, 122674, 
+  148893, 149251, 150496 ]
+Next classes: [ 7, 7, 7, 8, 9, 9, 9 ]
+Branch minimum_selected_rank=7 class=8 first_index=122591
+Next orbit representatives for firstRank=7: [ 122592, 123030, 125147, 148874, 
+  149352, 149649, 150446 ]
+Next classes: [ 8, 8, 8, 9, 9, 9, 9 ]
+Branch minimum_selected_rank=8 class=9 first_index=148754
+Next orbit representatives for firstRank=8: [ 148760, 149214, 149379, 149895, 
+  151443, 164329 ]
+Next classes: [ 9, 9, 9, 9, 9, 9 ]
+LISTING_COMPLETE: depth-2 representatives listed for J3. This is not an upper-\
+bound certificate.

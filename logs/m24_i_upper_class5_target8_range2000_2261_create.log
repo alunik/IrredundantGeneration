@@ -1,0 +1,595 @@
+
+█████████████████████████████████
+█████████████████████████████████
+████ ▄▄▄▄▄ █▀▄▀▄█ ▀▀██ ▄▄▄▄▄ ████
+████ █   █ █▀▄▀▀▀▀▀▀▀█ █   █ ████
+████ █▄▄▄█ █▀ █▄█ █▀ █ █▄▄▄█ ████
+████▄▄▄▄▄▄▄█▄▀ ▀▄█ ▀ █▄▄▄▄▄▄▄████
+████▄▄▄ ▄█▄  ██  ▄▄▄▀▄█ █▄█ █████
+████▀▄▀▀█▀▄██▀ ▀▀▄▀▄▀ ███▄█▄ ████
+████▀▄▄▀█▄▄▀█▄█ ▄ ▄██ ▄ ▄▀▄ ▄████
+████ █  ▄█▄▄▄█▄███▄ ▀█▄  ▄█▄ ████
+████▄█▄█▄█▄█ ▄▀▀█ █▀ ▄▄▄ ▀▄██████
+████ ▄▄▄▄▄ █▄█▄▀▄▄▄█ █▄█ ▀▄▄ ████
+████ █   █ █ █▄  ▄▄▄▄  ▄ ▀ █▄████
+████ █▄▄▄█ █  ▀▀▀█▀ ▀ ▀▀▀ ▄█ ████
+████▄▄▄▄▄▄▄█▄▄▄█▄▄▄███▄▄▄▄▄▄▄████
+█████████████████████████████████
+█████████████████████████████████
+
+You may need to authenticate your SSH access by visiting the e-Research Portal:
+
+https://portal.er.kcl.ac.uk/mfa/
+srun: job 33815531 queued and waiting for resources
+srun: job 33815531 has been allocated resources
+Built M24, order = 244823040
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 8
+Selected top maximal classes = [ 5 ]
+Subgroup index range = [2000, 2261]
+M24 maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Checking M24 maximal class 5: size=
+138240
+  struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2) target_no_weakGP=8
+  subgroup class representatives = 2261 enumeration_ms=12236
+  checking local_subgroup_index=2000 checked_in_range=1 size=
+256 struct=((((C4 x C2 x C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2001 checked_in_range=2 size=
+256 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2
+  checking local_subgroup_index=2002 checked_in_range=3 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2003 checked_in_range=4 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2004 checked_in_range=5 size=
+256 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2005 checked_in_range=6 size=
+256 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2006 checked_in_range=7 size=
+256 struct=((C2 x C2 x ((C4 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2007 checked_in_range=8 size=
+256 struct=((C2 x C2 x ((C4 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2008 checked_in_range=9 size=
+256 struct=(((C2 x (C8 : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2009 checked_in_range=10 size=
+256 struct=((((C8 x C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2010 checked_in_range=11 size=
+256 struct=((C2 x C2 x ((C4 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2011 checked_in_range=12 size=
+256 struct=((C2 x ((C8 : C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2012 checked_in_range=13 size=
+256 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2013 checked_in_range=14 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2014 checked_in_range=15 size=
+256 struct=(C2 x ((C2 x C2 x C2) : C4)) : C4
+  checking local_subgroup_index=2015 checked_in_range=16 size=
+256 struct=(C2 x ((C2 x C2 x C2) : C4)) : C4
+  checking local_subgroup_index=2016 checked_in_range=17 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2017 checked_in_range=18 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2018 checked_in_range=19 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2019 checked_in_range=20 size=
+256 struct=((D8 x D8) : C2) : C2
+  checking local_subgroup_index=2020 checked_in_range=21 size=
+256 struct=((C2 x C2 x ((C4 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2021 checked_in_range=22 size=
+256 struct=((((C8 x C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2022 checked_in_range=23 size=
+256 struct=(C2 x ((C2 x C2 x C2) : C4)) : C4
+  checking local_subgroup_index=2023 checked_in_range=24 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2024 checked_in_range=25 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2025 checked_in_range=26 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2026 checked_in_range=27 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2027 checked_in_range=28 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2028 checked_in_range=29 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2029 checked_in_range=30 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2030 checked_in_range=31 size=
+256 struct=(C2 x (((C2 x C2 x C2 x C2) : C2) : C2)) : C2
+  checking local_subgroup_index=2031 checked_in_range=32 size=
+256 struct=(((C8 x C2) : C2) : C2) : C4
+  checking local_subgroup_index=2032 checked_in_range=33 size=
+256 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2033 checked_in_range=34 size=
+256 struct=((C2 x C2 x ((C4 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2034 checked_in_range=35 size=
+256 struct=(((C8 : (C2 x C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2035 checked_in_range=36 size=
+256 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2036 checked_in_range=37 size=
+256 struct=(((C4 x C2 x C2) : C4) : C2) : C2
+  checking local_subgroup_index=2037 checked_in_range=38 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2038 checked_in_range=39 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2039 checked_in_range=40 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2040 checked_in_range=41 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2041 checked_in_range=42 size=
+256 struct=((((C4 x C4) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2042 checked_in_range=43 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2043 checked_in_range=44 size=
+256 struct=(C2 x (((C2 x C2 x C2) : C4) : C2)) : C2
+  checking local_subgroup_index=2044 checked_in_range=45 size=
+256 struct=(C2 x (((C2 x C2 x C2) : C4) : C2)) : C2
+  checking local_subgroup_index=2045 checked_in_range=46 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2046 checked_in_range=47 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2047 checked_in_range=48 size=
+256 struct=(C2 x (((C2 x C2 x C2) : C4) : C2)) : C2
+  checking local_subgroup_index=2048 checked_in_range=49 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2049 checked_in_range=50 size=
+256 struct=((((C4 x C2) : C2) : C4) : C2) : C2
+  checking local_subgroup_index=2050 checked_in_range=51 size=
+256 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2051 checked_in_range=52 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2052 checked_in_range=53 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2053 checked_in_range=54 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2054 checked_in_range=55 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2055 checked_in_range=56 size=
+256 struct=((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2
+  checking local_subgroup_index=2056 checked_in_range=57 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2057 checked_in_range=58 size=
+288 struct=(((C2 x C2 x C2 x C2) : C3) : C2) : C3
+  checking local_subgroup_index=2058 checked_in_range=59 size=
+288 struct=S4 x A4
+  checking local_subgroup_index=2059 checked_in_range=60 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2060 checked_in_range=61 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2061 checked_in_range=62 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2062 checked_in_range=63 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2063 checked_in_range=64 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2064 checked_in_range=65 size=
+288 struct=S4 x A4
+  checking local_subgroup_index=2065 checked_in_range=66 size=
+288 struct=(A4 x A4) : C2
+  checking local_subgroup_index=2066 checked_in_range=67 size=
+320 struct=C2 x C2 x ((C2 x C2 x C2 x C2) : C5)
+  checking local_subgroup_index=2067 checked_in_range=68 size=
+320 struct=C2 x (((C2 x C2 x C2 x C2) : C5) : C2)
+  checking local_subgroup_index=2068 checked_in_range=69 size=
+320 struct=C2 x (((C2 x C2 x C2 x C2) : C5) : C2)
+  checking local_subgroup_index=2069 checked_in_range=70 size=
+320 struct=((C2 x C2 x C2 x C2) : C5) : C4
+  checking local_subgroup_index=2070 checked_in_range=71 size=
+320 struct=((C2 x C2 x C2 x C2) : C5) : C4
+  checking local_subgroup_index=2071 checked_in_range=72 size=
+360 struct=C3 : S5
+  checking local_subgroup_index=2072 checked_in_range=73 size=
+360 struct=A5 : S3
+  checking local_subgroup_index=2073 checked_in_range=74 size=
+384 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=2074 checked_in_range=75 size=
+384 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=2075 checked_in_range=76 size=
+384 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=2076 checked_in_range=77 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3
+  checking local_subgroup_index=2077 checked_in_range=78 size=
+384 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=2078 checked_in_range=79 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3
+  checking local_subgroup_index=2079 checked_in_range=80 size=
+384 struct=C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)
+  checking local_subgroup_index=2080 checked_in_range=81 size=
+384 struct=C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)
+  checking local_subgroup_index=2081 checked_in_range=82 size=
+384 struct=C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)
+  checking local_subgroup_index=2082 checked_in_range=83 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3
+  checking local_subgroup_index=2083 checked_in_range=84 size=
+384 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=2084 checked_in_range=85 size=
+384 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2085 checked_in_range=86 size=
+384 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C2) : C3
+  checking local_subgroup_index=2086 checked_in_range=87 size=
+384 struct=((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2) : C2
+  checking local_subgroup_index=2087 checked_in_range=88 size=
+384 struct=C2 x ((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2)
+  checking local_subgroup_index=2088 checked_in_range=89 size=
+384 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2089 checked_in_range=90 size=
+384 struct=C2 x ((((C2 x C2 x C2 x C2) : C3) : C2) : C2)
+  checking local_subgroup_index=2090 checked_in_range=91 size=
+384 struct=(C2 x (((C2 x C2 x C2 x C2) : C2) : C3)) : C2
+  checking local_subgroup_index=2091 checked_in_range=92 size=
+384
+  struct=(C2 . (((C2 x C2 x C2 x C2) : C3) : C2) = (((C2 x C2 x C2) : (C2 x C2\
+)) : C3) . C2) : C2
+  checking local_subgroup_index=2092 checked_in_range=93 size=
+384 struct=((C2 x ((C2 x C2 x C2) : (C2 x C2))) : C2) : C3
+  checking local_subgroup_index=2093 checked_in_range=94 size=
+384 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2094 checked_in_range=95 size=
+384 struct=(((C2 x C2 x C2 x C2) : C3) : C4) : C2
+  checking local_subgroup_index=2095 checked_in_range=96 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C3)) : C2
+  checking local_subgroup_index=2096 checked_in_range=97 size=
+384 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2097 checked_in_range=98 size=
+384 struct=C2 x ((((C2 x C2 x C2 x C2) : C3) : C2) : C2)
+  checking local_subgroup_index=2098 checked_in_range=99 size=
+384 struct=(C2 x (((C2 x C2 x C2 x C2) : C3) : C2)) : C2
+  checking local_subgroup_index=2099 checked_in_range=100 size=
+384 struct=(C2 x (((C2 x C2 x C2) : (C2 x C2)) : C3)) : C2
+  checking local_subgroup_index=2100 checked_in_range=101 size=
+384 struct=(C2 x (((C2 x C2 x C2) : (C2 x C2)) : C3)) : C2
+  checking local_subgroup_index=2101 checked_in_range=102 size=
+384 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2102 checked_in_range=103 size=
+384 struct=((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2) : C2
+  checking local_subgroup_index=2103 checked_in_range=104 size=
+384 struct=(C2 x (((C2 x C2 x C2 x C2) : C2) : C3)) : C2
+  checking local_subgroup_index=2104 checked_in_range=105 size=
+384 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2105 checked_in_range=106 size=
+384 struct=((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2) : C2
+  checking local_subgroup_index=2106 checked_in_range=107 size=
+384 struct=(((C2 x ((C4 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2107 checked_in_range=108 size=
+384 struct=C2 x ((((C2 x C2 x C2 x C2) : C2) : C3) : C2)
+  checking local_subgroup_index=2108 checked_in_range=109 size=
+384 struct=((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2) : C2
+  checking local_subgroup_index=2109 checked_in_range=110 size=
+384 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2110 checked_in_range=111 size=
+384
+  struct=(C2 . (((C2 x C2 x C2 x C2) : C3) : C2) = (((C2 x C2 x C2) : (C2 x C2\
+)) : C3) . C2) : C2
+  checking local_subgroup_index=2111 checked_in_range=112 size=
+384
+  struct=(C2 . (((C2 x C2 x C2 x C2) : C3) : C2) = (((C2 x C2 x C2) : (C2 x C2\
+)) : C3) . C2) : C2
+  checking local_subgroup_index=2112 checked_in_range=113 size=
+384 struct=C2 x ((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2)
+  checking local_subgroup_index=2113 checked_in_range=114 size=
+384 struct=C2 x ((((C2 x C2 x C2) : (C2 x C2)) : C3) : C2)
+  checking local_subgroup_index=2114 checked_in_range=115 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C3)) : C2
+  checking local_subgroup_index=2115 checked_in_range=116 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C3)) : C2
+  checking local_subgroup_index=2116 checked_in_range=117 size=
+384 struct=((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2117 checked_in_range=118 size=
+384 struct=(C2 x (((C2 x C2 x C2 x C2) : C3) : C2)) : C2
+  checking local_subgroup_index=2118 checked_in_range=119 size=
+384 struct=C2 x ((((C2 x C2 x C2 x C2) : C3) : C2) : C2)
+  checking local_subgroup_index=2119 checked_in_range=120 size=
+384 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2120 checked_in_range=121 size=
+384 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2121 checked_in_range=122 size=
+384 struct=((((C2 x C2 x C2 x C2) : C3) : C2) : C2) : C2
+  checking local_subgroup_index=2122 checked_in_range=123 size=
+384 struct=(((C4 x C2 x C2) : C4) : C2) : C3
+  checking local_subgroup_index=2123 checked_in_range=124 size=
+384 struct=((((C4 x C4) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2124 checked_in_range=125 size=
+384 struct=(C2 x (((C4 x C2) : C4) : C3)) : C2
+  checking local_subgroup_index=2125 checked_in_range=126 size=
+384 struct=(C2 x C2 x ((C2 x C2 x C2 x C2) : C3)) : C2
+  checking local_subgroup_index=2126 checked_in_range=127 size=
+384 struct=((((C4 x C4) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2127 checked_in_range=128 size=
+384 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2128 checked_in_range=129 size=
+480 struct=(((C2 x C2 x C2 x C2) : C5) : C2) : C3
+  checking local_subgroup_index=2129 checked_in_range=130 size=
+480 struct=A5 : D8
+  checking local_subgroup_index=2130 checked_in_range=131 size=
+480 struct=A5 : D8
+  checking local_subgroup_index=2131 checked_in_range=132 size=
+512 struct=(((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C2
+  checking local_subgroup_index=2132 checked_in_range=133 size=
+512 struct=(((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C2
+  checking local_subgroup_index=2133 checked_in_range=134 size=
+512 struct=((C2 x (((C2 x C2 x C2 x C2) : C2) : C2)) : C2) : C2
+  checking local_subgroup_index=2134 checked_in_range=135 size=
+512 struct=(((((C4 x C4) : C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2135 checked_in_range=136 size=
+512 struct=(((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C2
+  checking local_subgroup_index=2136 checked_in_range=137 size=
+512 struct=(((((C8 x C2) : C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2137 checked_in_range=138 size=
+512 struct=(((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C2
+  checking local_subgroup_index=2138 checked_in_range=139 size=
+512 struct=((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2139 checked_in_range=140 size=
+512 struct=((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2140 checked_in_range=141 size=
+512 struct=((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2141 checked_in_range=142 size=
+512 struct=((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2142 checked_in_range=143 size=
+512 struct=((C2 x ((C2 x C2 x C2) : C4)) : C4) : C2
+  checking local_subgroup_index=2143 checked_in_range=144 size=
+512 struct=((((C2 x (C8 : C2)) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2144 checked_in_range=145 size=
+512 struct=((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2145 checked_in_range=146 size=
+512 struct=(((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C2
+  checking local_subgroup_index=2146 checked_in_range=147 size=
+576 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)
+  checking local_subgroup_index=2147 checked_in_range=148 size=
+576 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)
+  checking local_subgroup_index=2148 checked_in_range=149 size=
+576 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)
+  checking local_subgroup_index=2149 checked_in_range=150 size=
+576 struct=(((C2 x C2 x C2 x C2) : C2) : C2) : (C3 x C3)
+  checking local_subgroup_index=2150 checked_in_range=151 size=
+576 struct=S4 x S4
+  checking local_subgroup_index=2151 checked_in_range=152 size=
+576 struct=((A4 x A4) : C2) : C2
+  checking local_subgroup_index=2152 checked_in_range=153 size=
+576 struct=((A4 x A4) : C2) : C2
+  checking local_subgroup_index=2153 checked_in_range=154 size=
+640 struct=C2 x C2 x (((C2 x C2 x C2 x C2) : C5) : C2)
+  checking local_subgroup_index=2154 checked_in_range=155 size=
+640 struct=C2 x (((C2 x C2 x C2 x C2) : C5) : C4)
+  checking local_subgroup_index=2155 checked_in_range=156 size=
+640 struct=C2 x (((C2 x C2 x C2 x C2) : C5) : C4)
+  checking local_subgroup_index=2156 checked_in_range=157 size=
+720 struct=A5 x A4
+  checking local_subgroup_index=2157 checked_in_range=158 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2158 checked_in_range=159 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+    completed local_subgroup_index=2158 elapsed_ms=2119
+  checking local_subgroup_index=2159 checked_in_range=160 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2160 checked_in_range=161 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2161 checked_in_range=162 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3
+  checking local_subgroup_index=2162 checked_in_range=163 size=
+768 struct=(((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C3
+  checking local_subgroup_index=2163 checked_in_range=164 size=
+768 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C4
+  checking local_subgroup_index=2164 checked_in_range=165 size=
+768 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2
+  checking local_subgroup_index=2165 checked_in_range=166 size=
+768 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C4
+  checking local_subgroup_index=2166 checked_in_range=167 size=
+768 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2
+  checking local_subgroup_index=2167 checked_in_range=168 size=
+768 struct=(((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C3
+  checking local_subgroup_index=2168 checked_in_range=169 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2
+  checking local_subgroup_index=2169 checked_in_range=170 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2
+  checking local_subgroup_index=2170 checked_in_range=171 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2
+  checking local_subgroup_index=2171 checked_in_range=172 size=
+768 struct=(((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C3
+  checking local_subgroup_index=2172 checked_in_range=173 size=
+768 struct=(((D8 x D8) : C2) : C2) : C3
+  checking local_subgroup_index=2173 checked_in_range=174 size=
+768 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2
+  checking local_subgroup_index=2174 checked_in_range=175 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2
+  checking local_subgroup_index=2175 checked_in_range=176 size=
+768 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : C3) : C4
+  checking local_subgroup_index=2176 checked_in_range=177 size=
+768 struct=(((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2177 checked_in_range=178 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2
+  checking local_subgroup_index=2178 checked_in_range=179 size=
+768 struct=(((((C2 x C2 x C2 x C2) : C2) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2179 checked_in_range=180 size=
+768 struct=(((C2 x ((C2 x C2 x C2) : (C2 x C2))) : C2) : C3) : C2
+  checking local_subgroup_index=2180 checked_in_range=181 size=
+768 struct=((C2 x (((C2 x C2 x C2 x C2) : C3) : C2)) : C2) : C2
+  checking local_subgroup_index=2181 checked_in_range=182 size=
+768 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C3)) : C2) : C2
+  checking local_subgroup_index=2182 checked_in_range=183 size=
+768 struct=(C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)) : C2
+  checking local_subgroup_index=2183 checked_in_range=184 size=
+960 struct=(C2 x C2 x C2 x C2) : A5
+  checking local_subgroup_index=2184 checked_in_range=185 size=
+960 struct=(C2 x C2 x C2 x C2 x C2 x C2) : C15
+  checking local_subgroup_index=2185 checked_in_range=186 size=
+960 struct=((C2 x C2 x C2 x C2) : C15) : C4
+  checking local_subgroup_index=2186 checked_in_range=187 size=
+1024 struct=(((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2187 checked_in_range=188 size=
+1080 struct=C3 . A6
+  checking local_subgroup_index=2188 checked_in_range=189 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2189 checked_in_range=190 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2190 checked_in_range=191 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2191 checked_in_range=192 size=
+1152 struct=(C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)) : C3
+  checking local_subgroup_index=2192 checked_in_range=193 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2193 checked_in_range=194 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2194 checked_in_range=195 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2195 checked_in_range=196 size=
+1152 struct=(C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)) : C3
+  checking local_subgroup_index=2196 checked_in_range=197 size=
+1152 struct=((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2197 checked_in_range=198 size=
+1152 struct=((((C2 x C2 x C2 x C2) : C2) : C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2198 checked_in_range=199 size=
+1280 struct=(C2 x (((C2 x C2 x C2 x C2) : C5) : C4)) : C2
+  checking local_subgroup_index=2199 checked_in_range=200 size=
+1440 struct=A5 : S4
+  checking local_subgroup_index=2200 checked_in_range=201 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2201 checked_in_range=202 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2) : C2
+  checking local_subgroup_index=2202 checked_in_range=203 size=
+1536 struct=((((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2) : C2
+  checking local_subgroup_index=2203 checked_in_range=204 size=
+1536 struct=((((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2) : C2
+  checking local_subgroup_index=2204 checked_in_range=205 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C3
+  checking local_subgroup_index=2205 checked_in_range=206 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C3
+  checking local_subgroup_index=2206 checked_in_range=207 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2207 checked_in_range=208 size=
+1536 struct=((((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C2) : C3
+  checking local_subgroup_index=2208 checked_in_range=209 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2209 checked_in_range=210 size=
+1536 struct=((((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2) : C2
+  checking local_subgroup_index=2210 checked_in_range=211 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2211 checked_in_range=212 size=
+1536 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C4) : C2
+  checking local_subgroup_index=2212 checked_in_range=213 size=
+1536 struct=((((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2213 checked_in_range=214 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2) : C2
+  checking local_subgroup_index=2214 checked_in_range=215 size=
+1536 struct=((((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2) : C2
+  checking local_subgroup_index=2215 checked_in_range=216 size=
+1536 struct=((((C2 x ((C2 x C2 x C2) : C4)) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2216 checked_in_range=217 size=
+1536 struct=((((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2217 checked_in_range=218 size=
+1536 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2
+  checking local_subgroup_index=2218 checked_in_range=219 size=
+1536 struct=((((C2 x C2 x C2 x D8) : C2) : C2) : C3) : C2
+  checking local_subgroup_index=2219 checked_in_range=220 size=
+1728 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 x C3) : C3)
+  checking local_subgroup_index=2220 checked_in_range=221 size=
+1920 struct=((C2 x C2 x C2 x C2) : A5) : C2
+  checking local_subgroup_index=2221 checked_in_range=222 size=
+1920 struct=(C2 x C2 x (((C2 x C2 x C2 x C2) : C5) : C2)) : C3
+  checking local_subgroup_index=2222 checked_in_range=223 size=
+1920 struct=(C2 x C2 x C2 x C2) : S5
+  checking local_subgroup_index=2223 checked_in_range=224 size=
+2160 struct=(C3 . A6) : C2
+  checking local_subgroup_index=2224 checked_in_range=225 size=
+2304 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)
+  checking local_subgroup_index=2225 checked_in_range=226 size=
+2304 struct=((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)
+  checking local_subgroup_index=2226 checked_in_range=227 size=
+2304 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2) : C2
+  checking local_subgroup_index=2227 checked_in_range=228 size=
+2304 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2) : C2
+  checking local_subgroup_index=2228 checked_in_range=229 size=
+2304 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2) : C2
+  checking local_subgroup_index=2229 checked_in_range=230 size=
+2880 struct=(C2 x C2 x C2 x C2) : GL(2,4)
+  checking local_subgroup_index=2230 checked_in_range=231 size=
+3072 struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2) : C2
+  checking local_subgroup_index=2231 checked_in_range=232 size=
+3072 struct=(((((C2 x C2 x C2 x C2 x C2 x C2) : C3) : C2) : C2) : C2) : C2
+  checking local_subgroup_index=2232 checked_in_range=233 size=
+3072 struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2) : C2) : C2
+  checking local_subgroup_index=2233 checked_in_range=234 size=
+3456 struct=((C2 x C2 x C2 x C2 x C2 x C2) : ((C3 x C3) : C3)) : C2
+  checking local_subgroup_index=2234 checked_in_range=235 size=
+3456 struct=((C2 x C2 x C2 x C2 x C2 x C2) : ((C3 x C3) : C3)) : C2
+  checking local_subgroup_index=2235 checked_in_range=236 size=
+3456 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2) : C3
+  checking local_subgroup_index=2236 checked_in_range=237 size=
+3840 struct=((C2 x C2 x C2 x C2) : A5) : (C2 x C2)
+  checking local_subgroup_index=2237 checked_in_range=238 size=
+3840 struct=(C2 x C2 x C2 x C2 x C2 x C2) : A5
+  checking local_subgroup_index=2238 checked_in_range=239 size=
+3840 struct=((C2 x C2 x C2 x C2) : A5) : C4
+  checking local_subgroup_index=2239 checked_in_range=240 size=
+3840 struct=((C2 x C2 x C2 x C2) : A5) : (C2 x C2)
+  checking local_subgroup_index=2240 checked_in_range=241 size=
+3840 struct=((C2 x C2 x C2 x C2 x C2 x C2) : C15) : C4
+  checking local_subgroup_index=2241 checked_in_range=242 size=
+4608 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2242 checked_in_range=243 size=
+4608 struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2) : C2) : C3
+  checking local_subgroup_index=2243 checked_in_range=244 size=
+4608 struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C3) : C2) : C3
+  checking local_subgroup_index=2244 checked_in_range=245 size=
+4608 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2245 checked_in_range=246 size=
+4608 struct=(((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)) : C2
+  checking local_subgroup_index=2246 checked_in_range=247 size=
+4608 struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C3) : C2) : C2) : C3
+  checking local_subgroup_index=2247 checked_in_range=248 size=
+5760 struct=(C2 x C2 x C2 x C2) : (A5 : S3)
+  checking local_subgroup_index=2248 checked_in_range=249 size=
+6912 struct=((C2 x C2 x C2 x C2 x C2 x C2) : ((C3 x C3) : C3)) : C4
+  checking local_subgroup_index=2249 checked_in_range=250 size=
+6912 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : ((C3 x C3) : C3)) : C2) : C2
+  checking local_subgroup_index=2250 checked_in_range=251 size=
+6912 struct=(((C2 x C2 x C2 x C2 x C2 x C2) : ((C3 x C3) : C3)) : C2) : C2
+  checking local_subgroup_index=2251 checked_in_range=252 size=
+7680 struct=(C2 x C2 x C2 x C2 x C2 x C2) : S5
+  checking local_subgroup_index=2252 checked_in_range=253 size=
+7680 struct=((C2 x C2 x C2 x C2) : A5) : D8
+  checking local_subgroup_index=2253 checked_in_range=254 size=
+9216
+  struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)) : C2) : \
+C2
+    completed local_subgroup_index=2253 elapsed_ms=1023
+  checking local_subgroup_index=2254 checked_in_range=255 size=
+9216
+  struct=((((C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : (C3 x C3)) : C2) : \
+C2
+  checking local_subgroup_index=2255 checked_in_range=256 size=
+11520 struct=((C2 x C2 x C2 x C2) : A5) : A4
+  checking local_subgroup_index=2256 checked_in_range=257 size=
+11520 struct=(C2 x C2 x C2 x C2 x C2 x C2) : GL(2,4)
+  checking local_subgroup_index=2257 checked_in_range=258 size=
+13824
+  struct=(((((C2 x C2 x C2 x C2 x C2 x C2) : (C3 x C3)) : C2) : C3) : C2) : C2
+  checking local_subgroup_index=2258 checked_in_range=259 size=
+23040 struct=((C2 x C2 x C2 x C2) : A5) : S4
+  checking local_subgroup_index=2259 checked_in_range=260 size=
+23040 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (C3 : S5)
+    completed local_subgroup_index=2259 elapsed_ms=1173
+  checking local_subgroup_index=2260 checked_in_range=261 size=
+69120 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (C3 . A6)
+    completed local_subgroup_index=2260 elapsed_ms=1233
+  checking local_subgroup_index=2261 checked_in_range=262 size=
+138240 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+    completed local_subgroup_index=2261 elapsed_ms=4946
+  completed M24 maximal class 5 checked=262 requested_range=[2000, 
+2261] no weak-GP8 found.
+SUCCESS: selected M24 maximal classes have no subgroup with weak-GP
+8 in the checked ranges.
+When run for all classes 2..9 with TargetProperUpper=8, this proves every prop\
+er subgroup of M24 has i <= 7, using the previous M23 verification for class 1\
+.
+When run for non-exceptional classes 4,6,7,8,9 with TargetProperUpper=7, this \
+excludes those classes from a hypothetical weak-GP8 family of maximal subgroup\
+s of M24.

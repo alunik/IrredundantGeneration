@@ -1,0 +1,83 @@
+Built M23, order = 10200960
+GAP version = 4.15.1
+Target weak-GP length = 7
+Enumerating elements...
+Element count = 10200960 runtime_ms=2769
+Building maximal subgroup conjugates and element overgroup signatures...
+Max class 1: 23 conjugates, size 443520, M22
+  cumulative maximals=23 elapsed_ms=11693
+Max class 2: 253 conjugates, size 40320, PSL(3,4) : C2
+  cumulative maximals=276 elapsed_ms=25833
+Max class 3: 253 conjugates, size 40320, (C2 x C2 x C2 x C2) : A7
+  cumulative maximals=529 elapsed_ms=36980
+Max class 4: 506 conjugates, size 20160, A8
+  cumulative maximals=1035 elapsed_ms=50691
+Max class 5: 1288 conjugates, size 7920, M11
+  cumulative maximals=2323 elapsed_ms=67224
+Max class 6: 1771 conjugates, size 5760, (C2 x C2 x C2 x C2) : (A5 : S3)
+  cumulative maximals=4094 elapsed_ms=83766
+Max class 7: 40320 conjugates, size 253, C23 : C11
+  cumulative maximals=44414 elapsed_ms=114080
+Total maximal subgroups = 44414
+Eligible private-witness elements = 6496511
+Distinct overgroup signatures = 1533709
+Eligible signature length histogram = [ [ 6, 2732400 ], [ 7, 1854720 ], 
+  [ 14, 1530144 ], [ 30, 318780 ], [ 62, 56672 ], [ 254, 3795 ] ]
+Building signature incidence blists...
+  signature 100000/1533709 elapsed_ms=61
+  signature 200000/1533709 elapsed_ms=123
+  signature 300000/1533709 elapsed_ms=183
+  signature 400000/1533709 elapsed_ms=240
+  signature 500000/1533709 elapsed_ms=291
+  signature 600000/1533709 elapsed_ms=351
+  signature 700000/1533709 elapsed_ms=406
+  signature 800000/1533709 elapsed_ms=455
+  signature 900000/1533709 elapsed_ms=510
+  signature 1000000/1533709 elapsed_ms=557
+  signature 1100000/1533709 elapsed_ms=608
+  signature 1200000/1533709 elapsed_ms=658
+  signature 1300000/1533709 elapsed_ms=712
+  signature 1400000/1533709 elapsed_ms=766
+  signature 1500000/1533709 elapsed_ms=825
+Building conjugation action on maximal subgroups...
+Action degree = 44414 size = 10200960 build_ms = 5369
+Branch minimum_class=1 first_index=1
+progress nodes=10000 depth=5 classes=[ 1, 5, 5, 5, 5 ] possible_sizes=
+[ 1, 1, 1, 1, 1 ]
+progress nodes=20000 depth=5 classes=[ 1, 3, 4, 4, 5 ] possible_sizes=
+[ 1, 1, 4, 1, 3 ]
+progress nodes=30000 depth=5 classes=[ 1, 3, 3, 3, 3 ] possible_sizes=
+[ 1, 1, 1, 1, 1 ]
+progress nodes=40000 depth=4 classes=[ 1, 2, 4, 4 ] possible_sizes=
+[ 3, 16, 16, 13 ]
+progress nodes=50000 depth=5 classes=[ 1, 2, 3, 3, 5 ] possible_sizes=
+[ 1, 4, 1, 1, 1 ]
+progress nodes=60000 depth=5 classes=[ 1, 2, 3, 3, 4 ] possible_sizes=
+[ 2, 6, 3, 12, 3 ]
+progress nodes=70000 depth=5 classes=[ 1, 1, 2, 3, 4 ] possible_sizes=
+[ 1, 3, 8, 3, 1 ]
+progress nodes=80000 depth=5 classes=[ 1, 1, 2, 2, 6 ] possible_sizes=
+[ 1, 1, 3, 4, 4 ]
+Completed branch minimum_class=1 nodes=87994 nodes_by_depth=
+[ 1, 12, 233, 21356, 60382, 6010, 0 ] orbit_reps_by_next_depth=
+[ 0, 12, 233, 21356, 60382, 6010, 0 ]
+SUCCESS: no weak-GP7 family of maximal subgroups exists in M23 for branches 
+[ 1 ].
+     1041.21 real       980.41 user        41.12 sys
+         10657660928  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            23946457  page reclaims
+                  33  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                  16  messages sent
+                  31  messages received
+                   0  signals received
+                3176  voluntary context switches
+              716457  involuntary context switches
+      20883310442608  instructions retired
+       4222343178751  cycles elapsed
+         19012597392  peak memory footprint

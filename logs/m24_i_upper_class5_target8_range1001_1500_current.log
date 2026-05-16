@@ -1,0 +1,53 @@
+Built M24, order = 244823040
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 8
+Selected top maximal classes = [ 5 ]
+Subgroup index range = [1001, 1500]
+M24 maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Checking M24 maximal class 5: size=
+138240
+  struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2) target_no_weakGP=8
+  subgroup class representatives = 2261 enumeration_ms=6368
+  checking local_subgroup_index=1001 checked_in_range=1 size=
+32 struct=(C2 x Q8) : C2
+  checking local_subgroup_index=1050 checked_in_range=50 size=
+32 struct=(C2 x C2 x C2) : (C2 x C2)
+  checking local_subgroup_index=1100 checked_in_range=100 size=
+32 struct=C2 x C2 x D8
+  checking local_subgroup_index=1150 checked_in_range=150 size=
+32 struct=(C2 x C2 x C2 x C2) : C2
+  checking local_subgroup_index=1200 checked_in_range=200 size=
+48 struct=C2 x C2 x A4
+  checking local_subgroup_index=1250 checked_in_range=250 size=
+54 struct=(C3 x C3) : C6
+  checking local_subgroup_index=1300 checked_in_range=300 size=
+64 struct=(C4 x D8) : C2
+  checking local_subgroup_index=1350 checked_in_range=350 size=
+64 struct=C2 x ((C2 x C2 x C2 x C2) : C2)
+  checking local_subgroup_index=1400 checked_in_range=400 size=
+64 struct=((C4 x C2) : C2) : C4
+  checking local_subgroup_index=1450 checked_in_range=450 size=
+64 struct=((C2 x C2 x C2 x C2) : C2) : C2
+  checking local_subgroup_index=1500 checked_in_range=500 size=
+64 struct=C2 x ((C2 x C2 x C2) : C4)
+  completed M24 maximal class 5 checked=500 requested_range=[1001, 
+1500] no weak-GP8 found.
+SUCCESS: selected M24 maximal classes have no subgroup with weak-GP
+8 in the checked ranges.
+When run for all classes 2..9 with TargetProperUpper=8, this proves every prop\
+er subgroup of M24 has i <= 7, using the previous M23 verification for class 1\
+.
+When run for non-exceptional classes 4,6,7,8,9 with TargetProperUpper=7, this \
+excludes those classes from a hypothetical weak-GP8 family of maximal subgroup\
+s of M24.

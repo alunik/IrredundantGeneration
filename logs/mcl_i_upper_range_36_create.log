@@ -1,0 +1,31 @@
+Built McL, order = 898128000, degree = 275
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 7
+Subgroup index range = [176, 200]
+UseKnownSubgroupShortcuts = true
+Maximal subgroup classes = 12
+1: size=3265920 index=275 struct=PSU(4,3)
+2: size=443520 index=2025 struct=M22
+3: size=443520 index=2025 struct=M22
+4: size=126000 index=7128 struct=PSU(3,5)
+5: size=58320 index=
+15400 struct=((C3 x ((C3 x C3) : C3)) : C3) : (C2 . S5 = SL(2,5) . C2)
+6: size=58320 index=15400 struct=(C3 x C3 x C3 x C3) : (A6 . C2)
+7: size=40320 index=22275 struct=PSL(3,4) : C2
+8: size=40320 index=22275 struct=C2 . A8
+9: size=40320 index=22275 struct=(C2 x C2 x C2 x C2) : A7
+10: size=40320 index=22275 struct=(C2 x C2 x C2 x C2) : A7
+11: size=7920 index=113400 struct=M11
+12: size=3000 index=299376 struct=((C5 x C5) : C5) : (C3 : C8)
+Selected top maximal classes = [ 6 ]
+Checking top maximal class 6: size=
+58320 struct=(C3 x C3 x C3 x C3) : (A6 . C2)
+  subgroup class representatives = 236 enumeration_ms=5065
+  checked=1 top_class=6 local_index=176 size=108 struct=((C3 x C3) : C3) : C4
+  checked=10 top_class=6 local_index=185 size=
+162 struct=((C3 x C3 x C3) : C3) : C2
+  checked=20 top_class=6 local_index=195 size=
+324 struct=((C3 x C3 x C3) : (C2 x C2)) : C3
+Checked subgroup-class representatives = 25
+SUCCESS: no proper subgroup of McL has weak-GP
+7; hence every proper subgroup has i <= 6.

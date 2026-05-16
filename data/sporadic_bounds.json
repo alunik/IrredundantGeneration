@@ -1,0 +1,72 @@
+{
+  "groups": {
+    "J1": {
+      "order": 175560,
+      "m": { "lower": 4, "upper": 4, "witness": "certs/j1_tuple4.json" },
+      "i": { "lower": 4, "upper": 4 },
+      "upper": { "m_no_weak_gp": 5, "selected_classes": null }
+    },
+    "J2": {
+      "order": 604800,
+      "m": { "lower": 5, "upper": 5, "witness": "certs/j2_tuple5.json" },
+      "i": { "lower": 5, "upper": 5 },
+      "upper": { "m_no_weak_gp": 6, "selected_classes": null }
+    },
+    "J3": {
+      "order": 50232960,
+      "m": { "lower": 4, "upper": 4, "witness": "certs/j3_tuple4.json" },
+      "i": {
+        "lower": 5,
+        "upper": 5,
+        "witness": "certs/j3_i5_irredundant_tuple.json"
+      },
+      "upper": {
+        "m_no_weak_gp": 5,
+        "member_filter_survivors": [1, 2, 3, 4, 6, 7, 8, 9],
+        "member_filter_excluded": [5]
+      }
+    },
+    "M22": {
+      "order": 443520,
+      "m": { "lower": 6, "upper": 6, "witness": "certs/m22_tuple6.json" },
+      "i": { "lower": 6, "upper": 6 },
+      "upper": { "m_no_weak_gp": 7, "selected_classes": null }
+    },
+    "M23": {
+      "order": 10200960,
+      "m": { "lower": 6, "upper": 6, "witness": "certs/m23_tuple6.json" },
+      "i": { "lower": 6, "upper": 6 },
+      "upper": { "m_no_weak_gp": 7, "selected_classes": null }
+    },
+    "M24": {
+      "order": 244823040,
+      "m": { "lower": 7, "upper": 7, "witness": "certs/m24_tuple7.json" },
+      "i": { "lower": 7, "upper": 7 },
+      "upper": {
+        "m_no_weak_gp": 8,
+        "member_filter_survivors": [2, 3, 5, 7],
+        "member_filter_excluded": [1, 4, 6, 8, 9]
+      }
+    },
+    "HS": {
+      "order": 44352000,
+      "m": { "lower": 7, "upper": 7, "witness": "certs/hs_tuple7.json" },
+      "i": { "lower": 7, "upper": 7 },
+      "upper": {
+        "m_no_weak_gp": 8,
+        "member_filter_survivors": [5],
+        "member_filter_excluded": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+      }
+    },
+    "McL": {
+      "order": 898128000,
+      "m": { "lower": 6, "upper": 6, "witness": "certs/mcl_tuple6.json" },
+      "i": { "lower": 6, "upper": 6 },
+      "upper": {
+        "m_no_weak_gp": 7,
+        "member_filter_survivors": [1, 2, 3, 6, 7, 8, 9, 10],
+        "member_filter_excluded": [4, 5, 11, 12]
+      }
+    }
+  }
+}

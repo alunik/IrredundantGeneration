@@ -1,0 +1,50 @@
+Framework member-filter run for HS
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 8
+Top class 1: size=443520 struct=M22
+  EXCLUDE class 1: known i-upper=6 rules out weak-GP
+7
+  in every subgroup of this representative group=M22 dependency=certs/m22_tuple\
+6.json plus proper-subgroup verifier.
+Top class 2: size=252000 struct=PSU(3,5) : C2
+  subgroup class reps = 148
+  EXCLUDE class 2: no subgroup class representative has weak-GP7.
+Top class 3: size=252000 struct=PSU(3,5) : C2
+  subgroup class reps = 148
+  EXCLUDE class 3: no subgroup class representative has weak-GP7.
+Top class 4: size=40320 struct=PSL(3,4) : C2
+  subgroup class reps = 151
+  EXCLUDE class 4: no subgroup class representative has weak-GP7.
+Top class 5: size=40320 struct=S8
+  subgroup class reps = 296
+  KEEP class 5: subgroup index 296 size=40320 struct=S8 has weak-GP
+7 classPattern=[ 1, 2, 3, 3, 4, 5, 5 ]
+Top class 6: size=11520 struct=((C2 x C2 x C2 x C2) : A6) : C2
+  subgroup class reps = 455
+  EXCLUDE class 6: no subgroup class representative has weak-GP7.
+Top class 7: size=10752 struct=(C4 x C4 x C4) : PSL(3,2)
+  subgroup class reps = 422
+  EXCLUDE class 7: no subgroup class representative has weak-GP7.
+Top class 8: size=7920 struct=M11
+  EXCLUDE class 8: known i-upper=5 rules out weak-GP
+7
+  in every subgroup of this representative group=M11 dependency=Brooks/GAP cert\
+ificate.
+Top class 9: size=7920 struct=M11
+  EXCLUDE class 9: known i-upper=5 rules out weak-GP
+7
+  in every subgroup of this representative group=M11 dependency=Brooks/GAP cert\
+ificate.
+Top class 10: size=7680 struct=(((C2 x ((C4 x C2) : C2)) : C2) : A5) : C2
+  subgroup class reps = 533
+  EXCLUDE class 10: no subgroup class representative has weak-GP7.
+Top class 11: size=2880 struct=C2 x ((A6 : C2) : C2)
+  subgroup class reps = 244
+  EXCLUDE class 11: no subgroup class representative has weak-GP7.
+Top class 12: size=1200 struct=A5 x (C5 : C4)
+  subgroup class reps = 72
+  EXCLUDE class 12: no subgroup class representative has weak-GP7.
+SURVIVORS=[ 5 ]
+EXCLUDED=[ 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12 ]
+SUCCESS: framework member-filter run completed for HS.

@@ -1,0 +1,74 @@
+
+█████████████████████████████████
+█████████████████████████████████
+████ ▄▄▄▄▄ █▀▄▀▄█ ▀▀██ ▄▄▄▄▄ ████
+████ █   █ █▀▄▀▀▀▀▀▀▀█ █   █ ████
+████ █▄▄▄█ █▀ █▄█ █▀ █ █▄▄▄█ ████
+████▄▄▄▄▄▄▄█▄▀ ▀▄█ ▀ █▄▄▄▄▄▄▄████
+████▄▄▄ ▄█▄  ██  ▄▄▄▀▄█ █▄█ █████
+████▀▄▀▀█▀▄██▀ ▀▀▄▀▄▀ ███▄█▄ ████
+████▀▄▄▀█▄▄▀█▄█ ▄ ▄██ ▄ ▄▀▄ ▄████
+████ █  ▄█▄▄▄█▄███▄ ▀█▄  ▄█▄ ████
+████▄█▄█▄█▄█ ▄▀▀█ █▀ ▄▄▄ ▀▄██████
+████ ▄▄▄▄▄ █▄█▄▀▄▄▄█ █▄█ ▀▄▄ ████
+████ █   █ █ █▄  ▄▄▄▄  ▄ ▀ █▄████
+████ █▄▄▄█ █  ▀▀▀█▀ ▀ ▀▀▀ ▄█ ████
+████▄▄▄▄▄▄▄█▄▄▄█▄▄▄███▄▄▄▄▄▄▄████
+█████████████████████████████████
+█████████████████████████████████
+
+You may need to authenticate your SSH access by visiting the e-Research Portal:
+
+https://portal.er.kcl.ac.uk/mfa/
+srun: job 33815475 queued and waiting for resources
+srun: job 33815475 has been allocated resources
+Built M24, order = 244823040
+GAP version = 4.15.1
+Target proper-subgroup weak-GP exclusion length = 7
+Selected top maximal classes = [ 6 ]
+Subgroup index range = [1, infinity]
+M24 maximal subgroup classes = 9
+1: size=10200960 index=24 struct=M23
+2: size=887040 index=276 struct=M22 : C2
+3: size=322560 index=759 struct=(C2 x C2 x C2 x C2) : A8
+4: size=190080 index=1288 struct=M12 : C2
+5: size=138240 index=
+1771 struct=(C2 x C2 x C2 x C2 x C2 x C2) : ((C3 . A6) : C2)
+6: size=120960 index=2024 struct=PSL(3,4) : S3
+7: size=64512 index=
+3795 struct=(C2 x C2 x C2 x C2 x C2 x C2) : (PSL(3,2) x S3)
+8: size=6072 index=40320 struct=PSL(2,23)
+9: size=168 index=1457280 struct=PSL(3,2)
+Checking M24 maximal class 6: size=
+120960 struct=PSL(3,4) : S3 target_no_weakGP=7
+  subgroup class representatives = 226 enumeration_ms=1790
+  checking local_subgroup_index=1 checked_in_range=1 size=1 struct=1
+  checking local_subgroup_index=25 checked_in_range=25 size=8 struct=C4 x C2
+  checking local_subgroup_index=50 checked_in_range=50 size=14 struct=C14
+  checking local_subgroup_index=75 checked_in_range=75 size=20 struct=C5 : C4
+  checking local_subgroup_index=100 checked_in_range=100 size=
+32 struct=(C8 : C2) : C2
+  checking local_subgroup_index=125 checked_in_range=125 size=
+48 struct=(C4 x C4) : C3
+  checking local_subgroup_index=150 checked_in_range=150 size=
+96 struct=((C2 x C2 x C2 x C2) : C3) : C2
+  checking local_subgroup_index=175 checked_in_range=175 size=
+168 struct=PSL(3,2)
+  checking local_subgroup_index=200 checked_in_range=200 size=
+360 struct=A5 : S3
+    completed local_subgroup_index=223 elapsed_ms=11629
+    completed local_subgroup_index=224 elapsed_ms=8344
+  checking local_subgroup_index=225 checked_in_range=225 size=
+60480 struct=PSL(3,4) : C3
+    completed local_subgroup_index=225 elapsed_ms=4498
+    completed local_subgroup_index=226 elapsed_ms=15515
+  completed M24 maximal class 6 checked=226 requested_range=[1, 
+226] no weak-GP7 found.
+SUCCESS: selected M24 maximal classes have no subgroup with weak-GP
+7 in the checked ranges.
+When run for all classes 2..9 with TargetProperUpper=8, this proves every prop\
+er subgroup of M24 has i <= 7, using the previous M23 verification for class 1\
+.
+When run for non-exceptional classes 4,6,7,8,9 with TargetProperUpper=7, this \
+excludes those classes from a hypothetical weak-GP8 family of maximal subgroup\
+s of M24.
