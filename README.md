@@ -2,7 +2,9 @@
 
 This repository contains the group-agnostic code used to compute upper bounds
 for \(m(G)\), weak/private-witness \(\operatorname{MaxDim}(G)\), and \(i(G)\)
-by searching for weak general-position families of maximal subgroups.
+by searching for weak general-position families of maximal subgroups.  The
+included certificate set covers all sporadic simple groups of order at most
+\(10^9\), including the Brooks Mathieu rows \(M_{11}\) and \(M_{12}\).
 
 The `certs/` and `logs/` directories contain the certificate artifacts
 generated from the same generic runners.  Heavy prefix-split runs have compact

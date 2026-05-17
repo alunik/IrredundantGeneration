@@ -1,0 +1,119 @@
+Built M11, order = 7920, degree = 11
+GAP version = 4.15.1
+Signature framework version = 2026-05-12-cleanup
+Target proper-subgroup weak-GP exclusion length = 6
+Subgroup index range = [1, infinity]
+UseKnownSubgroupShortcuts = true
+DeduplicateBySizeStructure = false
+Strong-flat probe exclusion length = 5
+Maximal subgroup classes = 5
+1: size=720 index=11 struct=A6 . C2
+2: size=660 index=12 struct=PSL(2,11)
+3: size=144 index=55 struct=(C3 x C3) : QD16
+4: size=120 index=66 struct=S5
+5: size=48 index=165 struct=GL(2,3)
+Selected top maximal classes = [ 1 .. 5 ]
+Checking M11 maximal class 1: size=720 struct=A6 . C2 target_no_weakGP=6
+  subgroup class representatives = 25 enumeration_ms=53
+  checked=1 top_class=1 local_index=1 size=1 struct=1
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  checked=25 top_class=1 local_index=25 size=720 struct=A6 . C2
+  completed M11 maximal class 1 checked=25 requested_range=[1, 25] no weak-GP
+6 found.
+Checking M11 maximal class 2: size=660 struct=PSL(2,11) target_no_weakGP=6
+  subgroup class representatives = 16 enumeration_ms=26
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  completed M11 maximal class 2 checked=16 requested_range=[1, 16] no weak-GP
+6 found.
+Checking M11 maximal class 3: size=
+144 struct=(C3 x C3) : QD16 target_no_weakGP=6
+  subgroup class representatives = 25 enumeration_ms=21
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  checked=50 top_class=3 local_index=9 size=6 struct=C6
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  completed M11 maximal class 3 checked=25 requested_range=[1, 25] no weak-GP
+6 found.
+Checking M11 maximal class 4: size=120 struct=S5 target_no_weakGP=6
+  subgroup class representatives = 19 enumeration_ms=98
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  checked=75 top_class=4 local_index=9 size=6 struct=S3
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  completed M11 maximal class 4 checked=19 requested_range=[1, 19] no weak-GP
+6 found.
+Checking M11 maximal class 5: size=48 struct=GL(2,3) target_no_weakGP=6
+    shortcut: order_bound dependency=Size(K) < 2^target excludes weak-GP6.
+  shortcut: top maximal class 5 has certified no weak-GP6 in all subgroups.
+Checked subgroup-class representatives = 85
+SUCCESS: no proper subgroup of M11 has weak-GP
+6; hence every proper subgroup has i <= 5.
+SUCCESS: no proper subgroup has weak-GP5.

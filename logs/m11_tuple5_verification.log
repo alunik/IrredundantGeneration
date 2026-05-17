@@ -1,0 +1,11 @@
+Built M11 from certificate generators, order = 7920
+Tuple length = 5
+orders = [ 2, 2, 2, 2, 2 ]
+Generated order = 7920
+Expected generated order = 7920
+Omitting 1: generated order = 360 structure = A6
+Omitting 2: generated order = 660 structure = PSL(2,11)
+Omitting 3: generated order = 660 structure = PSL(2,11)
+Omitting 4: generated order = 120 structure = S5
+Omitting 5: generated order = 360 structure = A6
+SUCCESS: irredundant generating tuple for M11.

@@ -19,7 +19,11 @@
         "type": "known_i_upper",
         "group": "M23",
         "i_upper": 6,
-        "source_log": "logs/m24_i_counts.log"
+        "source_log": "logs/m24_i_counts.log",
+        "dependency_paths": [
+          "certs/m23_i_upper_manifest.json",
+          "certs/m23_tuple6.json"
+        ]
       }
     },
     {

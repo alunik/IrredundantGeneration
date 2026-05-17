@@ -1,0 +1,11 @@
+Read selected maximal classes from workspaces/m12_survivors.gaplist: [  ]
+Building reusable action workspace for M12
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Built M12, order = 95040, degree = 12
+Building conjugation action on selected maximal subgroups...
+Selected maximal classes = [  ]
+Total selected maximal subgroups = 0
+Action degree = 0 size = 1 build_ms = 57
+Saving workspace to workspaces/m12_action.ws
+SUCCESS: saved reusable action workspace.

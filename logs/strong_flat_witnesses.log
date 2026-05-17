@@ -1,0 +1,12 @@
+STRONG_FLAT_WITNESS group=HS top_class=5 subgroup_size=
+40320 structure=S8 target=7
+FOUND weak-GP7 family=[ 1, 2, 19, 23, 42, 93, 99 ] classPattern=
+[ 1, 2, 3, 3, 4, 5, 5 ] maximalCount=353 signatureCount=7805
+STRONG_FLAT_WITNESS group=M24 top_class=3 subgroup_size=
+322560 structure=(C2 x C2 x C2 x C2) : A8 target=7
+FOUND weak-GP7 family=[ 1, 17, 24, 73, 80, 102, 103 ] classPattern=
+[ 1, 2, 2, 3, 3, 4, 4 ] maximalCount=173 signatureCount=47328
+STRONG_FLAT_WITNESS group=McL top_class=1 local_subgroup_class=302 subgroup_si\
+ze=324 structure=C3 x ((C3 x C3 x C3) : (C2 x C2)) target=6
+FOUND weak-GP6 family=[ 1, 4, 5, 6, 8, 11 ] classPattern=[ 1, 4, 5, 5, 6, 7 
+ ] maximalCount=13 signatureCount=67

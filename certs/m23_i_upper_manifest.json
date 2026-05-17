@@ -17,7 +17,11 @@
         "type": "known_i_upper",
         "group": "M22",
         "i_upper": 6,
-        "source_log": "logs/m23_i_upper.log"
+        "source_log": "logs/m23_i_upper.log",
+        "dependency_paths": [
+          "certs/m22_i_upper_manifest.json",
+          "certs/m22_tuple6.json"
+        ]
       }
     },
     {
@@ -62,7 +66,11 @@
         "type": "known_i_upper",
         "group": "M11",
         "i_upper": 5,
-        "source_log": "logs/m23_i_upper.log"
+        "source_log": "logs/m23_i_upper.log",
+        "dependency_paths": [
+          "certs/m11_i_upper_manifest.json",
+          "certs/m11_tuple5.json"
+        ]
       }
     },
     {

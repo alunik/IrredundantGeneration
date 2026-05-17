@@ -22,7 +22,11 @@
         "type": "known_i_upper",
         "group": "M22",
         "i_upper": 6,
-        "source_log": "logs/hs_i_counts.log"
+        "source_log": "logs/hs_i_counts.log",
+        "dependency_paths": [
+          "certs/m22_i_upper_manifest.json",
+          "certs/m22_tuple6.json"
+        ]
       }
     },
     {
@@ -277,7 +281,11 @@
         "type": "known_i_upper",
         "group": "M11",
         "i_upper": 5,
-        "source_log": "logs/hs_i_counts.log"
+        "source_log": "logs/hs_i_counts.log",
+        "dependency_paths": [
+          "certs/m11_i_upper_manifest.json",
+          "certs/m11_tuple5.json"
+        ]
       }
     },
     {
@@ -286,7 +294,11 @@
         "type": "known_i_upper",
         "group": "M11",
         "i_upper": 5,
-        "source_log": "logs/hs_i_counts.log"
+        "source_log": "logs/hs_i_counts.log",
+        "dependency_paths": [
+          "certs/m11_i_upper_manifest.json",
+          "certs/m11_tuple5.json"
+        ]
       }
     },
     {

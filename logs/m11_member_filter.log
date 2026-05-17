@@ -1,0 +1,24 @@
+Framework member-filter run for M11
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 6
+Top class 1: size=720 struct=A6 . C2
+  subgroup class reps = 25
+  EXCLUDE class 1: no subgroup class representative has weak-GP5.
+Top class 2: size=660 struct=PSL(2,11)
+  subgroup class reps = 16
+  EXCLUDE class 2: no subgroup class representative has weak-GP5.
+Top class 3: size=144 struct=(C3 x C3) : QD16
+  subgroup class reps = 25
+  EXCLUDE class 3: no subgroup class representative has weak-GP5.
+Top class 4: size=120 struct=S5
+  subgroup class reps = 19
+  EXCLUDE class 4: no subgroup class representative has weak-GP5.
+Top class 5: size=48 struct=GL(2,3)
+  subgroup class reps = 16
+  EXCLUDE class 5: no subgroup class representative has weak-GP5.
+SURVIVORS=[  ]
+EXCLUDED=[ 1, 2, 3, 4, 5 ]
+WROTE_SURVIVORS=workspaces/m11_survivors.gaplist
+WROTE_EXCLUDED=workspaces/m11_excluded.gaplist
+SUCCESS: framework member-filter run completed for M11.

@@ -1,0 +1,16 @@
+Framework cached upper-bound run for M11
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Target weak-GP length = 6
+Prebuilt selected maximal classes = [  ]
+Total prebuilt maximal subgroups = 0
+Action degree = 0 size = 1
+UseRankMonotoneOrder = true
+UseMovedPointCandidateFilter = true
+UseDeadSetCache = true min_depth=3
+RESULT=success
+NODES=0
+NODES_BY_DEPTH=[ 0, 0, 0, 0, 0, 0 ]
+BRANCH_STATS=[ 0, 0, 0, 0, 0, 0 ]
+SUCCESS: framework cached no weak-GP
+6 run completed for M11 with status success.

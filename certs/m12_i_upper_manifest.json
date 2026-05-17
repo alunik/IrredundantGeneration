@@ -1,0 +1,149 @@
+{
+  "group": "M12",
+  "target_no_weak_gp": 7,
+  "expected_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "classes": [
+    {
+      "class": 1,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M11",
+        "i_upper": 5,
+        "source_log": "logs/m12_i_upper.log",
+        "dependency_paths": [
+          "certs/m11_i_upper_manifest.json",
+          "certs/m11_tuple5.json"
+        ]
+      }
+    },
+    {
+      "class": 2,
+      "shortcut": {
+        "type": "known_i_upper",
+        "group": "M11",
+        "i_upper": 5,
+        "source_log": "logs/m12_i_upper.log",
+        "dependency_paths": [
+          "certs/m11_i_upper_manifest.json",
+          "certs/m11_tuple5.json"
+        ]
+      }
+    },
+    {
+      "class": 3,
+      "subgroup_count": 65,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 65,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 4,
+      "subgroup_count": 65,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 65,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 5,
+      "subgroup_count": 16,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 16,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 6,
+      "subgroup_count": 46,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 46,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 7,
+      "subgroup_count": 46,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 46,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 8,
+      "subgroup_count": 57,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 57,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 9,
+      "subgroup_count": 78,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 78,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 10,
+      "subgroup_count": 83,
+      "logs": [
+        {
+          "path": "logs/m12_i_upper.log",
+          "start": 1,
+          "stop": 83,
+          "target": 7
+        }
+      ]
+    },
+    {
+      "class": 11,
+      "shortcut": {
+        "type": "order_bound",
+        "proof": "Size(K) < 2^target",
+        "source_log": "logs/m12_i_upper.log"
+      }
+    }
+  ]
+}

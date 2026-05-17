@@ -4,6 +4,10 @@ if not IsBoundGlobal("AtlasGroup") then
 fi;
 
 SP_Bounds := rec(
+    M11 := rec(m_lower := 5, m_upper := 5, i_lower := 5, i_upper := 5,
+               m_no_weak_gp := 6),
+    M12 := rec(m_lower := 6, m_upper := 6, i_lower := 6, i_upper := 6,
+               m_no_weak_gp := 7),
     J1 := rec(m_lower := 4, m_upper := 4, i_lower := 4, i_upper := 4,
               m_no_weak_gp := 5),
     J2 := rec(m_lower := 5, m_upper := 5, i_lower := 5, i_upper := 5,
@@ -60,15 +64,17 @@ SP_KnownIUpperBoundSubgroup := function(K)
     n := Size(K);
     desc := StructureDescription(K);
 
-    # Values certified in this workspace or in the Brooks Mathieu computations.
+    # Values certified in this workspace.
     # The structure string is used only as a guard against an accidental order
     # collision; the surrounding computations still construct the subgroup in
     # GAP and verify all containment/intersection conditions directly.
     if n = 7920 and desc = "M11" then
-        return rec(group := "M11", i_upper := 5, proof := "Brooks/GAP certificate");
+        return rec(group := "M11", i_upper := 5,
+                   proof := "regenerate M11 certificates from data/computation_specs.json");
     fi;
     if n = 95040 and desc = "M12" then
-        return rec(group := "M12", i_upper := 6, proof := "Brooks");
+        return rec(group := "M12", i_upper := 6,
+                   proof := "regenerate M12 certificates from data/computation_specs.json");
     fi;
     if n = 443520 and desc = "M22" then
         return rec(group := "M22", i_upper := 6,

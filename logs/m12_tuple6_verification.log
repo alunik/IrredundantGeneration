@@ -1,0 +1,12 @@
+Built M12 from certificate generators, order = 95040
+Tuple length = 6
+orders = [ 2, 3, 3, 2, 2, 2 ]
+Generated order = 95040
+Expected generated order = 95040
+Omitting 1: generated order = 7920 structure = M11
+Omitting 2: generated order = 7920 structure = M11
+Omitting 3: generated order = 7920 structure = M11
+Omitting 4: generated order = 7920 structure = M11
+Omitting 5: generated order = 7920 structure = M11
+Omitting 6: generated order = 720 structure = S6
+SUCCESS: irredundant generating tuple for M12.

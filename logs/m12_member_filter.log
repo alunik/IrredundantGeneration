@@ -1,0 +1,46 @@
+Framework member-filter run for M12
+GAP version = 4.15.1
+UB framework version = 2026-05-12-known-i-shortcut
+Ambient target weak-GP length = 7
+Top class 1: size=7920 struct=M11
+  EXCLUDE class 1: known i-upper=5 rules out weak-GP
+6
+  in every subgroup of this representative group=M11 dependency=regenerate M11 \
+certificates from data/computation_specs.json.
+Top class 2: size=7920 struct=M11
+  EXCLUDE class 2: known i-upper=5 rules out weak-GP
+6
+  in every subgroup of this representative group=M11 dependency=regenerate M11 \
+certificates from data/computation_specs.json.
+Top class 3: size=1440 struct=(A6 : C2) : C2
+  subgroup class reps = 65
+  EXCLUDE class 3: no subgroup class representative has weak-GP6.
+Top class 4: size=1440 struct=(A6 . C2) : C2
+  subgroup class reps = 65
+  EXCLUDE class 4: no subgroup class representative has weak-GP6.
+Top class 5: size=660 struct=PSL(2,11)
+  subgroup class reps = 16
+  EXCLUDE class 5: no subgroup class representative has weak-GP6.
+Top class 6: size=432 struct=(((C3 x C3) : Q8) : C3) : C2
+  subgroup class reps = 46
+  EXCLUDE class 6: no subgroup class representative has weak-GP6.
+Top class 7: size=432 struct=(((C3 x C3) : Q8) : C3) : C2
+  subgroup class reps = 46
+  EXCLUDE class 7: no subgroup class representative has weak-GP6.
+Top class 8: size=240 struct=C2 x S5
+  subgroup class reps = 57
+  EXCLUDE class 8: no subgroup class representative has weak-GP6.
+Top class 9: size=192 struct=(((C2 x C2 x C2) : (C2 x C2)) : C3) : C2
+  subgroup class reps = 78
+  EXCLUDE class 9: no subgroup class representative has weak-GP6.
+Top class 10: size=192 struct=(((C4 x C4) : C2) : C3) : C2
+  subgroup class reps = 83
+  EXCLUDE class 10: no subgroup class representative has weak-GP6.
+Top class 11: size=72 struct=A4 x S3
+  subgroup class reps = 26
+  EXCLUDE class 11: no subgroup class representative has weak-GP6.
+SURVIVORS=[  ]
+EXCLUDED=[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+WROTE_SURVIVORS=workspaces/m12_survivors.gaplist
+WROTE_EXCLUDED=workspaces/m12_excluded.gaplist
+SUCCESS: framework member-filter run completed for M12.

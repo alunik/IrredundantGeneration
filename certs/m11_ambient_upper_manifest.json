@@ -1,0 +1,20 @@
+{
+  "group": "M11",
+  "target_no_weak_gp": 6,
+  "member_filter": {
+    "path": "logs/m11_member_filter.log",
+    "survivors": [],
+    "excluded": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "ambient_search": {
+    "path": "logs/m11_ambient_upper.log",
+    "selected_classes": [],
+    "result": "success"
+  }
+}
